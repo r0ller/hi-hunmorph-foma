@@ -1,0 +1,160 @@
+### enhu2.foma ###
+
+# Vowels
+define Vowel [ a | á | e | é | i | í | o |ó | u | ú | ü | ű | ö | ő | A | Á | E | É | I | Í | O |Ó | U | Ú | Ü | Ű | Ö | Ő ];
+define ConsNogln [ b | c | d | f | h | j | k | m | p | q | r | s | v | w | x | y | z | B | C | D | E | F | H | J | K | L | M | P | Q | R | S | V | W | X | Y | Z ];
+define Cons [ b | c | č | ć | d | f | g | h | j | k | l | m | n | p | q | r | s | t | v | w | x | y | z | B | C | D | E | F | G | H | J | K | L | M | N | P | Q | R | S | T | V | W | X | Y | Z ];
+define yNoCons [ ConsNogln y | Vowel y | s z t y ];
+define yNoConstny [ Cons y | Vowel y ];
+define Vowelwithy [ Vowel | yNoCons ];
+define Vowelwithyy [ Vowel | y ];
+define Vowelwithytny [ Vowel | yNoConstny ];
+define Vowel1 [ a | e | í | o | ü | ö | A | E | Í | O | Ü | Ö ]; # w/o  á, é, i, ó, ő, ű, u, ú
+define Vowel1exc [ á | é | i | ó | ő | ű | u | ú | Á | É | I | Ó | Ő | Ű | U | Ú ];
+define Vowel1withy [ Vowel1 | yNoCons ];
+define BackVowel [ a | á | o | ó | u | ú | A | Á | O | Ó | U | Ú ];
+define FrontUnroundedVowel [ e | é | i | í | ü | ű | E | É | I | Í | Ü | Ű ];
+define Front1UnroundedVowel [ e | é | i | í | E | É | I | Í  ];
+define FrontRoundedVowel [ ö | ő | Ö | Ő ];
+define Front1RoundedVowel [ ö | ő | ü | ű | Ö | Ő | Ü | Ű ];
+define FrontVowel [ e | é | i | í | ü | ű | ö | ő | E | É | I | Í | Ü | Ű | Ö | Ő ];
+define PlosivCons [ b | d | g | h | j | p | t | B | D | G | H | J | P | T ];
+define NonPlosivCons [ c | j | l | r | s | v | z | C | J | L | R | S | V | Z ];
+define OppNonPlosivCons [ b | d | f | g | h | k | m | n | p | q | t | w | x | y | B | D | F | G | H | K | M | N | P | Q | T | W | X | Y ];
+define DCons [ s z | z s | g y | t y | n y | l y | c s |  S Z | Z S | G Y | T Y | N Y | L Y | C S ];
+define AccSingle [ j | l | n | r | s | z | J | L | N | R | S | Z ];
+define Nodupy [ Vowel | ConsNogln ];
+# előd (gróf zsiráf bab) 
+define ConsJaje [ b | f | B | F ];
+#abáltja holdja
+define ConsAeJaje [ \Cons d | g | \s \c  h | s \c h | [ \s & \Vowel ] c h | k | l | m | n | p | r | \l t | v | g y | \z t y |  \Cons D | G | \S \C  H | S \C H | [ \S & \Vowel ] C H | K | L | M | N | P | R |
+\L T | V | G Y | \Z T Y ];
+# kénye reménye
+define ConsAe [ c | j | s | z | x | s z | z s | c s | č | ć | [ s | Vowel ] c h | s z t y | n y | l y | C | J | S | Z | X | S Z | Z S | C S | Č | Ć | [ S | Vowel ] C H | S Z T Y | N Y | L Y ];
+
+
+
+define ToUpCase [a:A|á:Á|b:B|c:C|d:D|e:E|é:É|f:F|g:G|h:H|i:I|í:Í|j:J|k:K|l:L|m:M|n:N|o:O|ó:Ó|ö:Ö|ő:Ő|p:P|q:Q|r:R|s:S|t:T|u:U|ú:Ú|ü:Ü|ű:Ű|v:V|w:W|x:X|y:Y|z:Z] ?* | ?* ;
+
+# Cleanup: remove morpheme boundaries
+define Cleanup      "^"        -> 0;
+define CleanupEndings  "^" "+" {cDis}  -> 0 ,,
+                       "^" "+" {cEss}  -> 0 ,,
+                       "^" "+" {cSoc}  -> 0 ,,
+                       "^" "+" {cTem}  -> 0 ,,
+                       "^" "+" {cPosss1p}  -> 0 ,,
+                       "^" "+" {cPosss2p}  -> 0 ,,
+                       "^" "+" {cPosss3p}  -> 0 ,,
+                       "^" "+" {cPossp1p}  -> 0 ,,
+                       "^" "+" {cPossp2p}  -> 0 ,,
+                       "^" "+" {cPossp3p}  -> 0 ,,
+                       "^" "+" {cPosss1s}  -> 0 ,,
+                       "^" "+" {cPosss2s}  -> 0 ,,
+                       "^" "+" {cPosss3s}  -> 0 ,,
+                       "^" "+" {cPossp1s}  -> 0 ,,
+                       "^" "+" {cPossp2s}  -> 0 ,,
+                       "^" "+" {cPossp3s}  -> 0 ,,
+                       "^" "+" {cPlur}  -> 0 ,,
+                       "^" "+" {cFam}  -> 0 ,,
+                       "^" "+" {cGenpl} -> 0 ,,
+                       "^" "+" {cGens}  -> 0 ,,
+                       "^" "+" {cAbl}  -> 0 ,,
+                       "^" "+" {cAcc}  -> 0 ,,
+                       "^" "+" {cAde}  -> 0 ,,
+                       "^" "+" {cAll}  -> 0 ,,
+                       "^" "+" {cCau}  -> 0 ,,
+                       "^" "+" {cDat}  -> 0 ,,
+                       "^" "+" {cDel}  -> 0 ,,
+                       "^" "+" {cEla}  -> 0 ,,
+                       "^" "+" {cFac}  -> 0 ,,
+                       "^" "+" {cFor}  -> 0 ,,
+                       "^" "+" {cIll}  -> 0 ,,
+                       "^" "+" {cIne}  -> 0 ,,
+                       "^" "+" {cIns}  -> 0 ,,
+                       "^" "+" {cNom}  -> 0 ,,
+                       "^" "+" {cSub}  -> 0 ,,
+                       "^" "+" {cSup}  -> 0 ,,
+                       "^" "+" {cTer}  -> 0;
+
+echo ">>> read in enhuadv <<<"                    
+read lexc /home/en/program/foma/tktest/lexc/misc/enhuadv1.lexc
+define Lexiconadv
+
+define Grammaradv Lexiconadv           .o. 
+               CleanupEndings    .o.
+               Cleanup           .o.
+               ToUpCase ;
+
+echo ">>> read in enhuadvige <<<"                    
+read lexc /home/en/program/foma/tktest/lexc/misc/enhuadvige.lexc
+define Lexiconadvige
+
+define Grammaradvige Lexiconadvige           .o. 
+               CleanupEndings    .o.
+               Cleanup           .o.
+               ToUpCase ;
+
+echo ">>> read in enhusentint <<<"                    
+read lexc /home/en/program/foma/tktest/lexc/misc/enhusentint.lexc
+define Lexiconsentint
+
+define Grammarsentint Lexiconsentint           .o. 
+               CleanupEndings    .o.
+               Cleanup           .o.
+               ToUpCase ;
+
+echo ">>> read in enhupost <<<"                    
+read lexc /home/en/program/foma/tktest/lexc/misc/enhupost.lexc
+define Lexiconpost
+
+define Grammarpost Lexiconpost           .o. 
+               CleanupEndings    .o.
+               Cleanup           .o.
+               ToUpCase ;
+
+echo ">>> read in enhuvbpfx <<<"                    
+read lexc /home/en/program/foma/tktest/lexc/misc/enhuvbpfx.lexc
+define Lexiconvbpfx
+
+define Grammarvbpfx Lexiconvbpfx           .o. 
+               CleanupEndings    .o.
+               Cleanup           .o.
+               ToUpCase ;
+
+echo ">>> read in enhucon <<<"                    
+read lexc /home/en/program/foma/tktest/lexc/misc/enhucon.lexc
+define Lexiconcon
+
+define Grammarcon Lexiconcon           .o. 
+               CleanupEndings    .o.
+               Cleanup           .o.
+               ToUpCase ;
+
+echo ">>> read in enhuneg <<<"                    
+read lexc /home/en/program/foma/tktest/lexc/misc/enhuneg.lexc
+define Lexiconneg
+
+define Grammarneg Lexiconneg           .o. 
+               CleanupEndings    .o.
+               Cleanup           .o.
+               ToUpCase ;
+
+echo ">>> read in enhudet <<<"                    
+read lexc /home/en/program/foma/tktest/lexc/misc/enhudet.lexc
+define Lexicondet
+
+define Grammardet Lexicondet           .o. 
+               CleanupEndings    .o.
+               Cleanup           .o.
+               ToUpCase ;
+
+echo ">>> read in enhutwin <<<"                    
+read lexc /home/en/program/foma/tktest/lexc/misc/enhutwin.lexc
+define Lexicontwin
+
+define Grammartwin Lexicontwin           .o. 
+               CleanupEndings    .o.
+               Cleanup           .o.
+               ToUpCase ;
+
+regex Grammaradv | Grammaradvige | Grammarsentint | Grammarpost | Grammarvbpfx | Grammarcon | Grammarneg | Grammardet | Grammartwin ;
