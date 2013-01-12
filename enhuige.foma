@@ -2,35 +2,22 @@
 
 # Vowels
 define Vowel [ a | á | e | é | i | í | o |ó | u | ú | ü | ű | ö | ő | A | Á | E | É | I | Í | O | Ó | U | Ú | Ü | Ű | Ö | Ő ];
-define ConsNogln [ b | c | d | f | h | j | k | m | p | q | r | s | v | w | x | y | z | B | C | D | E | F | H | J | K | L | M | P | Q | R | S | V | W | X | Y | Z ];
 define Cons [ b | c | č | ć | d | f | g | h | j | k | l | m | n | p | q | r | s | t | v | w | x | y | z | B | C | D | E | F | G | H | J | K | L | M | N | P | Q | R | S | T | V | W | X | Y | Z ];
 define Consk [ b | c | č | ć | d | f | g | h | j | k | l | m | n | p | q | r | s | t | v | w | x | y | z | B | C | D | E | F | G | H | J | K | L | M | N | P | Q | R | S | T | V | W | X | Y | Z | %- ];
 define Consnosz [ b | c | č | ć | d | f | g | h | j | k | l | m | n | p | q | r | t | v | w | x | y | B | C | D | E | F | G | H | J | K | L | M | N | P | Q | R | T | V | W | X | Y ];
 define Consnoszk [ b | c | č | ć | d | f | g | h | j | k | l | m | n | p | q | r | t | v | w | x | y | B | C | D | E | F | G | H | J | K | L | M | N | P | Q | R | T | V | W | X | Y | %- ];
-define Consnoszgm [ b | c | č | ć | d | f | h | j | k | l | n | p | q | r | t | v | w | x | y | B | C | D | E | F | H | J | K | L | N | P | Q | R | T | V | W | X | Y ];
 define Consgat [ d | g | n | r | s | t | v | D | G | N | R | S | T | V ];
 define Consgat1 [ d | g | g y | k | n | p | r | s | t | t y | v | D | G | G Y | K | N | P | R | S | T | T Y | V ];
 define Consgat2 [ d | f | g | g y | k | n | p | r | s | t | t y | v | D | F | G | G Y | K | N | P | R | S | T | T Y | V ];
 define Conssz [ s | z | s z | S | Z | S Z ];
 define Consjlnr [ j | l | n | r | J | L | N | R ];
 define Constnelkul [ b | d | f | g | k | p | v | Cons t | B | D | F | G | K | P | V | Cons T ];
-define yNoCons [ ConsNogln y | Vowel y | s z t y ];
-define yNoConstny [ Cons y | Vowel y ];
-define Vowelwithy [ Vowel | yNoCons ];
-define Vowelwithytny [ Vowel | yNoConstny ];
-define Vowel1 [ a | e | í | o | ü | ö | A | E | Í | O | Ü | Ö ]; # w/o  á, é, i, ó, ő, ű, u, ú
-define Vowel1exc [ á | é | i | ó | ő | ű | u | ú | Á | É | I | Ó | Ő | Ű | U | Ú ];
-define Vowel1withy [ Vowel1 | yNoCons ];
 define BackVowel [ a | á | o | ó | u | ú | A | Á | O | Ó | U | Ú ];
 define FrontUnroundedVowel [ e | é | i | í | ü | ű | E | É | I | Í | Ü | Ű ];
 define Front1UnroundedVowel [ e | é | i | í | E | É | I | Í  ];
 define FrontRoundedVowel [ ö | ő | Ö | Ő ];
 define Front1RoundedVowel [ ö | ő | ü | ű | Ö | Ő | Ü | Ű ];
 define FrontVowel [ e | é | i | í | ü | ű | ö | ő | E | É | I | Í | Ü | Ű | Ö | Ő ];
-define PlosivCons [ b | d | g | h | j | p | t | B | D | G | H | J | P | T ];
-define NonPlosivCons [ c | j | l | r | s | v | z | C | J | L | R | S | V | Z ];
-define OppNonPlosivCons [ b | d | f | g | h | k | m | n | p | q | t | w | x | y | B | D | F | G | H | K | M | N | P | Q | T | W | X | Y ];
-
 
 define Filter1 ~[ $[ %+Rep \[%+Imper]* %+Rep ] |  $[ %+Imper \[%+Rep]* %+Imper ] ]; 
 define HarmRulenook §igeoo§ -> ó // .#. \"^"* BackVowel \Vowel* "^" ?* _ ,,
@@ -162,9 +149,7 @@ define HarmRuleIgejakik2 §igejakik2§ -> i k // .#. \"^"* FrontVowel \Vowel* "^
                      %$ -> z  || s s %^ _ .o.
                      s -> z  || z _ %^ %$ .o.
                      %$ -> s  || z z %^ _ ;
-define HarmRuleIgetem §t1§ -> i k // .#. \"^"* FrontVowel \Vowel* "^" ?* _   ,,
-                     §t1§ -> s á k // .#. \"^"* BackVowel  s  "^" ?* _    ,, 
-                     §t1§ -> j á k // .#. \"^"* BackVowel  \s* "^" ?* _    ; 
+
 #bocsát, lát, fut       
 define HarmRulesj    §sj§ -> 0 // d %^ _ d .o.
                      §sj§ -> s // [ ű | í | Ű | Í | [ Cons %^ ] | Cons ] t %^ _ .o.
@@ -202,12 +187,9 @@ define HarmRulesj3    §sj3§ -> 0 // d %^ _ d .o.
 #fest
 define HarmRulesj4    §sj4§ -> 0 // d %^ _ d .o.
                      §sj4§ -> %- // [ ű | í | [ Cons %^ ] | Cons ] t %^ _ d .o.
-                     §sj4§ -> %+ // [ ű | í | [ Cons %^ ] | Cons ] t %^ _ [ \d |
-0 ].o.
-                     §sj4§ -> %! // [ \ű & \í & \[ Cons %^ ] & \Cons ] t %^ _ 
-Cons  .o.
-                     §sj4§ -> %$ // [ \ű & \í & \[ Cons %^ ] & \Cons ] t %^ _ [
-0 | Vowel ] .o.
+                     §sj4§ -> %+ // [ ű | í | [ Cons %^ ] | Cons ] t %^ _ [ \d | 0 ].o.
+                     §sj4§ -> %! // [ \ű & \í & \[ Cons %^ ] & \Cons ] t %^ _ Cons  .o.
+                     §sj4§ -> %$ // [ \ű & \í & \[ Cons %^ ] & \Cons ] t %^ _ [ 0 | Vowel ] .o.
                      §sj4§ -> 0 // \s z %^ _ d .o.
                      §sj4§ -> z // \s z %^ _ \d* .o.
                      §sj4§ -> %( // s z %^ _ .o.
@@ -241,11 +223,6 @@ define HarmRuleIgetattetoe §igetattetoe§ ->  0 // .#. \"^"* ?* Vowel [ n y ] "
 
 define HarmRuleelol §igeelol§ -> o // .#. \"^"* BackVowel \Vowel* "^" ?* _ ,,
                   §igeelol§ -> e // .#. \"^"* FrontVowel \Vowel* "^" ?* _ ;
-define HarmRuleszelol §szelol§ -> o l // .#. \"^"* BackVowel \Vowel* [ s | z ] "^"  _ ,,
-                  §szelol§ -> e l // .#. \"^"* FrontVowel \Vowel* [ s | z ] "^" _ ,,
-                  §szelol§ -> s z // .#. \"^"* "^" [ \"^"* "^"]* _ ;
-define HarmRuleszelol2 §szelol2§ -> o l // .#. \"^"* BackVowel \Vowel* [ s | z ] "^"  _ ,,
-                  §szelol2§ -> e l // .#. \"^"* FrontVowel \Vowel* [ s | z ] "^" _ ;
 define HarmRuleae §ae§ -> a // .#. \"^"* BackVowel \Vowel*  "^" ?*  _ ,,
                   §ae§ -> e // .#. \"^"* FrontVowel \Vowel* "^" ?* _ ;
 define HarmRuleeo §eo§ -> o // .#. \"^"* BackVowel \Vowel*  "^"  ?* _ ,,
@@ -307,8 +284,7 @@ define HarmRuleIgeemely §igeemely§ -> o // .#. \"^"* FrontUnroundedVowel \Vowe
 define HarmRuleIgeija1mely  §igeija1mely§ -> j a // Vowel Consnosz*  "^" _ .o. 
                      §igeija1mely§ -> s a // Vowel s*  "^" _   .o. 
                      §igeija1mely§ -> z a // Vowel z*  "^" _   ; 
-define HarmRuleIgejatokitek1mely #§igejatokitek1mely§ -> i t e k // .#. \"^"* FrontVowel \Vowel* "^" ?* _  ,,
-                     §igejatokitek1mely§ -> %$ á t o k // .#. \"^"* Vowel  [ s z ] %^ _   .o. 
+define HarmRuleIgejatokitek1mely  §igejatokitek1mely§ -> %$ á t o k // .#. \"^"* Vowel  [ s z ] %^ _   .o. 
                      §igejatokitek1mely§ -> %$ á t o k // .#. \"^"* Vowel [ z s ]  %^  _   .o. 
                      §igejatokitek1mely§ -> s á t o k // .#. \"^"* Vowel  \Vowel*  "^" ?* s+ %^ _   .o. 
                      §igejatokitek1mely§ -> á t o k // .#. \"^"* Vowel  \Vowel*  "^" ?* z z %^  _   .o. 
@@ -323,8 +299,7 @@ define HarmRuleIgejatokitek1mely #§igejatokitek1mely§ -> i t e k // .#. \"^"* 
                      s -> z  || z _ %^ %$ .o.
                      %$ -> s  || z z %^ _ ;
 
-define HarmRuleIgejakik1mely #§igejakik1mely§ -> i k // .#. \"^"* FrontVowel \Vowel* "^" ?* _   ,,
-                     §igejakik1mely§ -> %$ á k // .#. \"^"* Vowel [ s z ] %^ _    .o. 
+define HarmRuleIgejakik1mely §igejakik1mely§ -> %$ á k // .#. \"^"* Vowel [ s z ] %^ _    .o. 
                      §igejakik1mely§ -> %$ á k // .#. \"^"* Vowel [ z s ] %^ _    .o. 
                      §igejakik1mely§ -> s á k // .#. \"^"* Vowel  \Vowel*  "^" ?* s %^ _    .o. 
                      §igejakik1mely§ -> z á k // .#. \"^"* Vowel  \Vowel*  "^" ?* z %^ _    .o. 
@@ -338,9 +313,6 @@ define HarmRuleIgejakik1mely #§igejakik1mely§ -> i k // .#. \"^"* FrontVowel \
                      s -> z  || z _ %^ %$ .o.
                      %$ -> s  || z z %^ _ ;
 
-define HarmRuleIgetemmely #§t1mely§ -> i k // .#. \"^"* FrontVowel \Vowel* "^" ?* _   ,,
-                     §t1mely§ -> s á k // .#. \"^"* Vowel  s  "^" ?* _    ,, 
-                     §t1mely§ -> j á k // .#. \"^"* Vowel  \s* "^" ?* _    ; 
 define HarmRuleoe2mely   §oe2mely§ -> o // .#. \"^"* BackVowel \Vowel*  "^" ?*  _ ,,
                   §oe2mely§ -> o // .#. \"^"* FrontVowel \Vowel* "^" ?* _ ;
 define HarmRuleae2mely   §ae2mely§ -> a // .#. \"^"* BackVowel \Vowel*  "^" ?*  _ ,,
@@ -355,24 +327,6 @@ define HarmRuleIgetattetmely §igetattetmely§ ->  o t // .#. \"^"* Front1Unroun
                      §igetattetmely§ ->  o t // .#. \"^"* BackVowel \Vowel* \Consjlnr "^" _   ,,
                      §igetattetmely§ ->  0 // .#. \"^"* ?* Consjlnr "^" _  ;
 
-define HarmRuleIgetattet1mely §igetattet1mely§ ->  o t // .#. \"^"* FrontVowel \Vowel* z "^"  _   ,,
-                     §igetattet1mely§ ->  o t // .#. \"^"* BackVowel \Vowel* z "^"  _    ,,
-                     §igetattet1mely§ -> 0 // .#. \"^"* Vowel  \Vowel* "^" ?*   _    ; 
-define HarmRuleIgetattet2mely §igetattet2mely§ ->  o t // .#. \"^"* FrontVowel \Vowel* "^" ?*  "^" _   ,,
-                     §igetattet2mely§ ->  o t // .#. \"^"* BackVowel \Vowel*  "^" ?* t "^" _    ,,
-                     §igetattet2mely§ ->  o t // .#. \"^"* FrontVowel \Vowel* [ s | z | g  | m ] "^" _   ,,
-                     §igetattet2mely§ ->  o t // .#. \"^"* BackVowel \Vowel* [ s | z | g  | m ] "^" _    ,,
-                     §igetattet2mely§ -> t o t // .#. \"^"* FrontVowel \Vowel* "^" ?* \t "^" _   ,,
-                     §igetattet2mely§ -> t o t // .#. \"^"* BackVowel  \Vowel*  "^" ?* \t "^" _    ,,  
-                     §igetattet2mely§ -> 0 // .#. \"^"* Vowel  \Vowel* "^" ?* \t "^" _   .o. 
-                     §igetattet2mely§ -> 0 // .#. \"^"* Vowel  Consnoszgm* "^"   _    ; 
-define HarmRuleelolmely §igeelolmely§ -> o // .#. \"^"* BackVowel \Vowel* "^" ?* _ ,,
-                  §igeelolmely§ -> o // .#. \"^"* FrontVowel \Vowel* "^" ?* _ ;
-define HarmRuleszelolmely §szelolmely§ -> o l // .#. \"^"* BackVowel \Vowel* [ s | z ] "^"  _ ,,
-                  §szelolmely§ -> o l // .#. \"^"* FrontVowel \Vowel* [ s | z ] "^" _ ,,
-                  §szelolmely§ -> s z // .#. \"^"* "^" [ \"^"* "^"]* _ ;
-define HarmRuleszelol2mely §szelol2mely§ -> o l // .#. \"^"* BackVowel \Vowel* [ s | z ] "^"  _ ,,
-                  §szelol2mely§ -> o l // .#. \"^"* FrontVowel \Vowel* [ s | z ] "^" _ ;
 define HarmRuleaemely §aemely§ -> a // .#. \"^"* BackVowel \Vowel* "^" ?*  _ ,,
                   §aemely§ -> a // .#. \"^"* FrontVowel \Vowel* "^" ?* _ ;
 define HarmRuleeomely §eomely§ -> o // .#. \"^"* BackVowel \Vowel* "^" ?*  _ ,,

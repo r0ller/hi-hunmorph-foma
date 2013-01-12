@@ -22,21 +22,20 @@ Multichar_Symbols  +Adj @U.ART.PRESENT@ @U.ART.ABSENT@
 
 LEXICON Root
    Prefleg ;
-   Prefnum;
-   Prefnumszeres;
-   Prefigekoto;
-   Adj;
 
 LEXICON Prefleg
 leg@U.ART.PRESENT@       Adj ; ! optional article prefix
-leg@U.ART.PRESENT@       Adj2num; ! optional article prefix
-leg@U.ART.PRESENT@       Adj3igek; ! optional article prefix
+leg@U.ART.PRESENT@       Prefnum; ! optional article prefix
+leg@U.ART.PRESENT@       Prefnumszeres; ! optional article prefix
+leg@U.ART.PRESENT@       Prefigekoto; ! optional article prefix
 legesleg@U.ART.PRESENT@       Adj ; ! optional article prefix
-legesleg@U.ART.PRESENT@       Adj2num; ! optional article prefix
-legesleg@U.ART.PRESENT@       Adj3igek; ! optional article prefix
+legesleg@U.ART.PRESENT@       Prefnum; ! optional article prefix
+legesleg@U.ART.PRESENT@       Prefnumszeres; ! optional article prefix
+legesleg@U.ART.PRESENT@       Prefigekoto; ! optional article prefix
                         Adj ; ! empty string entry
-                        Adj2num; ! empty string entry
-                        Adj3igek; ! empty string entry
+                        Prefnum; ! empty string entry
+                        Prefnumszeres; ! empty string entry
+                        Prefigekoto; ! empty string entry
 
 LEXICON Prefigekoto
 +Pref+:keresztül   Adj3igek;
@@ -54715,7 +54714,6 @@ látattalan AddAdj;
 látcsövezőtlen AddAdj;
 látcsőtlen AddAdj;
 látenciájú AddAdji;
-láthatatlan AddAdj;
 láthatárnövelő AddAdji;
 láthatártalan AddAdj;
 láthatárú AddAdji;

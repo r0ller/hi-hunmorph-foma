@@ -20,7 +20,6 @@ Multichar_Symbols  +Adj @U.ART.PRESENT@ @U.ART.ABSENT@
 
 LEXICON Root
 Prefleg;
-Prefigekoto;
 
 LEXICON Prefleg
 leg@U.ART.PRESENT@       Prefigekoto ; ! optional article prefix

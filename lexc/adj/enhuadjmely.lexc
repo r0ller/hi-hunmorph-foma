@@ -21,23 +21,20 @@ Multichar_Symbols  +Adj @U.ART.PRESENT@ @U.ART.ABSENT@
 
 LEXICON Root
    Prefleg ;
-   Prefnum ;
-   Prefnum1;
-   Prefigekoto;
 
 LEXICON Prefleg
 leg@U.ART.PRESENT@       Adj ; ! optional article prefix
 legesleg@U.ART.PRESENT@       Adj ; ! optional article prefix
                         Adj ; ! empty string entry
-leg@U.ART.PRESENT@       Adjnum; ! optional article prefix
-legesleg@U.ART.PRESENT@       Adjnum; ! optional article prefix
-                        Adjnum; ! empty string entry
-leg@U.ART.PRESENT@       Adjnumik; ! optional article prefix
-legesleg@U.ART.PRESENT@       Adjnumik; ! optional article prefix
-                        Adjnumik; ! empty string entry
-leg@U.ART.PRESENT@       Adjige ; ! optional article prefix
-legesleg@U.ART.PRESENT@       Adjige ; ! optional article prefix
-                        Adjige ; ! empty string entry
+leg@U.ART.PRESENT@       Prefnum; ! optional article prefix
+legesleg@U.ART.PRESENT@       Prefnum; ! optional article prefix
+                        Prefnum; ! empty string entry
+leg@U.ART.PRESENT@       Prefnum1; ! optional article prefix
+legesleg@U.ART.PRESENT@       Prefnum1; ! optional article prefix
+                        Prefnum1; ! empty string entry
+leg@U.ART.PRESENT@       Prefigekoto ; ! optional article prefix
+legesleg@U.ART.PRESENT@       Prefigekoto ; ! optional article prefix
+                        Prefigekoto ; ! empty string entry
 
 
 LEXICON Prefigekoto
@@ -26650,6 +26647,8 @@ fánk AddAdjaEndnyi;
 fányi AddAdja;
 fáradalmi AddAdja;
 fáradalomnyi AddAdja;
+fáradsági AddAdja;
+fáradtsági AddAdja;
 fáraó AddAdjaEndnyi;
 fáris AddAdjat;
 fárosz AddAdjaEndnyi;
@@ -48025,6 +48024,7 @@ sapkai AddAdja;
 sapkányi AddAdja;
 sarc AddAdjaEndnyi;
 sarj AddAdjaEndnyi;
+sarjadéki AddAdja;
 sarjhajtás AddAdjaEndnyi;
 sarjú AddAdjaEndnyi;
 sarkadi AddAdja;
@@ -48350,6 +48350,7 @@ sikamlás AddAdjaEndnyi;
 sikattyú AddAdjaEndnyi;
 siketfajd AddAdjaEndnyi;
 siketfalvi AddAdja;
+siklói AddAdja;
 siklósbodonyi AddAdja;
 siklósi AddAdja;
 siklósnagyfalui AddAdja;
@@ -51650,6 +51651,8 @@ sófogyasztás AddAdjaEndnyi;
 sógor AddAdjaEndnyi;
 sógorság AddAdjaEndnyi;
 sógun AddAdjaEndnyi;
+sóhajnyi AddAdja;
+sóhajtásnyi AddAdja;
 sóher AddAdjaEndnyi;
 sóhivatali AddAdja;
 sóház AddAdjaEndnyi;
@@ -55609,6 +55612,7 @@ virgács AddAdjaEndnyi;
 virgíniai AddAdja;
 virozsili AddAdja;
 virradat AddAdjaEndnyi;
+virrasztási AddAdja;
 virtualitás AddAdjaEndnyi;
 virtualizáció AddAdjaEndnyi;
 virtuozitás AddAdjaEndnyi;
@@ -57756,7 +57760,9 @@ zűrzavar AddAdjaEndnyi;
 átalányi AddAdja;
 átbocsátás AddAdjaEndnyi;
 áteresznyílás AddAdjaEndnyi;
+áthallási AddAdja;
 átirat AddAdjaEndnyi;
+átjárhatósági AddAdja;
 átkelőhajó AddAdjaEndnyi;
 átki AddAdja;
 átlag AddAdjaEndnyi;

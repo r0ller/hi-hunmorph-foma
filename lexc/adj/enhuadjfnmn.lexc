@@ -22,19 +22,17 @@ Multichar_Symbols  +Adj @U.ART.PRESENT@ @U.ART.ABSENT@
 
 LEXICON Root
    Prefleg ;
-   Prefnum;
-   Prefigekoto;
 
 LEXICON Prefleg
 leg@U.ART.PRESENT@       Adj ; ! optional article prefix
-leg@U.ART.PRESENT@       Adj2num; ! optional article prefix
-leg@U.ART.PRESENT@       Adj3igek; ! optional article prefix
+leg@U.ART.PRESENT@       Prefnum; ! optional article prefix
+leg@U.ART.PRESENT@       Prefigekoto; ! optional article prefix
 legesleg@U.ART.PRESENT@       Adj ; ! optional article prefix
-legesleg@U.ART.PRESENT@       Adj2num; ! optional article prefix
-legesleg@U.ART.PRESENT@       Adj3igek; ! optional article prefix
+legesleg@U.ART.PRESENT@       Prefnum; ! optional article prefix
+legesleg@U.ART.PRESENT@       Prefigekoto; ! optional article prefix
                         Adj ; ! empty string entry
-                        Adj2num; ! empty string entry
-                        Adj3igek; ! empty string entry
+                        Prefnum; ! empty string entry
+                        Prefigekoto; ! empty string entry
 
 
 LEXICON Prefigekoto
@@ -15309,6 +15307,7 @@ hallucinálásos AddAdjat;
 hallucináló AddAdjeEnd;
 hallucinálós AddAdjat;
 hallás AddAdjeEnd;
+hallási AddAdjeEnd;
 hallásos AddAdjat;
 hallózás AddAdjeEnd;
 hallózásos AddAdjat;
@@ -19539,6 +19538,7 @@ járdogálás AddAdjeEnd;
 járdogálásos AddAdjat;
 járdogáló AddAdjeEnd;
 járdogálós AddAdjat;
+járhatóság AddAdjeEnd;
 járkálás AddAdjeEnd;
 járkálásos AddAdjat;
 járkáló AddAdjeEnd;
@@ -41721,7 +41721,7 @@ sóhajtozás AddAdjeEnd;
 sóhajtozásos AddAdjat;
 sóhajtozó AddAdjeEnd;
 sóhajtozós AddAdjat;
-sóhajtás AddAdjeEnd;
+sóhajtás AddAdjeEndnyi;
 sóhajtásos AddAdjat;
 sóhajtó AddAdjeEnd;
 sóhajtós AddAdjat;
@@ -67883,6 +67883,7 @@ fánkos AddAdjat;
 fáradalmas AddAdjI;
 fáradalom AddAdjeEnd;
 fáradság AddAdjeEnd;
+fáradtság AddAdjeEnd;
 fáradtságos AddAdjat;
 fáraó AddAdjeEnd;
 fáraós AddAdjat;
@@ -72095,7 +72096,6 @@ hallucinogén AddAdjeEndnyi;
 hallucinogénes AddAdjat;
 hallucináció AddAdjeEnd;
 hallucinációs AddAdjat;
-hallási AddAdjeEnd;
 hallásias AddAdjI;
 halláskárosult AddAdjeEnd;
 halláskárosultas AddAdjI;
@@ -105513,7 +105513,7 @@ sógorság AddAdjeEnd;
 sógorságos AddAdjat;
 sógun AddAdjeEnd;
 sógunos AddAdjat;
-sóhaj AddAdjeEnd;
+sóhaj AddAdjeEndnyi;
 sóhajos AddAdjat;
 sóher AddAdjeEndnyi;
 sóheres AddAdjat;

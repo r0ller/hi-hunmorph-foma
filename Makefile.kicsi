@@ -22,5 +22,5 @@ hunfxpp.fst: enhufxpp.foma lexc/fxpp/enhufxpp.lexc
 	foma -l enhufxpp.foma <savestackfx.sh
 hunmisc.fst: enhumisc.foma lexc/misc/enhuadv1.lexc  lexc/misc/enhuadvige.lexc lexc/misc/enhucon.lexc lexc/misc/enhudet.lexc lexc/misc/enhuneg.lexc lexc/misc/enhupost.lexc lexc/misc/enhusentint.lexc lexc/misc/enhuvbpfx.lexc
 	foma -l enhumisc.foma <savestackmisc.sh
-hfnnum.foma: hunnoun.fst hunverb.fst hunnum.fst hunadj.fst hunfxpp.fst hunmisc.fst
+hunfnnum.fst: hunnoun.fst hunverb.fst hunnum.fst hunadj.fst hunfxpp.fst hunmisc.fst
 	foma -l hfnnum.foma <savestackfnnum.sh

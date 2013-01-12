@@ -54,6 +54,7 @@ foreach(@files) {
       #
       my $do = 1;
       my $a = $fsor;
+      chomp $a;
       while($do){
        my $mtch = ($a =~  m/(\W)o(\W)/);
        #print "1:'$1' 2:'$2'\n";
@@ -64,11 +65,12 @@ foreach(@files) {
        if (!$mtch){$do = 0;}
        else {$a = $';}
        if($mtch and $& ne '.o.'){
-       if (!(($ekezetes =~ $1 or $ekezetes =~ $s1) and 
-             ($ekezetes =~ $2 or $ekezetes =~ $s2) ) ){
+        if (!(($ekezetes =~ $1 or $ekezetes =~ $s1) and 
+             ($ekezetes =~ $2 or $ekezetes =~ $s2) )  or
+           ($s1 eq '.' and $s2 ne '.') or
+           ($s1 ne '.' and $s2 eq '.')  ){
          print "file:$filename probably erroneous .o. line:$fsor\n";
-         print "s1:$s1 s2:$s2 1:'$1' 2:'$2'\n";
-       }
+        }
       }
       }
       #
