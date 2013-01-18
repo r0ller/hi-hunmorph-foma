@@ -461,7 +461,7 @@ define CleanupEndings  "^" "+" {cRep}  -> 0 ,,
                        "^" "+" {cConjDefPl3}  -> 0 ;
                       
 echo ">>> read in enhuige <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuige.lexc
+read lexc lexc/verb/enhuige.lexc
 define Lexicon
 
 define Grammar  Filter1               .o. 
@@ -518,7 +518,7 @@ define Grammar  Filter1               .o.
                 ToUpCase ;         
                                  
 echo ">>> read in enhuigeik <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuigeik.lexc
+read lexc lexc/verb/enhuigeik.lexc
 define Lexiconik
 
 define Grammarik  Filter1               .o. 
@@ -573,7 +573,7 @@ define Grammarik  Filter1               .o.
                 ToUpCase ;         
                                                         
 echo ">>> read in enhuige2 <<<"                  
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuige2.lexc
+read lexc lexc/verb/enhuige2.lexc
 define Lexicon2
 
 define Grammar2   Filter1               .o. 
@@ -605,7 +605,7 @@ define Grammar2   Filter1               .o.
                 ToUpCase ;         
                                  
 echo ">>> read in enhuige4ik <<<"                                 
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuige4ik.lexc
+read lexc lexc/verb/enhuige4ik.lexc
 define Lexicon4ik
 
 define Grammar4ik  Filter1               .o. 
@@ -639,7 +639,7 @@ define Grammar4ik  Filter1               .o.
                 ToUpCase ;         
        
 echo ">>> read in enhuige5 <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuige5.lexc
+read lexc lexc/verb/enhuige5.lexc
 define Lexicon5
 
 define Grammar5  Filter1               .o. 
@@ -689,7 +689,7 @@ define Grammar5  Filter1               .o.
                 ToUpCase ;         
                           
 echo ">>> read in enhuige5ik <<<"       
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuige5ik.lexc
+read lexc lexc/verb/enhuige5ik.lexc
 define Lexicon5ik
 
 define Grammar5ik  Filter1               .o. 
@@ -724,7 +724,7 @@ define Grammar5ik  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuige6 <<<"       
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuige6.lexc
+read lexc lexc/verb/enhuige6.lexc
 define Lexicon6
 
 define Grammar6  Filter1               .o. 
@@ -771,7 +771,7 @@ define Grammar6  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuige7 <<<"       
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuige7.lexc
+read lexc lexc/verb/enhuige7.lexc
 define Lexicon7
 
 define Grammar7  Filter1               .o. 
@@ -825,7 +825,7 @@ define Grammar7  Filter1               .o.
                 ToUpCase ;         
                                  
 echo ">>> read in enhuige7ik <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuige7ik.lexc
+read lexc lexc/verb/enhuige7ik.lexc
 define Lexicon7ik
 
 define Grammar7ik  Filter1               .o. 
@@ -877,7 +877,7 @@ define Grammar7ik  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuigeikszt <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuigeikszt.lexc
+read lexc lexc/verb/enhuigeikszt.lexc
 define Lexiconikszt
 
 define Grammarikszt  Filter1               .o. 
@@ -933,7 +933,7 @@ define Grammarikszt  Filter1               .o.
 
                                          
 echo ">>> read in enhuige8 <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuige8.lexc
+read lexc lexc/verb/enhuige8.lexc
 define Lexicon8
 
 define Grammar8  Filter1               .o. 
@@ -991,7 +991,7 @@ define Grammar8  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuige8ik <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuige8ik.lexc
+read lexc lexc/verb/enhuige8ik.lexc
 define Lexicon8ik
 
 define Grammar8ik  Filter1               .o. 
@@ -1044,7 +1044,7 @@ define Grammar8ik  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuigea <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuigea.lexc
+read lexc lexc/verb/enhuigea.lexc
 define Lexicona
 
 define Grammara  Filter1               .o. 
@@ -1104,7 +1104,7 @@ define Grammara  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuigeaik <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuigeaik.lexc
+read lexc lexc/verb/enhuigeaik.lexc
 define Lexiconaik
 
 define Grammaraik  Filter1               .o. 
@@ -1157,7 +1157,7 @@ define Grammaraik  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuigebik <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuigebik.lexc
+read lexc lexc/verb/enhuigebik.lexc
 define Lexiconbik
 
 define Grammarbik  Filter1               .o. 
@@ -1211,7 +1211,7 @@ define Grammarbik  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuigecik <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuigecik.lexc
+read lexc lexc/verb/enhuigecik.lexc
 define Lexiconcik
 
 define Grammarcik  Filter1               .o. 
@@ -1264,7 +1264,7 @@ define Grammarcik  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuigec <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuigec.lexc
+read lexc lexc/verb/enhuigec.lexc
 define Lexiconc
 
 define Grammarc  Filter1               .o. 
@@ -1319,7 +1319,7 @@ define Grammarc  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuiged <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuiged.lexc
+read lexc lexc/verb/enhuiged.lexc
 define Lexicond
 
 define Grammard  Filter1               .o. 
@@ -1381,7 +1381,7 @@ define Grammard  Filter1               .o.
 
 
 echo ">>> read in enhuigeeik <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuigeeik.lexc
+read lexc lexc/verb/enhuigeeik.lexc
 define Lexiconeik
 
 define Grammareik  Filter1               .o. 
@@ -1436,7 +1436,7 @@ define Grammareik  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuigef <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuigef.lexc
+read lexc lexc/verb/enhuigef.lexc
 define Lexiconf
 
 define Grammarf  Filter1               .o. 
@@ -1489,7 +1489,7 @@ define Grammarf  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuigegik <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuigegik.lexc
+read lexc lexc/verb/enhuigegik.lexc
 define Lexicongik
 
 define Grammargik  Filter1               .o. 
@@ -1542,7 +1542,7 @@ define Grammargik  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuigeg <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuigeg.lexc
+read lexc lexc/verb/enhuigeg.lexc
 define Lexicong
 
 define Grammarg  Filter1               .o. 
@@ -1595,7 +1595,7 @@ define Grammarg  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuigeh <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuigeh.lexc
+read lexc lexc/verb/enhuigeh.lexc
 define Lexiconh
 
 define Grammarh  Filter1               .o. 
@@ -1648,7 +1648,7 @@ define Grammarh  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuigeiik <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuigeiik.lexc
+read lexc lexc/verb/enhuigeiik.lexc
 define Lexiconiik
 
 define Grammariik  Filter1               .o. 
@@ -1702,7 +1702,7 @@ define Grammariik  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuigejik <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuigejik.lexc
+read lexc lexc/verb/enhuigejik.lexc
 define Lexiconjik
 
 define Grammarjik  Filter1               .o. 
@@ -1755,7 +1755,7 @@ define Grammarjik  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuigek <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuigek.lexc
+read lexc lexc/verb/enhuigek.lexc
 define Lexiconk
 
 define Grammark  Filter1               .o. 
@@ -1809,7 +1809,7 @@ define Grammark  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuigel <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuigel.lexc
+read lexc lexc/verb/enhuigel.lexc
 define Lexiconl
 
 define Grammarl  Filter1               .o. 
@@ -1863,7 +1863,7 @@ define Grammarl  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuigem <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuigem.lexc
+read lexc lexc/verb/enhuigem.lexc
 define Lexiconm
 
 define Grammarm  Filter1               .o. 
@@ -1916,7 +1916,7 @@ define Grammarm  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuigemik <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuigemik.lexc
+read lexc lexc/verb/enhuigemik.lexc
 define Lexiconmik
 
 define Grammarmik  Filter1               .o. 
@@ -1969,7 +1969,7 @@ define Grammarmik  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuigen <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuigen.lexc
+read lexc lexc/verb/enhuigen.lexc
 define Lexiconn
 
 define Grammarn  Filter1               .o. 
@@ -2022,7 +2022,7 @@ define Grammarn  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuigeo <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuigeo.lexc
+read lexc lexc/verb/enhuigeo.lexc
 define Lexicono
 
 define Grammaro  Filter1               .o. 
@@ -2076,7 +2076,7 @@ define Grammaro  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuigeoik <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuigeoik.lexc
+read lexc lexc/verb/enhuigeoik.lexc
 define Lexiconoik
 
 define Grammaroik  Filter1               .o. 
@@ -2131,7 +2131,7 @@ define Grammaroik  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuigep <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuigep.lexc
+read lexc lexc/verb/enhuigep.lexc
 define Lexiconp
 
 define Grammarp  Filter1               .o. 
@@ -2184,7 +2184,7 @@ define Grammarp  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuigeqik <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuigeqik.lexc
+read lexc lexc/verb/enhuigeqik.lexc
 define Lexiconqik
 
 define Grammarqik  Filter1               .o. 
@@ -2239,7 +2239,7 @@ define Grammarqik  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuiger <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuiger.lexc
+read lexc lexc/verb/enhuiger.lexc
 define Lexiconr
 
 define Grammarr  Filter1               .o. 
@@ -2292,7 +2292,7 @@ define Grammarr  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuiges <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuiges.lexc
+read lexc lexc/verb/enhuiges.lexc
 define Lexicons
 
 define Grammars  Filter1               .o. 
@@ -2345,7 +2345,7 @@ define Grammars  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuigeszt <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuigeszt.lexc
+read lexc lexc/verb/enhuigeszt.lexc
 define Lexiconszt
 
 define Grammarszt  Filter1               .o. 
@@ -2398,7 +2398,7 @@ define Grammarszt  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuiget <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuiget.lexc
+read lexc lexc/verb/enhuiget.lexc
 define Lexicont
 
 define Grammart  Filter1               .o. 
@@ -2454,7 +2454,7 @@ define Grammart  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuigeu <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuigeu.lexc
+read lexc lexc/verb/enhuigeu.lexc
 define Lexiconu
 
 define Grammaru  Filter1               .o. 
@@ -2507,7 +2507,7 @@ define Grammaru  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuigev <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuigev.lexc
+read lexc lexc/verb/enhuigev.lexc
 define Lexiconv
 
 define Grammarv  Filter1               .o. 
@@ -2560,7 +2560,7 @@ define Grammarv  Filter1               .o.
                 ToUpCase ;         
 
 echo ">>> read in enhuigefo <<<"
-read lexc /home/en/program/foma/tktest/lexc/verb/enhuigefo.lexc
+read lexc lexc/verb/enhuigefo.lexc
 define Lexiconfo
 
 define Grammarfo  Filter1               .o. 

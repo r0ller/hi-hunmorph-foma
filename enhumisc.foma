@@ -43,7 +43,7 @@ define CleanupEndings  "^" "+" {cDis}  -> 0 ,,
                        "^" "+" {cTer}  -> 0;
 
 echo ">>> read in enhuadv <<<"                    
-read lexc /home/en/program/foma/tktest/lexc/misc/enhuadv1.lexc
+read lexc lexc/misc/enhuadv1.lexc
 define Lexiconadv
 
 define Grammaradv Lexiconadv           .o. 
@@ -52,7 +52,7 @@ define Grammaradv Lexiconadv           .o.
                ToUpCase ;
 
 echo ">>> read in enhuadvige <<<"                    
-read lexc /home/en/program/foma/tktest/lexc/misc/enhuadvige.lexc
+read lexc lexc/misc/enhuadvige.lexc
 define Lexiconadvige
 
 define Grammaradvige Lexiconadvige           .o. 
@@ -61,7 +61,7 @@ define Grammaradvige Lexiconadvige           .o.
                ToUpCase ;
 
 echo ">>> read in enhusentint <<<"                    
-read lexc /home/en/program/foma/tktest/lexc/misc/enhusentint.lexc
+read lexc lexc/misc/enhusentint.lexc
 define Lexiconsentint
 
 define Grammarsentint Lexiconsentint           .o. 
@@ -70,7 +70,7 @@ define Grammarsentint Lexiconsentint           .o.
                ToUpCase ;
 
 echo ">>> read in enhupost <<<"                    
-read lexc /home/en/program/foma/tktest/lexc/misc/enhupost.lexc
+read lexc lexc/misc/enhupost.lexc
 define Lexiconpost
 
 define Grammarpost Lexiconpost           .o. 
@@ -79,7 +79,7 @@ define Grammarpost Lexiconpost           .o.
                ToUpCase ;
 
 echo ">>> read in enhuvbpfx <<<"                    
-read lexc /home/en/program/foma/tktest/lexc/misc/enhuvbpfx.lexc
+read lexc lexc/misc/enhuvbpfx.lexc
 define Lexiconvbpfx
 
 define Grammarvbpfx Lexiconvbpfx           .o. 
@@ -88,7 +88,7 @@ define Grammarvbpfx Lexiconvbpfx           .o.
                ToUpCase ;
 
 echo ">>> read in enhucon <<<"                    
-read lexc /home/en/program/foma/tktest/lexc/misc/enhucon.lexc
+read lexc lexc/misc/enhucon.lexc
 define Lexiconcon
 
 define Grammarcon Lexiconcon           .o. 
@@ -97,7 +97,7 @@ define Grammarcon Lexiconcon           .o.
                ToUpCase ;
 
 echo ">>> read in enhuneg <<<"                    
-read lexc /home/en/program/foma/tktest/lexc/misc/enhuneg.lexc
+read lexc lexc/misc/enhuneg.lexc
 define Lexiconneg
 
 define Grammarneg Lexiconneg           .o. 
@@ -106,7 +106,7 @@ define Grammarneg Lexiconneg           .o.
                ToUpCase ;
 
 echo ">>> read in enhudet <<<"                    
-read lexc /home/en/program/foma/tktest/lexc/misc/enhudet.lexc
+read lexc lexc/misc/enhudet.lexc
 define Lexicondet
 
 define Grammardet Lexicondet           .o. 
@@ -115,7 +115,7 @@ define Grammardet Lexicondet           .o.
                ToUpCase ;
 
 echo ">>> read in enhutwin <<<"                    
-read lexc /home/en/program/foma/tktest/lexc/misc/enhutwin.lexc
+read lexc lexc/misc/enhutwin.lexc
 define Lexicontwin
 
 define Grammartwin Lexicontwin           .o. 

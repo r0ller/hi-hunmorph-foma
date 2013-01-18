@@ -592,7 +592,7 @@ define CleanupEndings "^" {+cDis} -> 0 ,,
 
 #set flag-is-epsilon ON
 echo ">>> read in enhuadj1 <<<"
-read lexc /home/en/program/foma/tktest/lexc/adj/enhuadj1.lexc
+read lexc lexc/adj/enhuadj1.lexc
 define Lexiconadj1
 
 define Grammaradj1 Lexiconadj1      .o. 
@@ -651,7 +651,7 @@ define Grammaradj1 Lexiconadj1      .o.
         ToUpCase ;
 
 echo ">>> read in enhuadjbator <<<"
-read lexc /home/en/program/foma/tktest/lexc/adj/enhuadjbator.lexc
+read lexc lexc/adj/enhuadjbator.lexc
 define Lexiconadjbator
 
 define Grammaradjbator Lexiconadjbator      .o. 
@@ -713,7 +713,7 @@ define Grammaradjbator Lexiconadjbator      .o.
         ToUpCase ;
 
 echo ">>> read in enhuadjobb <<<"
-read lexc /home/en/program/foma/tktest/lexc/adj/enhuadjobb.lexc
+read lexc lexc/adj/enhuadjobb.lexc
 define Lexiconadjobb
 
 define Grammaradjobb Lexiconadjobb      .o. 
@@ -760,7 +760,7 @@ define Grammaradjobb Lexiconadjobb      .o.
         ToUpCase ;
 
 echo ">>> read in enhuadjsok <<<"
-read lexc /home/en/program/foma/tktest/lexc/adj/enhuadjsok.lexc
+read lexc lexc/adj/enhuadjsok.lexc
 define Lexiconadjsok
 
 define Grammaradjsok Lexiconadjsok      .o. 
@@ -843,7 +843,7 @@ define Grammaradjsok Lexiconadjsok      .o.
         ToUpCase ;
 
 echo ">>> read in enhuadjmely <<<"
-read lexc /home/en/program/foma/tktest/lexc/adj/enhuadjmely.lexc
+read lexc lexc/adj/enhuadjmely.lexc
 define Lexiconadjmely
 
 define Grammaradjmely Lexiconadjmely      .o. 
@@ -920,7 +920,7 @@ define Grammaradjmely Lexiconadjmely      .o.
         ToUpCase ;
 
 echo ">>> read in enhuadjing <<<"
-read lexc /home/en/program/foma/tktest/lexc/adj/enhuadjing.lexc
+read lexc lexc/adj/enhuadjing.lexc
 define Lexiconadjing
 
 define Grammaradjing Lexiconadjing      .o. 
@@ -1001,7 +1001,7 @@ define Grammaradjing Lexiconadjing      .o.
         ToUpCase ;
 
 echo ">>> read in enhuadjoe <<<"
-read lexc /home/en/program/foma/tktest/lexc/adj/enhuadjoe.lexc
+read lexc lexc/adj/enhuadjoe.lexc
 define Lexiconadjoe
 
 define Grammaradjoe Lexiconadjoe      .o. 
@@ -1063,7 +1063,7 @@ define Grammaradjoe Lexiconadjoe      .o.
         ToUpCase ;
 
 echo ">>> read in enhuadja <<<"
-read lexc /home/en/program/foma/tktest/lexc/adj/enhuadja.lexc
+read lexc lexc/adj/enhuadja.lexc
 define Lexiconadja
 
 define Grammaradja Lexiconadja      .o. 
@@ -1146,7 +1146,7 @@ define Grammaradja Lexiconadja      .o.
         ToUpCase ;
 
 echo ">>> read in enhuadjigem <<<"
-read lexc /home/en/program/foma/tktest/lexc/adj/enhuadjigem.lexc
+read lexc lexc/adj/enhuadjigem.lexc
 define Lexiconadjigem
 
 define Grammaradjigem Lexiconadjigem      .o. 
@@ -1215,7 +1215,7 @@ define Grammaradjigem Lexiconadjigem      .o.
         ToUpCase ;
 
 echo ">>> read in enhuadjmnevek <<<"
-read lexc /home/en/program/foma/tktest/lexc/adj/enhuadjmnevek.lexc
+read lexc lexc/adj/enhuadjmnevek.lexc
 define Lexiconadjmnevek
 
 define Grammaradjmnevek Lexiconadjmnevek      .o. 
@@ -1304,7 +1304,7 @@ define Grammaradjmnevek Lexiconadjmnevek      .o.
         ToUpCase ;
 
 echo ">>> read in enhuadjmnossz <<<"
-read lexc /home/en/program/foma/tktest/lexc/adj/enhuadjmnossz.lexc
+read lexc lexc/adj/enhuadjmnossz.lexc
 define Lexiconadjmnossz
 
 define Grammaradjmnossz Lexiconadjmnossz      .o. 
@@ -1393,7 +1393,7 @@ define Grammaradjmnossz Lexiconadjmnossz      .o.
         ToUpCase ;
 
 echo ">>> read in enhuadjmnspec <<<"
-read lexc /home/en/program/foma/tktest/lexc/adj/enhuadjmnspec.lexc
+read lexc lexc/adj/enhuadjmnspec.lexc
 define Lexiconadjmnspec
 
 define Grammaradjmnspec Lexiconadjmnspec      .o. 
@@ -1478,7 +1478,7 @@ define Grammaradjmnspec Lexiconadjmnspec      .o.
         ToUpCase ;
 
 echo ">>> read in enhuadjmnspec1 <<<"
-read lexc /home/en/program/foma/tktest/lexc/adj/enhuadjmnspec1.lexc
+read lexc lexc/adj/enhuadjmnspec1.lexc
 define Lexiconadjmnspec1
 
 define Grammaradjmnspec1 Lexiconadjmnspec1      .o. 
@@ -1563,7 +1563,7 @@ define Grammaradjmnspec1 Lexiconadjmnspec1      .o.
         ToUpCase ;
 
 echo ">>> read in enhuadjmelyige <<<"
-read lexc /home/en/program/foma/tktest/lexc/adj/enhuadjmelyige.lexc
+read lexc lexc/adj/enhuadjmelyige.lexc
 define Lexiconadjmelyige
 
 define Grammaradjmelyige Lexiconadjmelyige      .o. 
@@ -1640,7 +1640,7 @@ define Grammaradjmelyige Lexiconadjmelyige      .o.
         ToUpCase ;
 
 echo ">>> read in enhuadjfnmn <<<"
-read lexc /home/en/program/foma/tktest/lexc/adj/enhuadjfnmn.lexc
+read lexc lexc/adj/enhuadjfnmn.lexc
 define Lexiconadjfnmn
 
 define Grammaradjfnmn Lexiconadjfnmn      .o. 
@@ -1730,7 +1730,7 @@ define Grammaradjfnmn Lexiconadjfnmn      .o.
         ToUpCase ;
 
 echo ">>> read in enhuadjlegi <<<"
-read lexc /home/en/program/foma/tktest/lexc/adj/enhuadjlegi.lexc
+read lexc lexc/adj/enhuadjlegi.lexc
 define Lexiconadjlegi
 
 define Grammaradjlegi Lexiconadjlegi      .o. 

@@ -46,7 +46,7 @@ define CleanupEndings  "^" "+" {cDis}  -> 0 ,,
                        "^" "+" {cTer}  -> 0;
 
 echo ">>> read in enhufxpp <<<"                    
-read lexc /home/en/program/foma/tktest/lexc/fxpp/enhufxpp.lexc
+read lexc lexc/fxpp/enhufxpp.lexc
 define Lexicon
 
 define Grammar Lexicon           .o. 

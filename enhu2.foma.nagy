@@ -1035,7 +1035,7 @@ define ItoY   G h i c z i -> G h y c z y ,,
 
 
 echo ">>> read in enhu2 <<<"                    
-read lexc /home/en/program/foma/tktest/lexc/noun/enhu2.lexc
+read lexc lexc/noun/enhu2.lexc
 define Lexicon
 
 define Grammar Lexicon           .o. 
@@ -1076,7 +1076,7 @@ define Grammar Lexicon           .o.
                ToUpCase;
 
 echo ">>> read in enhujaje <<<"
-read lexc /home/en/program/foma/tktest/lexc/noun/enhujaje.lexc
+read lexc lexc/noun/enhujaje.lexc
 define Lexiconjaje
 
 define Grammarjaje Lexiconjaje           .o. 
@@ -1116,7 +1116,7 @@ define Grammarjaje Lexiconjaje           .o.
                ToUpCase;
 
 echo ">>> read in enhuszulo <<<"
-read lexc /home/en/program/foma/tktest/lexc/noun/enhuszulo.lexc
+read lexc lexc/noun/enhuszulo.lexc
 define Lexiconszulo
 
 define Grammarszulo Lexiconszulo .o. 
@@ -1150,7 +1150,7 @@ define Grammarszulo Lexiconszulo .o.
                ToUpCase;
 
 echo ">>> read in enhule <<<"
-read lexc /home/en/program/foma/tktest/lexc/noun/enhule.lexc
+read lexc lexc/noun/enhule.lexc
 define Lexiconle
 
 define Grammarle Lexiconle       .o. 
@@ -1186,7 +1186,7 @@ define Grammarle Lexiconle       .o.
                ToUpCase;
 
 echo ">>> read in enhuero <<<"
-read lexc /home/en/program/foma/tktest/lexc/noun/enhuero.lexc
+read lexc lexc/noun/enhuero.lexc
 define Lexiconero
 
 define Grammarero Lexiconero     .o. 
@@ -1236,7 +1236,7 @@ define Grammarero Lexiconero     .o.
                ToUpCase;
 
 echo ">>> read in enhuoe <<<"
-read lexc /home/en/program/foma/tktest/lexc/noun/enhuoe.lexc
+read lexc lexc/noun/enhuoe.lexc
 define Lexiconoe
 
 define Grammaroe Lexiconoe       .o. 
@@ -1276,7 +1276,7 @@ define Grammaroe Lexiconoe       .o.
 
 
 echo ">>> read in enhuoa <<<"
-read lexc /home/en/program/foma/tktest/lexc/noun/enhuoa.lexc
+read lexc lexc/noun/enhuoa.lexc
 define Lexiconoa
 
 define Grammaroa Lexiconoa        .o. 
@@ -1319,7 +1319,7 @@ define Grammaroa Lexiconoa        .o.
                ToUpCase;
 
 echo ">>> read in enhuoaae <<<"
-read lexc /home/en/program/foma/tktest/lexc/noun/enhuoaae.lexc
+read lexc lexc/noun/enhuoaae.lexc
 define Lexiconoaae
 
 define Grammaroaae Lexiconoaae        .o. 
@@ -1362,7 +1362,7 @@ define Grammaroaae Lexiconoaae        .o.
                ToUpCase;
 
 echo ">>> read in enhuoeae <<<"
-read lexc /home/en/program/foma/tktest/lexc/noun/enhuoeae.lexc
+read lexc lexc/noun/enhuoeae.lexc
 define Lexiconoeae
 
 define Grammaroeae Lexiconoeae       .o. 
@@ -1403,7 +1403,7 @@ define Grammaroeae Lexiconoeae       .o.
                ToUpCase;
 
 echo ">>> read in enhuoajaje <<<"
-read lexc /home/en/program/foma/tktest/lexc/noun/enhuoajaje.lexc
+read lexc lexc/noun/enhuoajaje.lexc
 define Lexiconoajaje
 
 define Grammaroajaje Lexiconoajaje        .o. 
@@ -1444,7 +1444,7 @@ define Grammaroajaje Lexiconoajaje        .o.
                ToUpCase;
 
 echo ">>> read in enhuoamely <<<"
-read lexc /home/en/program/foma/tktest/lexc/noun/enhuoamely.lexc
+read lexc lexc/noun/enhuoamely.lexc
 define Lexiconoamely
 
 define Grammaroamely Lexiconoamely     .o. 
@@ -1483,7 +1483,7 @@ define Grammaroamely Lexiconoamely     .o.
                ToUpCase;
 
 echo ">>> read in enhumely <<<"
-read lexc /home/en/program/foma/tktest/lexc/noun/enhumely.lexc
+read lexc lexc/noun/enhumely.lexc
 define Lexiconmely
 
 define Grammarmely Lexiconmely         .o. 
@@ -1530,7 +1530,7 @@ define Grammarmely Lexiconmely         .o.
 
 echo ">>> read in enhumelyjaje <<<"
 
-read lexc /home/en/program/foma/tktest/lexc/noun/enhumelyjaje.lexc
+read lexc lexc/noun/enhumelyjaje.lexc
 define Lexiconmelyjaje
 
 define Grammarmelyjaje Lexiconmelyjaje         .o. 
@@ -1570,7 +1570,7 @@ define Grammarmelyjaje Lexiconmelyjaje         .o.
 
 echo ">>> read in enhumelytny <<<"
  
-read lexc /home/en/program/foma/tktest/lexc/noun/enhumelytny.lexc
+read lexc lexc/noun/enhumelytny.lexc
 define Lexiconmelytny
 
 define Grammarmelytny Lexiconmelytny         .o. 
@@ -1611,7 +1611,7 @@ define Grammarmelytny Lexiconmelytny         .o.
                ToUpCase;
 
 echo ">>> read in enhumelyae <<<"
-read lexc /home/en/program/foma/tktest/lexc/noun/enhumelyae.lexc
+read lexc lexc/noun/enhumelyae.lexc
 define Lexiconmelyae
 
 define Grammarmelyae Lexiconmelyae         .o. 
@@ -1654,7 +1654,7 @@ define Grammarmelyae Lexiconmelyae         .o.
                ToUpCase;
 
 echo ">>> read in enhumelymasik <<<"
-read lexc /home/en/program/foma/tktest/lexc/noun/enhumelymasik.lexc
+read lexc lexc/noun/enhumelymasik.lexc
 define Lexiconmelymasik
 
 define Grammarmelymasik Lexiconmelymasik         .o. 
@@ -1698,7 +1698,7 @@ define Grammarmelymasik Lexiconmelymasik         .o.
 
 echo ">>> read in enhuin <<<"
 # ín, from oamely
-read lexc /home/en/program/foma/tktest/lexc/noun/enhuin.lexc
+read lexc lexc/noun/enhuin.lexc
 define Lexiconin
 
 define Grammarin Lexiconin             .o. 
@@ -1733,7 +1733,7 @@ define Grammarin Lexiconin             .o.
 
 echo ">>> read in enhuderek <<<"   
 # derék
-read lexc /home/en/program/foma/tktest/lexc/noun/enhuderek.lexc
+read lexc lexc/noun/enhuderek.lexc
 define Lexiconderek
 
 define Grammarderek Lexiconderek       .o. 
@@ -1769,7 +1769,7 @@ define Grammarderek Lexiconderek       .o.
 
 echo ">>> read in enhuoaee <<<"   
 # kerék, úr
-read lexc /home/en/program/foma/tktest/lexc/noun/enhuoaee.lexc
+read lexc lexc/noun/enhuoaee.lexc
 define Lexiconoaee
 
 define Grammaroaee Lexiconoaee     .o. 
@@ -1826,7 +1826,7 @@ define Grammaroaee Lexiconoaee     .o.
                ToUpCase;
 
 echo ">>> read in enhuoaee2 <<<"   
-read lexc /home/en/program/foma/tktest/lexc/noun/enhuoaee2.lexc
+read lexc lexc/noun/enhuoaee2.lexc
 define Lexiconoaee2
 
 define Grammaroaee2 Lexiconoaee2     .o. 
@@ -1884,7 +1884,7 @@ define Grammaroaee2 Lexiconoaee2     .o.
 
 # kerék, úr
 echo ">>> read in enhuoaeejaje <<<"   
-read lexc /home/en/program/foma/tktest/lexc/noun/enhuoaeejaje.lexc
+read lexc lexc/noun/enhuoaeejaje.lexc
 define Lexiconoaeejaje
 
 define Grammaroaeejaje Lexiconoaeejaje     .o. 
@@ -1923,7 +1923,7 @@ define Grammaroaeejaje Lexiconoaeejaje     .o.
                ToUpCase;
 
 echo ">>> read in enhuho <<<"   
-read lexc /home/en/program/foma/tktest/lexc/noun/enhuho.lexc
+read lexc lexc/noun/enhuho.lexc
 define Lexiconho
 
 define Grammarho Lexiconho        .o. 
@@ -1965,7 +1965,7 @@ define Grammarho Lexiconho        .o.
                ToUpCase;
 
 echo ">>> read in enhubokor <<<"   
-read lexc /home/en/program/foma/tktest/lexc/noun/enhubokor.lexc
+read lexc lexc/noun/enhubokor.lexc
 define Lexiconbokor
 
 define Grammarbokor Lexiconbokor .o. 
@@ -2019,7 +2019,7 @@ define Grammarbokor Lexiconbokor .o.
                ToUpCase;
 
 echo ">>> read in enhusator <<<"   
-read lexc /home/en/program/foma/tktest/lexc/noun/enhusator.lexc
+read lexc lexc/noun/enhusator.lexc
 define Lexiconsator
 
 define Grammarsator Lexiconsator  .o. 
@@ -2056,7 +2056,7 @@ define Grammarsator Lexiconsator  .o.
                ToUpCase;
 
 echo ">>> read in enhumagas <<<"   
-read lexc /home/en/program/foma/tktest/lexc/noun/enhumagas.lexc
+read lexc lexc/noun/enhumagas.lexc
 define Lexiconmagas
 
 define Grammarmagas Lexiconmagas   .o. 
@@ -2090,7 +2090,7 @@ define Grammarmagas Lexiconmagas   .o.
                ToUpCase;
 
 echo ">>> read in enhufi <<<"   
-read lexc /home/en/program/foma/tktest/lexc/noun/enhufi.lexc
+read lexc lexc/noun/enhufi.lexc
 define Lexiconfi
 
 define Grammarfi Lexiconfi       .o. 
@@ -2152,7 +2152,7 @@ define Grammarfi Lexiconfi       .o.
                ToUpCase;
 
 echo ">>> read in enhuocs <<<"   
-read lexc /home/en/program/foma/tktest/lexc/noun/enhuocs.lexc
+read lexc lexc/noun/enhuocs.lexc
 define Lexiconocs
 
 define Grammarocs Lexiconocs           .o. 
@@ -2187,7 +2187,7 @@ define Grammarocs Lexiconocs           .o.
 
 echo ">>> read in enhutuz <<<"   
 # tűz, fűz, szűz oe miatt van külön az oaee csoporttól tüzet és nem tüzöt!
-read lexc /home/en/program/foma/tktest/lexc/noun/enhutuz.lexc
+read lexc lexc/noun/enhutuz.lexc
 define Lexicontuz
 
 define Grammartuz Lexicontuz     .o. 
@@ -2239,7 +2239,7 @@ define Grammartuz Lexicontuz     .o.
                ToUpCase;
 
 echo ">>> read in enhuyi <<<"   
-read lexc /home/en/program/foma/tktest/lexc/noun/enhuyi.lexc
+read lexc lexc/noun/enhuyi.lexc
 define Lexiconyi
 
 define Grammaryi Lexiconyi           .o. 
@@ -2277,7 +2277,7 @@ define Grammaryi Lexiconyi           .o.
                ToUpCase;
 
 echo ">>> read in enhufnevek <<<"                    
-read lexc /home/en/program/foma/tktest/lexc/noun/enhufnevek.lexc
+read lexc lexc/noun/enhufnevek.lexc
 define Lexiconfnevek
 
 define Grammarfnevek Lexiconfnevek           .o. 
@@ -2333,7 +2333,7 @@ define Grammarfnevek Lexiconfnevek           .o.
                ToUpCase;
 
 echo ">>> read in enhufnige <<<"                    
-read lexc /home/en/program/foma/tktest/lexc/noun/enhufnige.lexc
+read lexc lexc/noun/enhufnige.lexc
 define Lexiconfnige
 
 define Grammarfnige Lexiconfnige           .o. 
@@ -2385,7 +2385,7 @@ define Grammarfnige Lexiconfnige           .o.
 
 
 echo ">>> read in enhufnnum <<<"                    
-read lexc /home/en/program/foma/tktest/lexc/noun/enhufnnum.lexc
+read lexc lexc/noun/enhufnnum.lexc
 define Lexiconfnnum
 
 define Grammarfnnum Lexiconfnnum           .o. 
@@ -2434,7 +2434,7 @@ define Grammarfnnum Lexiconfnnum           .o.
                ToUpCase;
 
 echo ">>> read in enhufnspec <<<"                    
-read lexc /home/en/program/foma/tktest/lexc/noun/enhufnspec.lexc
+read lexc lexc/noun/enhufnspec.lexc
 define Lexiconfnspec
 
 define Grammarfnspec Lexiconfnspec           .o. 
@@ -2492,7 +2492,7 @@ define Grammarfnspec Lexiconfnspec           .o.
                ToUpCase;
 
 echo ">>> read in enhufxpp <<<"                    
-read lexc /home/en/program/foma/tktest/lexc/noun/enhunfxpp.lexc
+read lexc lexc/noun/enhunfxpp.lexc
 define Lexiconfxpp
 
 define Grammarfxpp Lexiconfxpp          .o. 
@@ -2532,7 +2532,7 @@ define Grammarfxpp Lexiconfxpp          .o.
                ToUpCase;
 
 echo ">>> read in enhuezaz <<<"                    
-read lexc /home/en/program/foma/tktest/lexc/noun/enhuazez.lexc
+read lexc lexc/noun/enhuazez.lexc
 define Lexiconezaz
 
 define Grammarezaz Lexiconezaz           .o. 
@@ -2571,7 +2571,7 @@ define Grammarezaz Lexiconezaz           .o.
                ToUpCase;
 
 echo ">>> read in enhuezaz2 <<<"                    
-read lexc /home/en/program/foma/tktest/lexc/noun/enhuazez2.lexc
+read lexc lexc/noun/enhuazez2.lexc
 define Lexiconezaz2
 
 define Grammarezaz2 Lexiconezaz2           .o. 
@@ -2611,7 +2611,7 @@ define Grammarezaz2 Lexiconezaz2           .o.
                Cleanup;
 
 echo ">>> read in enhuing <<<"                    
-read lexc /home/en/program/foma/tktest/lexc/noun/enhuing.lexc
+read lexc lexc/noun/enhuing.lexc
 define Lexiconing
 
 define Grammaring Lexiconing           .o. 
@@ -2675,7 +2675,7 @@ define Grammaring Lexiconing           .o.
                ToUpCase;
 
 echo ">>> read in enhucske <<<"                    
-read lexc /home/en/program/foma/tktest/lexc/noun/enhucske.lexc
+read lexc lexc/noun/enhucske.lexc
 define Lexiconcske
 
 define Grammarcske Lexiconcske           .o. 
@@ -2724,7 +2724,7 @@ define Grammarcske Lexiconcske           .o.
                ToUpCase;
 
 echo ">>> read in enhutalan <<<"                    
-read lexc /home/en/program/foma/tktest/lexc/noun/enhutalan.lexc
+read lexc lexc/noun/enhutalan.lexc
 define Lexicontalan
 
 define Grammartalan Lexicontalan           .o. 
@@ -2773,7 +2773,7 @@ define Grammartalan Lexicontalan           .o.
                ToUpCase;
 
 echo ">>> read in enhusag <<<"                    
-read lexc /home/en/program/foma/tktest/lexc/noun/enhusag.lexc
+read lexc lexc/noun/enhusag.lexc
 define Lexiconsag
 
 define Grammarsag Lexiconsag           .o. 
@@ -2823,7 +2823,7 @@ define Grammarsag Lexiconsag           .o.
 
 
 echo ">>> read in enhuyy <<<"                    
-read lexc /home/en/program/foma/tktest/lexc/noun/enhuyy.lexc
+read lexc lexc/noun/enhuyy.lexc
 define Lexiconyy
 
 define Grammaryy Lexiconyy           .o. 
@@ -2872,7 +2872,7 @@ define Grammaryy Lexiconyy           .o.
                Cleanup           .o.
                ToUpCase;
 
-read lexc /home/en/program/foma/tktest/lexc/noun/enhuossz3.lexc
+read lexc lexc/noun/enhuossz3.lexc
 define Lexiconossz3
 
 define Grammarossz Lexiconossz3         .o. 

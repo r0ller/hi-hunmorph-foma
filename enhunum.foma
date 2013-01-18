@@ -441,7 +441,7 @@ define CleanupEndings  "^" "+" {cDis}  -> 0 ,,
                        "^" "+" {cTer}  -> 0;
 
 echo ">>> read in enhunum <<<"                    
-read lexc /home/en/program/foma/tktest/lexc/num/enhunum1.lexc
+read lexc lexc/num/enhunum1.lexc
 define Lexiconnum
 
 define Grammarnum Lexiconnum           .o. 
@@ -517,7 +517,7 @@ define Grammarnum Lexiconnum           .o.
                ToUpCase ;
 
 echo ">>> read in enhunum2 <<<"                    
-read lexc /home/en/program/foma/tktest/lexc/num/enhunum2.lexc
+read lexc lexc/num/enhunum2.lexc
 define Lexiconnum2
 
 define Grammarnum2 Lexiconnum2           .o. 
@@ -591,7 +591,7 @@ define Grammarnum2 Lexiconnum2           .o.
                ToUpCase ;
 
 echo ">>> read in enhunum3 <<<"                    
-read lexc /home/en/program/foma/tktest/lexc/num/enhunum3.lexc
+read lexc lexc/num/enhunum3.lexc
 define Lexiconnum3
 
 define Grammarnum3 Lexiconnum3           .o. 
@@ -669,7 +669,7 @@ define Grammarnum3 Lexiconnum3           .o.
                ToUpCase ;
 
 echo ">>> read in enhunum4 <<<"                    
-read lexc /home/en/program/foma/tktest/lexc/num/enhunum4.lexc
+read lexc lexc/num/enhunum4.lexc
 define Lexiconnum4
 
 define Grammarnum4 Lexiconnum4           .o. 
