@@ -29,7 +29,7 @@ while (<FILE>) {
 
   eval {
     local $SIG{ALRM} = sub { die "time out" };
-    local $SIG{ALRM} = sub { die "time out" };
+#    local $SIG{ALRM} = sub { die "time out" };
     alarm $TIMEOUT;
     $sock->recv($word2, $MAXLEN)      or die "recv: $!";
     alarm 0;

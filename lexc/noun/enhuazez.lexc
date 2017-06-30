@@ -22,13 +22,20 @@ Det;
 LEXICON Det
 amaz AddDet;
 az AddDet;
+azon AddDet;
 egyugyanaz AddDet;
+egyugyanazon AddDet;
 emez AddDet;
 ez AddDet;
+ezen AddDet;
 mindaz AddDet;
 mindez AddDet;
+mindazon AddDet;
+mindezen AddDet;
 ugyanaz AddDet;
 ugyanez AddDet;
+ugyanazon AddDet;
+ugyanezen AddDet;
 
 LEXICON AddDet
 +Noun:0     Poss;

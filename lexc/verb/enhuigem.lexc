@@ -99,6 +99,11 @@ telik:tell AddVerbillenioek;
 
 LEXICON Verb1
 kell AddVerb;
+kell:kéne AddVerbkeene;
+lehet AddVerb;
+muszáj AddVerbmuszaj;
+tilos AddVerbmuszaj;
+szabad AddVerbmuszaj;
 
 !ír
 !írhat  potential
@@ -113,6 +118,19 @@ kell AddVerb;
 !Irni
 !írnék, írnál .. írnának cond conditional
 ! írjak írjon írj  command
+
+LEXICON AddVerbmuszaj
++Verb:0     Repmuszaj;
+
+LEXICON Repmuszaj
++IndefSg3:^+cIndefSg3^           #;    !
+
+LEXICON AddVerbkeene
++Verb:0     Repkeene;
+
+LEXICON Repkeene
++CondIndefSg3:^+cCIndefSg3^       #;    ! na/ne
+
 
 LEXICON AddVerb
 +Verb:0     Rep;

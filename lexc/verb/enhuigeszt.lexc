@@ -231,6 +231,8 @@ lesz:le AddVerblesz7;
 lesz:legy AddVerblesz33;
 lesz:legy AddVerblesz3;
 lesz:légy AddVerblesz9;
+nincs AddVerbnincs;
+sincs AddVerbnincs;
 van AddVerbvan;
 van:le AddVerbvan9;
 van:legy AddVerblesz33;
@@ -1461,6 +1463,16 @@ LEXICON Casemegy7
 +ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
 +PastDefSg12:^+cPDefSgp12^t§igea§l§igea§k               #;    ! ta/te
 +CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
+
+!nincs
+LEXICON AddVerbnincs
++Verb:0     Repnincs;
+
+LEXICON Repnincs
++IndefSg3:^+cIndefSg3^           #;    !
++IndefSg3:^+cIndefSg3^en           #;    !
++IndefPl3:^+cIndefPl3^enek   #;    ! nek/nak
+
 
 !van
 LEXICON AddVerbvan

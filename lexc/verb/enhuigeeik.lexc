@@ -100,7 +100,7 @@ feneklik:fenekle AddVerb7;
 feneklik:feneklet AddVerb5;
 fürdik:fürd AddVerboe;
 fürdik:füröd AddVerb3oe;
-
+fürdik:fürdöt AddVerb5;
 
 !ír
 !írhat  potential

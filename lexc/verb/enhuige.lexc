@@ -634,7 +634,9 @@ ajánlásoz AddVerbmelyik;
 ajánlólevelez AddVerboeik;
 ajókagyűrűz AddVerboeik;
 ajókáz AddVerbmelyik;
-akad AddVerbtat;
+akad AddVerbtatdt;
+akad AddVerbaszt;
+akad:aka AddVerbaszt1;
 akadozásoz AddVerbmelyik;
 akadozóz AddVerbmelyik;
 akadálymentesítésez AddVerboeik;
@@ -17406,7 +17408,7 @@ hakenkreuzoz AddVerbmelyik;
 haknizásoz AddVerbmelyik;
 haknizóz AddVerbmelyik;
 hal AddVerbeogatat;
-halad AddVerbtat;
+halad AddVerbtatdt;
 haladványoz AddVerbmelyik;
 haladásoz AddVerbmelyik;
 haladékoz AddVerbmelyik;
@@ -17912,7 +17914,7 @@ harántsüllyedésez AddVerboeik;
 harántvonalaz AddVerboeik;
 harántvölgyöz AddVerboeik;
 hasaaljáz AddVerbmelyik;
-hasad AddVerbtat;
+hasad AddVerbtatdt;
 hasadozásoz AddVerbmelyik;
 hasadozóz AddVerbmelyik;
 hasadványoz AddVerbmelyik;
@@ -29598,7 +29600,7 @@ látóz AddVerbmelyik;
 lávakövez AddVerboeik;
 lávakőz AddVerboeik;
 láváz AddVerbmelyik;
-lázad AddVerbtat;
+lázad AddVerbtatdt;
 lázadoz AddVerboe;
 lázadozásoz AddVerbmelyik;
 lázadozóz AddVerbmelyik;
@@ -36419,6 +36421,9 @@ panaszoz AddVerbmelyik;
 pancseredésez AddVerboeik;
 pancseredőz AddVerboeik;
 pancserkedőz AddVerboeik;
+pancsikál AddVerboe;
+pancsikálásoz AddVerbmelyik;
+pancsikálóz AddVerbmelyik;
 pancsol AddVerboe;
 pancsolásoz AddVerbmelyik;
 pancsolóz AddVerbmelyik;
@@ -46542,7 +46547,7 @@ szántásoz AddVerbmelyik;
 szántóföldez AddVerboeik;
 szánásoz AddVerbmelyik;
 szánóz AddVerbmelyik;
-szárad AddVerbtat;
+szárad AddVerbtatdt;
 száradásoz AddVerbmelyik;
 száradóz AddVerbmelyik;
 szárasztatásoz AddVerbmelyik;
@@ -50750,7 +50755,7 @@ táltosodóz AddVerbmelyik;
 táltosoz AddVerbmelyik;
 tályogoz AddVerbmelyik;
 támad AddVerbaszt;
-támad AddVerbtat;
+támad AddVerbtatdt;
 támadásoz AddVerbmelyik;
 támadóz AddVerbmelyik;
 támaszfáz AddVerbmelyik;
@@ -58844,6 +58849,7 @@ feljebbér AddVerbeogat; !ige
 fölébombáz AddVerbmelyik; !ige
 fölécsavar AddVerbtat;
 föléemel AddVerboe;
+föléhajol AddVerboe;
 föléhúz AddVerbeogatat;
 föléáll AddVerball;
 föléáll AddVerbeogat;
@@ -59262,8 +59268,8 @@ LEXICON Caseoe
 +DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
 +ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
 +ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
-+ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
 +ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
 +ConjIndefSg3:^+cConjIndefSg3^§sj§§igeoe§n     #;
 +ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
 +ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeoe§k       #;
@@ -61628,6 +61634,23 @@ LEXICON Caseaszt2
 +PastDefSg12:^+cPDefSgp12^§oe2§tt§igea§l§igea§k               #;    ! ta/te
 +CondDefSg12:^+cCDefSgp12^§ae2§n§igeaa§l§igea§k                  #;    ! ná/né
 
+LEXICON AddVerbtatdt
++Verb:0     Reptatdt;
+
+LEXICON Reptatdt
++Inf:^+cInf^ni  #;
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++PastIndefSg3:^+cPIndefSg3^t      #;    ! t
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cRep^§felteo§g§AA§t  Impertat;
+                    Imper1tat;
 
 LEXICON AddVerbtat
 +Verb:0     Reptat;

@@ -290,6 +290,7 @@ diázik:diáz AddVerb;
 diétázik:diétáz AddVerb;
 dobálódzik:dobálódz AddVerbrajz;
 dobálózik:dobálóz AddVerb;
+dobózik:dobóz AddVerb;
 dohányozik:dohányoz AddVerb;
 dolgozik:dolgoz AddVerb;
 dolgozódik:dolgozód AddVerb;
@@ -791,7 +792,7 @@ nyulászik:nyulász AddVerb;
 nyáladzik:nyáladz AddVerbrajz;
 nyálazik:nyálaz AddVerb;
 nyálzik:nyálz AddVerbrajz;
-nyílik:nyíl AddVerbmely;
+nyílik:nyíl AddVerbmelyott;
 nyújtózik:nyújtóz AddVerb;
 nyúlik:nyúl AddVerb;
 nácizik:náciz AddVerbmely;
@@ -1273,6 +1274,7 @@ zöldellik:zöldell AddVerbett;
 összefogózik:összefogóz AddVerb;
 öttusázik:öttusáz AddVerb;
 úszik:úsz AddVerb;
+úszózik:úszóz AddVerb;
 ülésezik:ülésez AddVerb;
 ütközik:ütköz AddVerboeue;
 üvöltözik:üvöltöz AddVerboeue;
@@ -2556,6 +2558,24 @@ LEXICON Caseoeueszun2
 +PastDefSg12:^+cPDefSgp12^t§igea§l§igea§k               #;    ! ta/te
 +CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
 
+LEXICON AddVerbmelyott
++Verb:0     Repmelyott;
+
+LEXICON Repmelyott
++Inf11:^+ccInf11^n§igeomely§m #;
++Inf12:^+ccInf12^n§igeomely§d #;
++Inf13:^+ccInf13^ni§AAmely§ #;
++Inf21:^+ccInf21^n§igeumely§nk #;
++Inf22:^+ccInf22^n§igeomely§t§igeomely§k #;
++Inf23:^+ccInf23^ni§igeumely§k #;
++Inf23:^+ccInf23^ni§igeuomely§k #;
++Inf:^+cInf^ni  #;
++PastIndefSg3:^+cPIndefSg3^ott      #;    ! t
++Advan:^+ccAdvan^v§igeaamely§n #;
++Adv:^+cAdv^v§AAmely§  #;
++Rep:^+cRep^§felteomely§g§AAmely§t  Impermely;
+                    Imper1mely;
+
 
 LEXICON AddVerbmely
 +Verb:0     Repmely;
@@ -3763,6 +3783,7 @@ LEXICON Caseuerz
 LEXICON AddVerbsz
 +Verb:0     Repsz;
 
+
 LEXICON Repsz
 +Inf11:^+ccInf11^n§igeoue§m #;
 +Inf12:^+ccInf12^n§igeoue§d #;
@@ -3775,6 +3796,7 @@ LEXICON Repsz
 +Advan:^+ccAdvan^v§igeaa§n #;
 +Adv:^+cAdv^v§AA§  #;
 +Rep:^+cRep^g§AA§t  Impersz;
++PastIndefSg3:^+cPIndefSg3t     #;    ! t  - folyt
                     Imper1sz;
 
 LEXICON Impersz

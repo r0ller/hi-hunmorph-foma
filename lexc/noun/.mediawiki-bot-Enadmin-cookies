@@ -1,0 +1,4 @@
+#LWP-Cookies-1.0
+Set-Cookie3: metapedia_enToken=5d46940a8ca578a786fa144251a729cf; path="/"; domain=en.metapedia.org; path_spec; expires="2012-08-06 12:11:14Z"; httponly; version=0
+Set-Cookie3: metapedia_enUserID=2939; path="/"; domain=en.metapedia.org; path_spec; expires="2012-08-06 12:11:14Z"; httponly; version=0
+Set-Cookie3: metapedia_enUserName=Enadmin; path="/"; domain=en.metapedia.org; path_spec; expires="2012-08-06 12:11:14Z"; httponly; version=0

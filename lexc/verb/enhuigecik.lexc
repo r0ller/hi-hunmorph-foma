@@ -348,8 +348,8 @@ LEXICON AddVerbss
 LEXICON Casess
 +ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
 +ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
-+ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
 +ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg2^§sj§ék          #;  ! tessék
 +ConjIndefSg3:^+cConjIndefSg3^§sj§§igeo§n     #;
 +ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
 +ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;

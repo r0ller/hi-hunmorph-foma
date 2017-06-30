@@ -1,0 +1,4 @@
+#LWP-Cookies-1.0
+Set-Cookie3: metapedia_huToken=f88988dddaa490965f6b1a72ef1e6729; path="/"; domain=hu.metapedia.org; path_spec; expires="2013-06-19 09:46:15Z"; httponly; version=0
+Set-Cookie3: metapedia_huUserID=547; path="/"; domain=hu.metapedia.org; path_spec; expires="2013-06-19 09:46:15Z"; httponly; version=0
+Set-Cookie3: metapedia_huUserName=Huadmin; path="/"; domain=hu.metapedia.org; path_spec; expires="2013-06-19 09:46:15Z"; httponly; version=0

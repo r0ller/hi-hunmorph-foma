@@ -3043,7 +3043,7 @@ vajasít AddVerbmelyabrandit;
 vakosít AddVerbmelyabrandit;
 vakít AddVerbmelyabrandit;
 vakításmentesít AddVerbbekit;
-vall AddVerbmelyabrandit;
+vall AddVerbmelyabranditott;
 vallásosít AddVerbmelyabrandit;
 valószínűsít AddVerbbekit;
 valóságosít AddVerbmelyabrandit;
@@ -3431,7 +3431,6 @@ viszontbiztosít AddVerbmelyabrandit;
 útbaejt AddVerbbujt; !igea
 
 
-
 !ír
 !írhat  potential
 !irathat imper potential
@@ -3446,6 +3445,24 @@ viszontbiztosít AddVerbmelyabrandit;
 !írnék, írnál .. írnának cond conditional
 ! írjak írjon írj  command
 
+
+LEXICON AddVerbmelyabranditott
++Verb:0     Repmelyabranditott;
+
+LEXICON Repmelyabranditott
++Inf11:^+ccInf11^§ae2mely§n§igeomely§m #;
++Inf12:^+ccInf12^§ae2mely§n§igeomely§d #;
++Inf13:^+ccInf13^§ae2mely§ni§AAmely§ #;
++Inf21:^+ccInf21^§ae2mely§n§igeumely§nk #;
++Inf22:^+ccInf22^§ae2mely§n§igeomely§t§igeomely§k #;
++Inf23:^+ccInf23^§ae2mely§ni§igeumely§k #;
++Inf23:^+ccInf23^§ae2mely§ni§igeuomely§k #;
++PastIndefSg3:^+cPIndefSg3^§igeoe§tt      #;    ! t
++Inf:^+cInf^§ae2mely§ni  #;
++Advan:^+ccAdvan^v§igeaamely§n #;
++Adv:^+cAdv^v§AAmely§  #;
++Rep:^+cRep^§felteo2mely§g§AAmely§t  Impermelyabrandit;
+                    Imper1melyabrandit;
 
 LEXICON AddVerbmelyabrandit
 +Verb:0     Repmelyabrandit;
