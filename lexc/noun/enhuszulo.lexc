@@ -1,6 +1,6 @@
 !!!enhuszulo.lexc!!!
 
-Multichar_Symbols  +Noun
+Multichar_Symbols  +Noun[gcat]
 
 +Dis +Ess +Soc +Tem 
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
@@ -8,7 +8,7 @@ Multichar_Symbols  +Noun
 
 +Plur +Fam +Gens +Genpl
 
-+Abl +Acc +Ade +All +Cau +Dat +Del
++Abl +Acc[lfea] +Ade +All +Cau +Dat +Del
 +Ela +Fac +For +Forp +Forpen +Ill +Ine +Ins +Nom
 +Sub +Sup +Ter
 
@@ -209,12 +209,12 @@ vasutasszülő:vasutasszül AddNoun1;
 
 
 LEXICON AddNoun
-+Noun:0     Poss;
-+Noun:0     Plur;
-+Noun:0     Fam;
+[stem]+Noun[gcat]:0     Poss;
+[stem]+Noun[gcat]:0     Plur;
+[stem]+Noun[gcat]:0     Fam;
 
 LEXICON AddNoun1
-+Noun:0     Poss1;
+[stem]+Noun[gcat]:0     Poss1;
 
 LEXICON Poss1
 +Posss1p:^+cPosss1p^§JP§§AE§im   Fam;   ! aim
@@ -251,7 +251,7 @@ LEXICON Gen
  
 LEXICON Case
 +Abl:^+cAbl^t§oooe§l      #;  ! tól, től
-+Acc:^+cAcc^§oeoez2§t     #;  ! ot, et, öt, t
++Acc[lfea]:^+cAcc^§oeoez2§t     #;  ! ot, et, öt, t
 +Ade:^+cAde^n§AAA§l       #;  ! nál, nél
 +All:^+cAll^h§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért           #;  ! ért

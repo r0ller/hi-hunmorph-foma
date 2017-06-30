@@ -1,6 +1,6 @@
 !!!enhuige.lexc!!!
 
-Multichar_Symbols  +Verb +Rep +Imper +Pot
+Multichar_Symbols  +Verb[gcat] +Rep +Imper +Pot
                    +Inf +Inf11 +Inf12 +Inf13 +Inf21 +Inf22 +Inf23 +Pref+  +Adv +Advan
                   +IndefSg1   +IndefSg2   +IndefSg3   +IndefSg12
                   +IndefPl1 +IndefPl2 +IndefPl3
@@ -9,7 +9,7 @@ Multichar_Symbols  +Verb +Rep +Imper +Pot
                   +ConjDefSg12 +PastDefSg12  +CondDefSg12
                   +ConjIndefSg1   +ConjIndefSg2   +ConjIndefSg3   
                   +ConjIndefPl1 +ConjIndefPl2 +ConjIndefPl3
-                  +ConjDefSg1   +ConjDefSg2   +ConjDefSg3  
+                  +ConjDefSg1   +ConjDefSg2[lfea]   +ConjDefSg3  
                   +ConjDefPl1 +ConjDefPl2 +ConjDefPl3
                   +PastIndefSg1   +PastIndefSg2   +PastIndefSg3   
                   +PastIndefPl1 +PastIndefPl2 +PastIndefPl3
@@ -120,20 +120,20 @@ szabad AddVerbmuszaj;
 ! írjak írjon írj  command
 
 LEXICON AddVerbmuszaj
-+Verb:0     Repmuszaj;
+[stem]+Verb[gcat]:0     Repmuszaj;
 
 LEXICON Repmuszaj
 +IndefSg3:^+cIndefSg3^           #;    !
 
 LEXICON AddVerbkeene
-+Verb:0     Repkeene;
+[stem]+Verb[gcat]:0     Repkeene;
 
 LEXICON Repkeene
 +CondIndefSg3:^+cCIndefSg3^       #;    ! na/ne
 
 
 LEXICON AddVerb
-+Verb:0     Rep;
+[stem]+Verb[gcat]:0     Rep;
 
 LEXICON Rep
 +Inf11:^+ccInf11^§igea§n§igeo§m #;
@@ -262,8 +262,8 @@ LEXICON Case
 +ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
 +ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§d              #;
 +ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
 +ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
 +ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
@@ -323,8 +323,8 @@ LEXICON Case1
 +ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
 +ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
-+ConjDefSg2:^+cConjDefSg2^d              #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^d              #;
 +ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
 +ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
 +ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
@@ -360,7 +360,7 @@ LEXICON Case1
 +CondDefSg12:^+cCDefSgp12^§igea§n§igeaa§l§igea§k                  #;    ! ná/né
 
 LEXICON AddVerbtell
-+Verb:0     Casetell;
+[stem]+Verb[gcat]:0     Casetell;
 
 LEXICON Casetell
 +Inf11:^+ccInf11^§igea§n§igeo§m #;
@@ -394,8 +394,8 @@ LEXICON Casetell
 +ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
 +ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
-+ConjDefSg2:^+cConjDefSg2^d              #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^d              #;
 +ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
 +ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
 +ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
@@ -431,7 +431,7 @@ LEXICON Casetell
 +CondDefSg12:^+cCDefSgp12^§igea§n§igeaa§l§igea§k                  #;    ! ná/né
 
 LEXICON AddVerbillenioek
-+Verb:0 Caseillenioek;
+[stem]+Verb[gcat]:0 Caseillenioek;
 
 LEXICON Caseillenioek
 +Inf23:^+ccInf23^eniök #; !illeniök

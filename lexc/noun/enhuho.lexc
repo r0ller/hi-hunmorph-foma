@@ -1,6 +1,6 @@
 !!!enhuoa.lexc!!!
 
-Multichar_Symbols  +Noun
+Multichar_Symbols  +Noun[gcat]
 
 +Dis +Ess +Soc +Tem 
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
@@ -8,7 +8,7 @@ Multichar_Symbols  +Noun
 
 +Plur +Fam +Gens +Genpl
       
-+Abl +Acc +Ade +All +Cau +Dat +Del
++Abl +Acc[lfea] +Ade +All +Cau +Dat +Del
 +Ela +Fac +For +Forp +Forpen +Ill +Ine +Ins +Nom
 +Sub +Sup +Ter
       
@@ -7493,9 +7493,9 @@ zúzómű:zúzóműv AddNoun1;
 
 
 LEXICON AddNoun
-+Noun:0     Poss;
-+Noun:0     Plur;
-+Noun:0     Fam;
+[stem]+Noun[gcat]:0     Poss;
+[stem]+Noun[gcat]:0     Plur;
+[stem]+Noun[gcat]:0     Fam;
 
 LEXICON Poss
 +Dis:^+cDis^§ooez13§nként    #;    ! anként, enként
@@ -7529,7 +7529,7 @@ LEXICON Gen
 
 LEXICON Case
 +Abl:^+cAbl^t§oooe§l      #;  ! tól, től
-+Acc:^+cAcc^§oeoez4§t    #;  ! ot, et, öt, t
++Acc[lfea]:^+cAcc^§oeoez4§t    #;  ! ot, et, öt, t
 +Ade:^+cAde^n§AAA§l       #;  ! nál, nél
 +All:^+cAll^h§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért           #;  ! ért
@@ -7551,14 +7551,14 @@ LEXICON Case
 +Tem:^+cTem^§k§or #; ! kor
 
 LEXICON AddNoun1
-+Noun:0     Poss1;
-+Noun:0     Plur1;
-!+Noun:0     Fam;
+[stem]+Noun[gcat]:0     Poss1;
+[stem]+Noun[gcat]:0     Plur1;
+![stem]+Noun[gcat]:0     Fam;
 
 LEXICON Poss1
 +Dis:^+cDis^§ooez23§nként    #;    ! anként, enként
 +Soc:^+cSoc^§EOA12§st§uue§l   #;    ! astul, estül
-+Acc:^+cAcc^§oeoez13§t       #;    ! ot, et, öt, t
++Acc[lfea]:^+cAcc^§oeoez13§t       #;    ! ot, et, öt, t
 +Sup:^+cSup^§oeoez31§n      #;  ! on, en, ön, n
 +Posss1s:^+cPosss1s^§OEOE14§m   Fam1;   ! m
 +Posss2s:^+cPosss2s^§OEOE14§d   Fam1;   ! d
@@ -7589,7 +7589,7 @@ LEXICON Gen1
  
 LEXICON Case1
 +Abl:^+cAbl^t§oooe§l      #;  ! tól, től
-+Acc:^+cAcc^§oeoez4§t    #;  ! ot, et, öt, t
++Acc[lfea]:^+cAcc^§oeoez4§t    #;  ! ot, et, öt, t
 +Ade:^+cAde^n§AAA§l       #;  ! nál, nél
 +All:^+cAll^h§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért           #;  ! ért
@@ -7611,9 +7611,9 @@ LEXICON Case1
 +Tem:^+cTem^§k§or #; ! kor
 
 LEXICON AddNounko
-+Noun:0     Plurko;
-+Noun:0     Famko;
-+Noun:0     Possko;
+[stem]+Noun[gcat]:0     Plurko;
+[stem]+Noun[gcat]:0     Famko;
+[stem]+Noun[gcat]:0     Possko;
 
 LEXICON Possko
 +Posss1s:^+cPosss1s^§OEOE11§m   Famko;   ! m
@@ -7647,7 +7647,7 @@ LEXICON Genko
  
 LEXICON Caseko
 +Abl:^+cAbl^t§oooe§l      #;  ! tól, től
-+Acc:^+cAcc^§oeoez4§t    #;  ! ot, et, öt, t
++Acc[lfea]:^+cAcc^§oeoez4§t    #;  ! ot, et, öt, t
 +Ade:^+cAde^n§AAA§l       #;  ! nál, nél
 +All:^+cAll^h§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért           #;  ! ért
@@ -7669,9 +7669,9 @@ LEXICON Caseko
 +Tem:^+cTem^§k§or #; ! kor
 
 LEXICON AddNounmelyko
-!+Noun:0     Possmely;
-!+Noun:0     Plurmely;
-+Noun:0     Fammelyko;
+![stem]+Noun[gcat]:0     Possmely;
+![stem]+Noun[gcat]:0     Plurmely;
+[stem]+Noun[gcat]:0     Fammelyko;
 
 LEXICON Fammelyko
 !+Dis:^+cDis^§ooez13§nként    #;    ! anként, enként
@@ -7685,7 +7685,7 @@ LEXICON Genmelyko
                        Casemelyko;
 LEXICON Casemelyko
 +Abl:^+cAbl^t§oooe§l      #;  ! tól, től
-+Acc:^+cAcc^§oeoez4§t    #;  ! ot, et, öt, t
++Acc[lfea]:^+cAcc^§oeoez4§t    #;  ! ot, et, öt, t
 +Ade:^+cAde^n§AAA§l       #;  ! nál, nél
 +All:^+cAll^h§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért           #;  ! ért
@@ -7707,18 +7707,18 @@ LEXICON Casemelyko
 +Tem:^+cTem^§k§or #; ! kor
 
 LEXICON AddNounmely
-+Noun:0     Possmely;
-+Noun:0     Plurmely;
-+Noun:0     Fammely;
+[stem]+Noun[gcat]:0     Possmely;
+[stem]+Noun[gcat]:0     Plurmely;
+[stem]+Noun[gcat]:0     Fammely;
 
 LEXICON AddNoun1mely
-+Noun:0     Poss1mely;
-+Noun:0     Plur1mely;
+[stem]+Noun[gcat]:0     Poss1mely;
+[stem]+Noun[gcat]:0     Plur1mely;
 
 LEXICON Poss1mely
 +Dis:^+cDis^§ooez23§nként    #;    ! anként, enként
 +Soc:^+cSoc^§EOA12§st§uue§l   #;    ! astul, estül
-+Acc:^+cAcc^§oeoez13§t       #;    ! ot, et, öt, t
++Acc[lfea]:^+cAcc^§oeoez13§t       #;    ! ot, et, öt, t
 +Sup:^+cSup^§oeoez25§n      #;  ! on, en, ön, n
 +Posss1s:^+cPosss1s^§OEOE14§m   Fam1mely;   ! m
 +Posss2s:^+cPosss2s^§OEOE14§d   Fam1mely;   ! d
@@ -7777,7 +7777,7 @@ LEXICON Genmely
  
 LEXICON Case1mely
 +Abl:^+cAbl^t§oooe§l      #;  ! tól, től
-+Acc:^+cAcc^§oeoez4§t    #;  ! ot, et, öt, t
++Acc[lfea]:^+cAcc^§oeoez4§t    #;  ! ot, et, öt, t
 +Ade:^+cAde^n§AAA§l       #;  ! nál, nél
 +All:^+cAll^h§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért           #;  ! ért
@@ -7800,7 +7800,7 @@ LEXICON Case1mely
 
 LEXICON Casemely
 +Abl:^+cAbl^t§oooe§l      #;  ! tól, től
-+Acc:^+cAcc^§oeoez4§t    #;  ! ot, et, öt, t
++Acc[lfea]:^+cAcc^§oeoez4§t    #;  ! ot, et, öt, t
 +Ade:^+cAde^n§AAA§l       #;  ! nál, nél
 +All:^+cAll^h§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért           #;  ! ért

@@ -4,6 +4,7 @@
 define Vowel [ a | á | ä | e | é | ë | i | í | o |ó | u | ú | ü | ű | ö | ő | A | Á | E | É | I | Í | O |Ó | U | Ú | Ü | Ű | Ö | Ő ];
 define ConsNogln [ b | c | d | f | h | j | k | m | p | q | r | s | v | w | x | y | z | B | C | D | E | F | H | J | K | L | M | P | Q | R | S | V | W | X | Y | Z ];
 define Cons [ b | c | č | ć | d | f | g | h | j | k | l | m | n | p | q | r | s | t | v | w | x | y | z | B | C | Č | Ć | D | E | F | G | H | J | K | L | M | N | P | Q | R | S | T | V | W | X | Y | Z ];
+define PotentialWord [Cons|Vowel]+;
 define yNoCons [ ConsNogln y | Vowel y | s z t y | ConsNogln Y | Vowel Y | S Z T Y ];
 define yNoConstny [ Cons y | Vowel y | Cons Y | Vowel Y ];
 define Vowelwithy [ Vowel | yNoCons ];
@@ -1036,6 +1037,7 @@ define ItoY   G h i c z i -> G h y c z y ,,
 
 echo ">>> read in enhu2 <<<"                    
 read lexc lexc/noun/enhu2.lexc
+substitute defined PotentialWord for "[Guess]"
 define Lexicon
 
 define Grammar Lexicon           .o. 

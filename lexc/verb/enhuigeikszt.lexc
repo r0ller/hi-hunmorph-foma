@@ -1,6 +1,6 @@
 !!!enhuige.lexc!!!
 
-Multichar_Symbols  +Verb +Rep +Imper +Pot
+Multichar_Symbols  +Verb[gcat] +Rep +Imper +Pot
                    +Inf +Inf11 +Inf12 +Inf13 +Inf21 +Inf22 +Inf23 +Pref+ +Adv +Advan
                   +IndefSg1   +IndefSg2   +IndefSg3   +IndefSg12
                   +IndefPl1 +IndefPl2 +IndefPl3
@@ -9,7 +9,7 @@ Multichar_Symbols  +Verb +Rep +Imper +Pot
                   +ConjDefSg12 +PastDefSg12  +CondDefSg12
                   +ConjIndefSg1   +ConjIndefSg2   +ConjIndefSg3   
                   +ConjIndefPl1 +ConjIndefPl2 +ConjIndefPl3
-                  +ConjDefSg1   +ConjDefSg2   +ConjDefSg3  
+                  +ConjDefSg1   +ConjDefSg2[lfea]   +ConjDefSg3  
                   +ConjDefPl1 +ConjDefPl2 +ConjDefPl3
                   +PastIndefSg1   +PastIndefSg2   +PastIndefSg3   
                   +PastIndefPl1 +PastIndefPl2 +PastIndefPl3
@@ -362,8 +362,8 @@ telieszik:telié AddVerbtetrag21;
 
 
 LEXICON AddVerbalud
-+Verb:0     Repalud;
-+Verb:0     Potalud2;
+[stem]+Verb[gcat]:0     Repalud;
+[stem]+Verb[gcat]:0     Potalud2;
 
 LEXICON Repalud
 +Inf11:^+ccInf11^n§igeo§m #;
@@ -457,8 +457,8 @@ LEXICON Casealud
 +ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #; ! jatok
 +ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #; ! janak
 +ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #; ! jam
-+ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #; ! jad
-+ConjDefSg2:^+cConjDefSg2^§sj§d              #;  ! d
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§§igea§d         #; ! jad
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§d              #;  ! d
 +ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;  ! ja
 +ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;  ! juk
 +ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #; ! játok
@@ -504,8 +504,8 @@ LEXICON Case1alud
 +ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
 +ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
-+ConjDefSg2:^+cConjDefSg2^d              #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^d              #;
 +ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
 +ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
 +ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
@@ -541,7 +541,7 @@ LEXICON Case1alud
 +CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
 
 LEXICON AddVerbal
-+Verb:0     Imperal;
+[stem]+Verb[gcat]:0     Imperal;
 
 LEXICON Imperal
 +Imper:^+cImp^t§AA§t  Nrepal;
@@ -614,8 +614,8 @@ LEXICON Caseal
 +ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
 +ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§d              #;
 +ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
 +ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
 +ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
@@ -671,7 +671,7 @@ LEXICON Case1al
 +Adv:^+cAdv^v§AA§  #;
 
 LEXICON AddVerbgat
-+Verb:0     Repgat;
+[stem]+Verb[gcat]:0     Repgat;
 
 LEXICON Repgat
 +Inf11:^+ccInf11^n§igeo§m #;
@@ -780,8 +780,8 @@ LEXICON Casegat
 +ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
 +ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§d              #;
 +ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
 +ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
 +ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
@@ -832,8 +832,8 @@ LEXICON Case1gat
 +ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
 +ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
-+ConjDefSg2:^+cConjDefSg2^d              #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^d              #;
 +ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
 +ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
 +ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
@@ -869,7 +869,7 @@ LEXICON Case1gat
 +CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
 
 LEXICON AddVerbgatmely
-+Verb:0     Repgatmely;
+[stem]+Verb[gcat]:0     Repgatmely;
 
 LEXICON Repgatmely
 +Inf11:^+ccInf11^n§igeomely§m #;
@@ -979,8 +979,8 @@ LEXICON Casegatmely
 +ConjIndefPl2:^+cConjIndefPl2^§sj§§igeamely§t§igeomely§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§sj§§igeamely§n§igeamely§k      #;
 +ConjDefSg1:^+cConjDefSg1^§sj§§igeamely§m         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§§igeamely§d         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§§igeamely§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§d              #;
 +ConjDefSg3:^+cConjDefSg3^§sj§§igeamely§          #;
 +ConjDefPl1:^+cConjDefPl1^§sj§§igeumely§k         #;
 +ConjDefPl2:^+cConjDefPl2^§sj§§igeaamely§t§igeomely§k     #;
@@ -1031,8 +1031,8 @@ LEXICON Case1gatmely
 +ConjIndefPl2:^+cConjIndefPl2^§sj§§igeamely§t§igeomely§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§sj§§igeamely§n§igeamely§k      #;
 +ConjDefSg1:^+cConjDefSg1^§sj§§igeamely§m         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§§igeamely§d         #;
-+ConjDefSg2:^+cConjDefSg2^§ess§d              #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§§igeamely§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§ess§d              #;
 +ConjDefSg3:^+cConjDefSg3^§sj§§igeamely§          #;
 +ConjDefPl1:^+cConjDefPl1^§sj§§igeumely§k         #;
 +ConjDefPl2:^+cConjDefPl2^§sj§§igeaamely§t§igeomely§k     #;
@@ -1069,7 +1069,7 @@ LEXICON Case1gatmely
 
 
 LEXICON AddVerbrag
-+Verb:0     Caserag;
+[stem]+Verb[gcat]:0     Caserag;
 
 LEXICON Caserag
 +Inf11:^+ccInf11^§ae2§n§igeo§m #;
@@ -1118,7 +1118,7 @@ LEXICON Caserag
 +CondDefSg12:^+cCDefSgp12^§ae2§n§igeaa§l§igea§k                  #;    ! ná/né
 
 !LEXICON AddVerbragdz
-!+Verb:0     Caseragdz;
+![stem]+Verb[gcat]:0     Caseragdz;
 
 !LEXICON Caseragdz
 !+Inf11:^+ccInf11^§ae2§n§igeo§m #;
@@ -1205,7 +1205,7 @@ LEXICON Caserag
 
 
 LEXICON AddVerbragmely
-+Verb:0     Caseragmely;
+[stem]+Verb[gcat]:0     Caseragmely;
 
 LEXICON Caseragmely
 +Inf11:^+ccInf11^§ae2mely§n§igeomely§m #;
@@ -1255,7 +1255,7 @@ LEXICON Caseragmely
 
 
 LEXICON AddVerbrag1
-+Verb:0     Caserag1;
+[stem]+Verb[gcat]:0     Caserag1;
 
 LEXICON Caserag1
 +IndefSg1:^+cIndefSg1^§igeo§k    #;    ! ek/ok
@@ -1271,7 +1271,7 @@ LEXICON Caserag1
 
 
 LEXICON AddVerbrag2
-+Verb:0     Caserag2;
+[stem]+Verb[gcat]:0     Caserag2;
 
 LEXICON Caserag2
 +DefSg3:^+cDefSg3^i       #;    ! i/sa
@@ -1281,7 +1281,7 @@ LEXICON Caserag2
 +IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
 
 LEXICON AddVerbrag3
-+Verb:0     Caserag3;
+[stem]+Verb[gcat]:0     Caserag3;
 
 LEXICON Caserag3
 +ConjIndefSg1:^+cConjIndefSg1^§igea§k     #;
@@ -1292,7 +1292,7 @@ LEXICON Caserag3
 +ConjIndefPl2:^+cConjIndefPl2^§igea§t§igeo§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§igea§n§igea§k      #;
 +ConjDefSg1:^+cConjDefSg1^§igea§m         #;
-+ConjDefSg2:^+cConjDefSg2^§igea§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§igea§d         #;
 +ConjDefSg3:^+cConjDefSg3^§igea§          #;
 +ConjDefPl1:^+cConjDefPl1^§igeu§k         #;
 +ConjDefPl2:^+cConjDefPl2^§igeaa§t§igeo§k     #;
@@ -1301,7 +1301,7 @@ LEXICON Caserag3
 
 
 LEXICON AddVerbrag3mely
-+Verb:0     Caserag3mely;
+[stem]+Verb[gcat]:0     Caserag3mely;
 
 LEXICON Caserag3mely
 +ConjIndefSg1:^+cConjIndefSg1^§igeamely§k     #;
@@ -1312,7 +1312,7 @@ LEXICON Caserag3mely
 +ConjIndefPl2:^+cConjIndefPl2^§igeamely§t§igeomely§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§igeamely§n§igeamely§k      #;
 +ConjDefSg1:^+cConjDefSg1^§igeamely§m         #;
-+ConjDefSg2:^+cConjDefSg2^§igeamely§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§igeamely§d         #;
 +ConjDefSg3:^+cConjDefSg3^§igeamely§          #;
 +ConjDefPl1:^+cConjDefPl1^§igeumely§k         #;
 +ConjDefPl2:^+cConjDefPl2^§igeaamely§t§igeomely§k     #;
@@ -1321,14 +1321,14 @@ LEXICON Caserag3mely
 
 !éve, évén
 LEXICON AddVerbtetrag21
-+Verb:0     Casetetrag21;
+[stem]+Verb[gcat]:0     Casetetrag21;
 
 LEXICON Casetetrag21
 +Advan:^+ccAdvan^v§igeaa§n #;
 +Adv:^+cAdv^v§AA§  #;
 
 LEXICON AddVerbtetrag2
-+Verb:0     Impertetrag2;
+[stem]+Verb[gcat]:0     Impertetrag2;
 
 LEXICON Impertetrag2
 +Inf11:^+ccInf11^nn§igeo§m #;
@@ -1412,8 +1412,8 @@ LEXICON Casetetrag2
 +ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
 +ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§d              #;
 +ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
 +ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
 +ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
@@ -1449,7 +1449,7 @@ LEXICON Casetetrag2
 +CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
 
 LEXICON Case1tetrag2
-+ConjDefSg2:^+cConjDefSg2^dd              #;
++ConjDefSg2[lfea]:^+cConjDefSg2^dd              #;
 +PastIndefSg1:^+cPIndefSg1^tt§AA§m            #;    ! tem/tam
 +PastIndefSg2:^+cPIndefSg2^tt§igeaa§l         #;    ! tál/tél
 +PastIndefSg3:^+cPIndefSg3^v§oe2§tt     #;    ! t
@@ -1479,7 +1479,7 @@ LEXICON Case1tetrag2
 +CondDefSg12:^+cCDefSgp12^nn§igeaa§l§igea§k                  #;    ! ná/né
 
 LEXICON AddVerbget
-+Verb:0     Repget;
+[stem]+Verb[gcat]:0     Repget;
 
 LEXICON Repget
 +Rep:^+cRep^g§AA§t  Imperget;
@@ -1556,8 +1556,8 @@ LEXICON Caseget
 +ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
 +ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§d              #;
 +ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
 +ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
 +ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
@@ -1594,7 +1594,7 @@ LEXICON Caseget
 
 
 LEXICON AddVerbrag11mely
-+Verb:0     Caserag11mely;
+[stem]+Verb[gcat]:0     Caserag11mely;
 
 LEXICON Caserag11mely
 +IndefSg1:^+cIndefSg1^§igeomely§k    #;    ! ek/ok
@@ -1608,7 +1608,7 @@ LEXICON Caserag11mely
 +IndefSg12:^+cIndefSgp12^§l§§igeamely§k           #;    !
 
 LEXICON AddVerbrag1mely
-+Verb:0     Caserag1mely;
+[stem]+Verb[gcat]:0     Caserag1mely;
 
 LEXICON Caserag1mely
 +ConjIndefSg1:^+cConjIndefSg1^§igeamely§k     #;
@@ -1620,8 +1620,8 @@ LEXICON Caserag1mely
 +ConjIndefPl2:^+cConjIndefPl2^§igeamely§t§igeomely§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§igeamely§n§igeamely§k      #;
 +ConjDefSg1:^+cConjDefSg1^§igeamely§m         #;
-+ConjDefSg2:^+cConjDefSg2^§igeamely§d         #;
-+ConjDefSg2:^+cConjDefSg2^d              #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§igeamely§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^d              #;
 +ConjDefSg3:^+cConjDefSg3^§igeamely§          #;
 +ConjDefPl1:^+cConjDefPl1^§igeumely§k         #;
 +ConjDefPl2:^+cConjDefPl2^§igeaamely§t§igeomely§k     #;
@@ -1639,7 +1639,7 @@ LEXICON Caserag1mely
 +ConjDefSg12:^+cConjDefSgp12^§igeamely§l§igeamely§k      #;
 
 LEXICON AddVerbrag2mely
-+Verb:0     Caserag2mely;
+[stem]+Verb[gcat]:0     Caserag2mely;
 
 LEXICON Caserag2mely
 +DefSg3:^+cDefSg3^§j§a       #;    ! i/sa
@@ -1649,14 +1649,14 @@ LEXICON Caserag2mely
 
 !íva, íván
 LEXICON AddVerbtetrag21mely
-+Verb:0     Casetetrag21mely;
+[stem]+Verb[gcat]:0     Casetetrag21mely;
 
 LEXICON Casetetrag21mely
 +Advan:^+ccAdvan^v§igeaamely§n #;
 +Adv:^+cAdv^v§AAmely§  #;
 
 LEXICON AddVerbtetrag2mely
-+Verb:0     Impertetrag2mely;
+[stem]+Verb[gcat]:0     Impertetrag2mely;
 
 LEXICON Impertetrag2mely
 +Inf11:^+ccInf11^nn§igeomely§m #;
@@ -1740,8 +1740,8 @@ LEXICON Casetetrag2mely
 +ConjIndefPl2:^+cConjIndefPl2^§sj§§igeamely§t§igeomely§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§sj§§igeamely§n§igeamely§k      #;
 +ConjDefSg1:^+cConjDefSg1^§sj§§igeamely§m         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§§igeamely§d         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§§igeamely§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§d              #;
 +ConjDefSg3:^+cConjDefSg3^§sj§§igeamely§          #;
 +ConjDefPl1:^+cConjDefPl1^§sj§§igeumely§k         #;
 +ConjDefPl2:^+cConjDefPl2^§sj§§igeaamely§t§igeomely§k     #;
@@ -1777,7 +1777,7 @@ LEXICON Casetetrag2mely
 +CondDefSg12:^+cCDefSgp12^n§igeaamely§l§igeamely§k                  #;    ! ná/né
 
 LEXICON Case1tetrag2mely
-+ConjDefSg2:^+cConjDefSg2^dd              #;
++ConjDefSg2[lfea]:^+cConjDefSg2^dd              #;
 +PastIndefSg1:^+cPIndefSg1^tt§AAmely§m            #;    ! tem/tam
 +PastIndefSg2:^+cPIndefSg2^tt§igeaamely§l         #;    ! tál/tél
 +PastIndefSg3:^+cPIndefSg3^v§oe2mely§tt     #;    ! t
@@ -1808,7 +1808,7 @@ LEXICON Case1tetrag2mely
 +CondDefSg12:^+cCDefSgp12^nn§igeaamely§l§igeamely§k                  #;    ! ná/né
 
 LEXICON AddVerbgetmely
-+Verb:0     Repgetmely;
+[stem]+Verb[gcat]:0     Repgetmely;
 
 LEXICON Repgetmely
 +Rep:^+cRep^g§AAmely§t  Impergetmely;
@@ -1884,8 +1884,8 @@ LEXICON Casegetmely
 +ConjIndefPl2:^+cConjIndefPl2^§sj§§igeamely§t§igeomely§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§sj§§igeamely§n§igeamely§k      #;
 +ConjDefSg1:^+cConjDefSg1^§sj§§igeamely§m         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§§igeamely§d         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§§igeamely§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§d              #;
 +ConjDefSg3:^+cConjDefSg3^§sj§§igeamely§          #;
 +ConjDefPl1:^+cConjDefPl1^§sj§§igeumely§k         #;
 +ConjDefPl2:^+cConjDefPl2^§sj§§igeaamely§t§igeomely§k     #;
@@ -1921,7 +1921,7 @@ LEXICON Casegetmely
 +CondDefSg12:^+cCDefSgp12^n§igeaamely§l§igeamely§k                  #;    ! ná/né
 
 LEXICON AddVerbtetrag2mely2
-+Verb:0     Impertetrag2mely2;
+[stem]+Verb[gcat]:0     Impertetrag2mely2;
 
 LEXICON Impertetrag2mely2
 +Inf11:^+ccInf11^§ae2mely§n§igeomely§m #;
@@ -2005,8 +2005,8 @@ LEXICON Casetetrag2mely2
 +ConjIndefPl2:^+cConjIndefPl2^§sj§§igeamely§t§igeomely§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§sj§§igeamely§n§igeamely§k      #;
 +ConjDefSg1:^+cConjDefSg1^§sj§§igeamely§m         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§§igeamely§d         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§§igeamely§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§d              #;
 +ConjDefSg3:^+cConjDefSg3^§sj§§igeamely§          #;
 +ConjDefPl1:^+cConjDefPl1^§sj§§igeumely§k         #;
 +ConjDefPl2:^+cConjDefPl2^§sj§§igeaamely§t§igeomely§k     #;
@@ -2072,7 +2072,7 @@ LEXICON Case1tetrag2mely2
 
 
 LEXICON AddVerbgethet10
-+Verb:0     Repgethet10;
+[stem]+Verb[gcat]:0     Repgethet10;
 
 LEXICON Repgethet10
 +Inf11:^+ccInf11^n§igeoue§m #;
@@ -2173,8 +2173,8 @@ LEXICON Casegethet10
 +ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
 +ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§d              #;
 +ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
 +ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
 +ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
@@ -2223,8 +2223,8 @@ LEXICON Case1gethet10
 +ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
 +ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
-+ConjDefSg2:^+cConjDefSg2^d              #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^d              #;
 +ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
 +ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
 +ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
@@ -2260,7 +2260,7 @@ LEXICON Case1gethet10
 +CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
 
 LEXICON AddVerbgethet12
-+Verb:0     Repgethet12;
+[stem]+Verb[gcat]:0     Repgethet12;
 
 LEXICON Repgethet12
 +Inf11:^+ccInf11^n§igeo§m #;
@@ -2361,8 +2361,8 @@ LEXICON Casegethet12
 +ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
 +ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§d              #;
 +ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
 +ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
 +ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
@@ -2407,8 +2407,8 @@ LEXICON Case1gethet12
 +ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
 +ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
-+ConjDefSg2:^+cConjDefSg2^d              #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^d              #;
 +ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
 +ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
 +ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
@@ -2443,7 +2443,7 @@ LEXICON Case1gethet12
 +CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
 
 LEXICON AddVerbgethet14
-+Verb:0     Repgethet14;
+[stem]+Verb[gcat]:0     Repgethet14;
 
 LEXICON Repgethet14
 +Inf11:^+ccInf11^n§igeo§m #;
@@ -2544,8 +2544,8 @@ LEXICON Casegethet14
 +ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
 +ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§d              #;
 +ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
 +ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
 +ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
@@ -2590,8 +2590,8 @@ LEXICON Case1gethet14
 +ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
 +ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
-+ConjDefSg2:^+cConjDefSg2^d              #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^d              #;
 +ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
 +ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
 +ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
@@ -2626,7 +2626,7 @@ LEXICON Case1gethet14
 +CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
 
 LEXICON AddVerbgethet16
-+Verb:0     Repgethet16;
+[stem]+Verb[gcat]:0     Repgethet16;
 
 LEXICON Repgethet16
 +Inf11:^+ccInf11^n§igeo§m #;
@@ -2727,8 +2727,8 @@ LEXICON Casegethet16
 +ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
 +ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§d              #;
 +ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
 +ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
 +ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
@@ -2773,8 +2773,8 @@ LEXICON Case1gethet16
 +ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
 +ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§d              #;
 +ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
 +ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
 +ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
@@ -2809,7 +2809,7 @@ LEXICON Case1gethet16
 +CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
 
 LEXICON AddVerbgethet18
-+Verb:0     Repgethet18;
+[stem]+Verb[gcat]:0     Repgethet18;
 
 LEXICON Repgethet18
 +Inf11:^+ccInf11^§igea§n§igeo§m #;
@@ -2910,8 +2910,8 @@ LEXICON Casegethet18
 +ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
 +ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§d              #;
 +ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
 +ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
 +ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
@@ -2957,8 +2957,8 @@ LEXICON Case1gethet18
 +ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
 +ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§d              #;
 +ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
 +ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
 +ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
@@ -2994,7 +2994,7 @@ LEXICON Case1gethet18
 
 
 LEXICON AddVerbtet10
-+Verb:0     Impertet10;
+[stem]+Verb[gcat]:0     Impertet10;
 
 LEXICON Impertet10
 +Imper:^+cImp^t§AA§t  Nreptet10;
@@ -3068,8 +3068,8 @@ LEXICON Casetet10
 +ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
 +ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§d              #;
 +ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
 +ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
 +ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
@@ -3113,20 +3113,20 @@ LEXICON  Case1tet10
 
 
 LEXICON AddVerbtet14
-+Verb:0     Case1tet14;
+[stem]+Verb[gcat]:0     Case1tet14;
 
 LEXICON  Case1tet14
 +DefPl1:^+cDefPl1^ssz§igeu§k       #;    ! jük/suk
 +DefPl1:^+cDefPl1^§igea§ssz§igeu§k       #;    ! jük/suk
 
 LEXICON AddVerbtet16
-+Verb:0     Case1tet16;
+[stem]+Verb[gcat]:0     Case1tet16;
 
 LEXICON  Case1tet16
 +DefPl1:^+cDefPl1^ssz§igeu§k       #;    ! jük/suk
 
 LEXICON AddVerbtet12
-+Verb:0     Impertet12;
+[stem]+Verb[gcat]:0     Impertet12;
 
 LEXICON Impertet12
 +Imper:^+cImp^t§AA§t  Nreptet12;
@@ -3200,8 +3200,8 @@ LEXICON Casetet12
 +ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
 +ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§d               #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§d               #;
 +ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
 +ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
 +ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
@@ -3238,7 +3238,7 @@ LEXICON Casetet12
 
 
 LEXICON AddVerb10
-+Verb:0     Case10;
+[stem]+Verb[gcat]:0     Case10;
 
 LEXICON Case10
 +IndefSg1:^+cIndefSg1^§igeo§k    #;    ! ek/ok
@@ -3257,7 +3257,7 @@ LEXICON Case10
 
 
 LEXICON AddVerb10alap
-+Verb:0     Case10alap;
+[stem]+Verb[gcat]:0     Case10alap;
 
 LEXICON Case10alap
 +IndefSg1:^+cIndefSg1^§igeo§k    #;    ! ek/ok
@@ -3275,7 +3275,7 @@ LEXICON Case10alap
 +IndefSg12:^+cIndefSgp12^§igea§§l§§igea§k           #;    !
 
 LEXICON AddVerb10alapmely
-+Verb:0     Case10alapmely;
+[stem]+Verb[gcat]:0     Case10alapmely;
 
 LEXICON Case10alapmely
 +IndefSg1:^+cIndefSg1^§igeomely§k    #;    ! ek/ok
@@ -3293,7 +3293,7 @@ LEXICON Case10alapmely
 +IndefSg12:^+cIndefSgp12^§igeamely§§l§§igeamely§k           #;    !
 
 LEXICON AddVerb11alap
-+Verb:0     Case11alap;
+[stem]+Verb[gcat]:0     Case11alap;
 
 LEXICON Case11alap
 +DefSg1:^+cDefSg1^§igeo§m        #;    ! em/om
@@ -3306,7 +3306,7 @@ LEXICON Case11alap
 
 
 LEXICON AddVerb12
-+Verb:0     Case12;
+[stem]+Verb[gcat]:0     Case12;
 
 LEXICON Case12
 +IndefSg1:^+cIndefSg1^§igeoue§k    #;    ! ek/ok
@@ -3324,7 +3324,7 @@ LEXICON Case12
 +IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
 
 LEXICON AddVerb14
-+Verb:0     Case14;
+[stem]+Verb[gcat]:0     Case14;
 
 LEXICON Case14
 +IndefSg1:^+cIndefSg1^§igeoue§k    #;    ! ek/ok
@@ -3342,7 +3342,7 @@ LEXICON Case14
 +IndefSg12:^+cIndefSgp12^§igea§§l§§igea§k           #;    !
 
 LEXICON AddVerbeget
-+Verb:0     Repeget;
+[stem]+Verb[gcat]:0     Repeget;
 
 LEXICON Repeget
 +Inf11:^+ccInf11^n§igeo§m #;
@@ -3451,8 +3451,8 @@ LEXICON Caseeget
 +ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
 +ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§d              #;
 +ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
 +ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
 +ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
@@ -3509,8 +3509,8 @@ LEXICON Case1eget
 +ConjIndefPl2:^+cConjIndefPl2^§ess§§igea§t§igeo§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§ess§§igea§n§igea§k      #;
 +ConjDefSg1:^+cConjDefSg1^§ess§§igea§m         #;
-+ConjDefSg2:^+cConjDefSg2^§ess§§igea§d         #;
-+ConjDefSg2:^+cConjDefSg2^d              #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§ess§§igea§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^d              #;
 +ConjDefSg3:^+cConjDefSg3^§ess§§igea§          #;
 +ConjDefPl1:^+cConjDefPl1^§ess§§igeu§k         #;
 +ConjDefPl2:^+cConjDefPl2^§ess§§igeaa§t§igeo§k     #;
@@ -3546,13 +3546,13 @@ LEXICON Case1eget
 +CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
 
 LEXICON AddVerbeek
-+Verb:0 Caseeek;
+[stem]+Verb[gcat]:0 Caseeek;
 
 LEXICON Caseeek
 +ConjIndefSg3:^+cConjIndefSg3^§igeaa§k     #; !igyék, egyék, izzék
 
 LEXICON AddVerbnyughat
-+Verb:0     Potnyughat;
+[stem]+Verb[gcat]:0     Potnyughat;
 
 LEXICON Potnyughat
 +Pot:^+cPot^h§AAA§t  AddInfnyughat;
@@ -3592,8 +3592,8 @@ LEXICON Casenyughat
 +ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
 +ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
 +ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
-+ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2[lfea]:^+cConjDefSg2^§sj§d              #;
 +ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
 +ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
 +ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;

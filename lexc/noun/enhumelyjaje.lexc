@@ -1,6 +1,6 @@
 !!!enhuoa.lexc!!!
 
-Multichar_Symbols  +Noun +Pref+
+Multichar_Symbols  +Noun[gcat] +Pref+
 
 +Dis +Ess +Soc +Tem 
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
@@ -8,7 +8,7 @@ Multichar_Symbols  +Noun +Pref+
 
 +Plur +Fam +Gens +Genpl
       
-+Abl +Acc +Ade +All +Cau +Dat +Del
++Abl +Acc[lfea] +Ade +All +Cau +Dat +Del
 +Ela +Fac +For +Forp +Forpen +Ill +Ine +Ins +Nom
 +Sub +Sup +Ter
       
@@ -8853,9 +8853,9 @@ zúzmarapáncél AddNoun;
 űrtaxi AddNoun;
 
 LEXICON AddNoun
-+Noun:0     Poss;
-+Noun:0     Plur;
-+Noun:0     Fam;
+[stem]+Noun[gcat]:0     Poss;
+[stem]+Noun[gcat]:0     Plur;
+[stem]+Noun[gcat]:0     Fam;
 
 LEXICON Poss
 +Dis:^+cDis^§ooez18§nként     #;    ! anként, enként
@@ -8890,7 +8890,7 @@ LEXICON Gen
  
 LEXICON Case
 +Abl:^+cAbl^§t§§oooe2§l     #;  ! tól, től
-+Acc:^+cAcc^§oeoez22§t    #;  ! ot, et, öt, t
++Acc[lfea]:^+cAcc^§oeoez22§t    #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA2§l      #;  ! nál, nél
 +All:^+cAll^§h§§oeoe2§z     #;  ! hoz, hez, höz
 +Cau:^+cCau^ért           #;  ! ért
@@ -8912,9 +8912,9 @@ LEXICON Case
 +Tem:^+cTem^§k§or #; ! kor
 
 LEXICON AddNoun1
-+Noun:0     Poss1;
-+Noun:0     Fam1;
-+Noun:0     Plur1;
+[stem]+Noun[gcat]:0     Poss1;
+[stem]+Noun[gcat]:0     Fam1;
+[stem]+Noun[gcat]:0     Plur1;
 
 LEXICON Poss1
 +Dis:^+cDis^§ooez18§nként     #;    ! anként, enként
@@ -8949,7 +8949,7 @@ LEXICON Gen1
  
 LEXICON Case1
 +Abl:^+cAbl^§t§§oooe2§l     #;  ! tól, től
-+Acc:^+cAcc^§oeoez22§t    #;  ! ot, et, öt, t
++Acc[lfea]:^+cAcc^§oeoez22§t    #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA2§l      #;  ! nál, nél
 +All:^+cAll^§h§§oeoe2§z     #;  ! hoz, hez, höz
 +Cau:^+cCau^ért           #;  ! ért
@@ -8972,9 +8972,9 @@ LEXICON Case1
 
 ! uses plur, fam, case of AddNoun
 LEXICON AddNounannyi
-+Noun:0     Possannyi;
-+Noun:0     Plur;
-+Noun:0     Fam;
+[stem]+Noun[gcat]:0     Possannyi;
+[stem]+Noun[gcat]:0     Plur;
+[stem]+Noun[gcat]:0     Fam;
 
 LEXICON Possannyi
 +Dis:^+cDis^§ooez18§nként     #;    ! anként, enként
@@ -9006,18 +9006,18 @@ LEXICON Possannyi
                            Fam;
 
 LEXICON AddNounak
-+Noun:0     Poss;
-+Noun:0     Plurak;
-+Noun:0     Fam;
+[stem]+Noun[gcat]:0     Poss;
+[stem]+Noun[gcat]:0     Plurak;
+[stem]+Noun[gcat]:0     Fam;
 
 LEXICON Plurak
 +Plur:^+cPlur^§oeoez17§k    Gen;
 +Plur:^+cPlur^ak    Gen;
                             Gen;
 LEXICON AddNounek
-+Noun:0     Poss;
-+Noun:0     Plurek;
-+Noun:0     Fam;
+[stem]+Noun[gcat]:0     Poss;
+[stem]+Noun[gcat]:0     Plurek;
+[stem]+Noun[gcat]:0     Fam;
 
 LEXICON Plurek
 +Plur:^+cPlur^§oeoez17§k    Gen;

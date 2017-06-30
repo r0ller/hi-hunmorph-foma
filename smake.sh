@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/pkg/bin/bash
 # usage:
 # bash smake.sh n
 # bash smake.sh k

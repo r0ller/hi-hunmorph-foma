@@ -4,6 +4,7 @@
 define Vowel [ a | á | ä | e | é | ë | i | í | o |ó | u | ú | ü | ű | ö | ő | A | Á | E | É | I | Í | O |Ó | U | Ú | Ü | Ű | Ö | Ő ];
 define ConsNogln [ b | c | d | f | h | j | k | m | p | q | r | s | v | w | x | y | z | B | C | D | E | F | H | J | K | L | M | P | Q | R | S | V | W | X | Y | Z ];
 define Cons [ b | c | č | ć | d | f | g | h | j | k | l | m | n | p | q | r | s | t | v | w | x | y | z | B | C | Č | Ć | D | E | F | G | H | J | K | L | M | N | P | Q | R | S | T | V | W | X | Y | Z ];
+define PotentialWord [Cons|Vowel]+;
 define yNoCons [ ConsNogln y | Vowel y | s z t y | ConsNogln Y | Vowel Y | S Z T Y ];
 define yNoConstny [ Cons y | Vowel y | Cons Y | Vowel Y ];
 define Vowelwithy [ Vowel | yNoCons ];
@@ -1036,6 +1037,7 @@ define ItoY   G h i c z i -> G h y c z y ,,
 
 echo ">>> read in enhu2 <<<"                    
 read lexc lexc/noun/enhu2.lexc
+substitute defined PotentialWord for "[Guess]"
 define Lexicon
 
 define Grammar Lexicon           .o. 
@@ -2723,104 +2725,6 @@ define Grammarcske Lexiconcske           .o.
                Cleanup           .o.
                ToUpCase;
 
-echo ">>> read in enhutalan <<<"                    
-read lexc lexc/noun/enhutalan.lexc
-define Lexicontalan
-
-define Grammartalan Lexicontalan           .o. 
-               Etoee             .o. 
-               Atoaa             .o. 
-               Changez2          .o.
-               HarmRulejaje      .o. 
-               CleanupEndings    .o.
-               Suffixb           .o. 
-               Suffixh           .o. 
-               Suffixk           .o. 
-               Suffixn           .o. 
-               Suffixr           .o. 
-               Suffixt           .o. 
-               HarmRulePlur      .o. 
-               HarmRuleJ         .o. 
-               HarmRuleul        .o. 
-               HarmRuleuk        .o. 
-               HarmRuleenkent    .o. 
-               HarmRuleestul     .o. 
-               HarmRuleunk       .o. 
-               HarmRuleotok1     .o. 
-               HarmRuleotok2     .o. 
-               HarmRuleJP        .o. 
-               HarmRuleai        .o. 
-               HarmRuleaitok2    .o. 
-               HarmRuleAcc       .o. 
-               HarmRuleAcc1      .o. 
-               HarmRuletol       .o. 
-               HarmRuleAAA       .o. 
-               HarmRulehoz       .o. 
-               HarmRuleVV        .o. 
-               HarmRuleAA        .o. 
-               HarmRuleonen      .o. 
-               HarmRulePlurmely18  .o. 
-               HarmRuleulmely      .o. 
-               HarmRuleestulmely   .o. 
-               HarmRuletolmely     .o. 
-               HarmRuleAccmely     .o. 
-               HarmRuleAAAmely     .o. 
-               HarmRuleAAmely      .o. 
-               HarmRulehozmely     .o. 
-               HarmRuleonenmely    .o. 
-               HarmRuleenkentmely  .o.
-               Cleanup           .o.
-               ToUpCase;
-
-echo ">>> read in enhusag <<<"                    
-read lexc lexc/noun/enhusag.lexc
-define Lexiconsag
-
-define Grammarsag Lexiconsag           .o. 
-               Etoee             .o. 
-               Atoaa             .o. 
-               Changez2          .o.
-               HarmRulejaje      .o. 
-               CleanupEndings    .o.
-               Suffixb           .o. 
-               Suffixh           .o. 
-               Suffixk           .o. 
-               Suffixn           .o. 
-               Suffixr           .o. 
-               Suffixt           .o. 
-               HarmRulePlur      .o. 
-               HarmRuleJ         .o. 
-               HarmRuleul        .o. 
-               HarmRuleuk        .o. 
-               HarmRuleenkent    .o. 
-               HarmRuleestul     .o. 
-               HarmRuleunk       .o. 
-               HarmRuleotok1     .o. 
-               HarmRuleotok2     .o. 
-               HarmRuleJP        .o. 
-               HarmRuleai        .o. 
-               HarmRuleaitok2    .o. 
-               HarmRuleAcc       .o. 
-               HarmRuleAcc1      .o. 
-               HarmRuletol       .o. 
-               HarmRuleAAA       .o. 
-               HarmRulehoz       .o. 
-               HarmRuleVV        .o. 
-               HarmRuleAA        .o. 
-               HarmRuleonen      .o. 
-               HarmRulePlurmely18  .o. 
-               HarmRuleulmely      .o. 
-               HarmRuleestulmely   .o. 
-               HarmRuletolmely     .o. 
-               HarmRuleAccmely     .o. 
-               HarmRuleAAAmely     .o. 
-               HarmRuleAAmely      .o. 
-               HarmRulehozmely     .o. 
-               HarmRuleonenmely    .o. 
-               HarmRuleenkentmely  .o.
-               Cleanup           .o.
-               ToUpCase;
-
 
 echo ">>> read in enhuyy <<<"                    
 read lexc lexc/noun/enhuyy.lexc
@@ -2872,60 +2776,5 @@ define Grammaryy Lexiconyy           .o.
                Cleanup           .o.
                ToUpCase;
 
-read lexc lexc/noun/enhuossz3.lexc
-define Lexiconossz3
 
-define Grammarossz Lexiconossz3         .o. 
-               Etoee             .o. 
-               Atoaa             .o. 
-               Changez2          .o.
-               HarmRulejaje      .o. 
-               CleanupEndings    .o.
-               Suffixb           .o. 
-               Suffixh           .o. 
-               Suffixk           .o. 
-               Suffixn           .o. 
-               Suffixr           .o. 
-               Suffixt           .o. 
-               HarmRulePlur      .o. 
-               HarmRulePluroe    .o.
-               HarmRuleJ         .o. 
-               HarmRuleJJ1         .o. 
-               HarmRuleJnull1         .o. 
-               HarmRuleul        .o. 
-               HarmRuleuk        .o. 
-               HarmRuleenkent    .o. 
-               HarmRuleestul     .o. 
-               HarmRuleunk       .o. 
-               HarmRuleotok1     .o. 
-               HarmRuleotok2     .o. 
-               HarmRuleJP        .o. 
-               HarmRuleJPJ1        .o. 
-               HarmRuleJPnull1        .o. 
-               HarmRuleai        .o. 
-               HarmRuleaitok2    .o. 
-               HarmRuleAcc       .o. 
-               HarmRuleAcc1      .o. 
-               HarmRuletol       .o. 
-               HarmRuleAAA       .o. 
-               HarmRulehoz       .o. 
-               HarmRuleVV        .o. 
-               HarmRuleVVH       .o.
-               HarmRuleVVdzs     .o.
-               HarmRuleAA        .o. 
-               HarmRuleonen      .o. 
-               HarmRulePlurmely18  .o. 
-               HarmRuleulmely      .o. 
-               HarmRuleestulmely   .o. 
-               HarmRuletolmely     .o. 
-               HarmRuleAccmely     .o. 
-               HarmRuleAAAmely     .o. 
-               HarmRuleAAmely      .o. 
-               HarmRulehozmely     .o. 
-               HarmRuleonenmely    .o. 
-               HarmRuleenkentmely  .o.
-               Cleanup           .o.
-               ToUpCase;
-
-
-regex Grammar | Grammarjaje | Grammarszulo | Grammarle | Grammarero  | Grammaroe  | Grammaroeae  | Grammaroa | Grammaroaae | Grammaroajaje | Grammaroamely | Grammarmely | Grammarmelyjaje | Grammarmelyae |  Grammarmelymasik | Grammarmelytny | Grammarin | Grammarderek | Grammaroaee | Grammaroaee2 | Grammaroaeejaje | Grammarho | Grammarbokor | Grammarsator | Grammarmagas | Grammarfi | Grammarocs | Grammartuz | Grammaryi | Grammarfnevek | Grammarfnige | Grammarfnnum | Grammarfnspec | Grammarfxpp  | Grammarezaz | Grammarezaz2 | Grammaring | Grammarcske  | Grammartalan | Grammarsag | Grammaryy | Grammarossz ;
+regex Grammar | Grammarjaje | Grammarszulo | Grammarle | Grammarero  | Grammaroe  | Grammaroeae  | Grammaroa | Grammaroaae | Grammaroajaje | Grammaroamely | Grammarmely | Grammarmelyjaje | Grammarmelyae |  Grammarmelymasik | Grammarmelytny | Grammarin | Grammarderek | Grammaroaee | Grammaroaee2 | Grammaroaeejaje | Grammarho | Grammarbokor | Grammarsator | Grammarmagas | Grammarfi | Grammarocs | Grammartuz | Grammaryi | Grammarfnevek | Grammarfnige | Grammarfnnum | Grammarfnspec | Grammarfxpp  | Grammarezaz | Grammarezaz2 | Grammaring | Grammarcske  | Grammaryy ;

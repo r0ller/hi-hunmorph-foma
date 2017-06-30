@@ -1,6 +1,6 @@
 !!!enhuazez.lexc!!!
 
-Multichar_Symbols +Noun
+Multichar_Symbols +Noun[gcat]
 
 +Dis +Ess +Soc +Tem 
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
@@ -8,7 +8,7 @@ Multichar_Symbols +Noun
 
 +Plur +Fam +Gens +Genpl
       
-+Abl +Acc +Ade +All +Cau +Dat +Del
++Abl +Acc[lfea] +Ade +All +Cau +Dat +Del
 +Ela +Fac +For +Forp +Forpen +Ill +Ine +Ins +Nom
 +Sub +Sup +Ter
       
@@ -38,9 +38,9 @@ ugyanazon AddDet;
 ugyanezen AddDet;
 
 LEXICON AddDet
-+Noun:0     Poss;
-+Noun:0     Plur;
-+Noun:0     Fam;
+[stem]+Noun[gcat]:0     Poss;
+[stem]+Noun[gcat]:0     Plur;
+[stem]+Noun[gcat]:0     Fam;
 
 LEXICON Poss
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
@@ -80,7 +80,7 @@ LEXICON Gen1
 
 LEXICON Case
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -103,7 +103,7 @@ LEXICON Case
 
 LEXICON Case1
 !+Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
 !+Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 !+All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért

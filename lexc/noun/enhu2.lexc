@@ -1,6 +1,6 @@
 !!!enhu2.lexc!!!
 
-Multichar_Symbols +Noun +Pref+
+Multichar_Symbols +Noun[gcat] +Pref+ [Guess] [stem] +CON[gcat]
 
 +Dis +Ess +Soc +Tem 
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
@@ -8,7 +8,7 @@ Multichar_Symbols +Noun +Pref+
 
 +Plur +Fam +Gens +Genpl
  
-+Abl +Acc +Ade +All +Cau +Dat +Del
++Abl +Acc[lfea] +Ade +All +Cau +Dat +Del
 +Ela +Fac +For +Ill +Ine +Ins +Nom
 +Sub +Sup +Ter +Forp +Forpen
  
@@ -87,6 +87,7 @@ fejezt AddNounjnull; !befejezte
 ! vész
 ! ír
 LEXICON Noun
+[Guess] Constant;
 Clair AddNounjnull;
 ablakdarab AddNounjnull;
 ablakdaru AddNoun;
@@ -5841,10 +5842,16 @@ zúzmaranéni AddNoun;
 
 !< [ [[b | c | d | f | g | h | j | k | l | m | n | p | q | r | s | t | v | w | x | y | z]^{0,4} [a | á | e | é | i | í | o | ó | u | ú | ü | ű | ö | ő]^{1,3} ] | [ [b | c | d | f | g | h | j | k | l | m | n | p | q | r | s | t | v | w | x | y | z]^{0,4} [a | á | e | é | i | í | o | ó | u | ú | ü | ű | ö | ő]^{1,3} [b | c | d | f | g | h | j | k | l | m | n | p | q | r | s | t | v | w | x | y | z]^{1,4} [a | á | e | é | i | í | o | ó | u | ú | ü | ű | ö | ő]^{0,3} ]* ] > AddNoun;
 
+LEXICON Constant
+[stem]+CON[gcat]:0	Object;
+
+LEXICON Object
++Acc[lfea]:^+cAcc^t #; ! ot, et, öt, t
+
 LEXICON AddNoun
-+Noun:0 Poss;
-+Noun:0 Plur;
-+Noun:0 Fam;
+[stem]+Noun[gcat]:0 Poss;
+[stem]+Noun[gcat]:0 Plur;
+[stem]+Noun[gcat]:0 Fam;
 
 LEXICON Poss
 +Dis:^+cDis^§ooez3§nként #; ! anként, enként
@@ -5879,7 +5886,7 @@ LEXICON Gen
  
 LEXICON Case
 +Abl:^+cAbl^§t§§oooe§l #; ! tól, től
-+Acc:^+cAcc^§oeoez2§t #; ! ot, et, öt, t
++Acc[lfea]:^+cAcc^§oeoez2§t #; ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l #; ! nál, nél
 +All:^+cAll^§h§§oeoe§z #; ! hoz, hez, höz
 +Cau:^+cCau^ért #; ! ért
@@ -5902,15 +5909,15 @@ LEXICON Case
 
 
 LEXICON AddNountej1
-+Noun:0 Posstej1;
-+Noun:0 Plur;
-+Noun:0 Fam;
+[stem]+Noun[gcat]:0 Posstej1;
+[stem]+Noun[gcat]:0 Plur;
+[stem]+Noun[gcat]:0 Fam;
 
 LEXICON Posstej1
 +Dis:^+cDis^§ooez3§nként #; ! anként, enként
 +Soc:^+cSoc^§EOA§st§uue§l #; ! astul, estül
 +Tem:^+cTem^§k§or #; ! kor
-+Acc:^+cAcc^t #; ! ot, et, öt, t
++Acc[lfea]:^+cAcc^t #; ! ot, et, öt, t
 +Posss1s:^+cPosss1s^§OEOE1§m Fam; ! m
 +Posss2s:^+cPosss2s^§OEOE1§d Fam; ! d
 +Posss3s:^+cPosss3s^§J§§AE1§ Fam; ! ja, je, a,e
@@ -5935,15 +5942,15 @@ LEXICON Posstej1
 
 
 LEXICON AddNountej
-+Noun:0 Posstej;
-+Noun:0 Plur;
-+Noun:0 Fam;
+[stem]+Noun[gcat]:0 Posstej;
+[stem]+Noun[gcat]:0 Plur;
+[stem]+Noun[gcat]:0 Fam;
 
 LEXICON Posstej
 +Dis:^+cDis^§ooez3§nként #; ! anként, enként
 +Soc:^+cSoc^§EOA§st§uue§l #; ! astul, estül
 +Tem:^+cTem^§k§or #; ! kor
-+Acc:^+cAcc^t #; ! ot, et, öt, t
++Acc[lfea]:^+cAcc^t #; ! ot, et, öt, t
 +Posss1s:^+cPosss1s^§OEOE1§m Fam; ! m
 +Posss2s:^+cPosss2s^§OEOE1§d Fam; ! d
 +Posss3s:^+cPosss3s^§J§§AE1§ Fam; ! ja, je, a,e
@@ -5960,15 +5967,15 @@ LEXICON Posstej
 
 
 LEXICON AddNouneej
-+Noun:0 Posseej;
-+Noun:0 Plur;
-+Noun:0 Fam;
+[stem]+Noun[gcat]:0 Posseej;
+[stem]+Noun[gcat]:0 Plur;
+[stem]+Noun[gcat]:0 Fam;
 
 LEXICON Posseej
 +Dis:^+cDis^§ooez3§nként #; ! anként, enként
 +Soc:^+cSoc^§EOA§st§uue§l #; ! astul, estül
 +Tem:^+cTem^§k§or #; ! kor
-+Acc:^+cAcc^§AA§t #; ! ot, et, öt, t
++Acc[lfea]:^+cAcc^§AA§t #; ! ot, et, öt, t
 +Posss1s:^+cPosss1s^§OEOE1§m Fam; ! m
 +Posss2s:^+cPosss2s^§OEOE1§d Fam; ! d
 +Posss3s:^+cPosss3s^§J§§AE1§ Fam; ! ja, je, a,e
@@ -5985,15 +5992,15 @@ LEXICON Posseej
 
 
 LEXICON AddNounrozs
-+Noun:0 Possrozs;
-+Noun:0 Plur;
-+Noun:0 Fam;
+[stem]+Noun[gcat]:0 Possrozs;
+[stem]+Noun[gcat]:0 Plur;
+[stem]+Noun[gcat]:0 Fam;
 
 LEXICON Possrozs
 +Dis:^+cDis^§ooez3§nként #; ! anként, enként
 +Soc:^+cSoc^§EOA§st§uue§l #; ! astul, estül
 +Tem:^+cTem^§k§or #; ! kor
-+Acc:^+cAcc^ot #; ! ot, et, öt, t
++Acc[lfea]:^+cAcc^ot #; ! ot, et, öt, t
 +Posss1s:^+cPosss1s^§OEOE1§m Fam; ! m
 +Posss2s:^+cPosss2s^§OEOE1§d Fam; ! d
 +Posss3s:^+cPosss3s^§J§§AE1§ Fam; ! ja, je, a,e
@@ -6010,9 +6017,9 @@ LEXICON Possrozs
 
 
 LEXICON AddNounjnull
-+Noun:0 Possjnull;
-+Noun:0 Plur;
-+Noun:0 Fam;
+[stem]+Noun[gcat]:0 Possjnull;
+[stem]+Noun[gcat]:0 Plur;
+[stem]+Noun[gcat]:0 Fam;
 
 LEXICON Possjnull
 +Dis:^+cDis^§ooez3§nként #; ! anként, enként

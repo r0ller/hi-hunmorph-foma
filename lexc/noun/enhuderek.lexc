@@ -1,6 +1,6 @@
 !!!enhuoamely-> enhuderek.lexc!!!
 
-Multichar_Symbols  +Noun
+Multichar_Symbols  +Noun[gcat]
 
 +Dis +Ess +Soc +Tem 
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
@@ -8,7 +8,7 @@ Multichar_Symbols  +Noun
 
 +Plur +Fam +Gens +Genpl
       
-+Abl +Acc +Ade +All +Cau +Dat +Del
++Abl +Acc[lfea] +Ade +All +Cau +Dat +Del
 +Ela +Fac +For +Forp +Forpen +Ill +Ine +Ins +Nom
 +Sub +Sup +Ter
       
@@ -153,19 +153,19 @@ vállderék:vállderek AddNoun2;
 
 
 LEXICON AddNoun
-+Noun:0     Poss;
-+Noun:0     Plur;
-+Noun:0     Fam1;
-!+Noun:0     Gen1;
+[stem]+Noun[gcat]:0     Poss;
+[stem]+Noun[gcat]:0     Plur;
+[stem]+Noun[gcat]:0     Fam1;
+![stem]+Noun[gcat]:0     Gen1;
 
 LEXICON AddNoun2
-+Noun:0     Case2;
+[stem]+Noun[gcat]:0     Case2;
 
 LEXICON Poss
 +Dis:^+cDis^§ooez23§nként     #;    ! anként, enként
 +Soc:^+cSoc^§EOA22§st§uue2§l  #;    ! astul, estül
 +Tem:^+cTem^kor               #;    ! kor
-!+Acc:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
+!+Acc[lfea]:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
 +Posss1s:^+cPosss1s^§OEOE21§m   Fam;   ! m
 +Posss2s:^+cPosss2s^§OEOE21§d   Fam;   ! d
 +Posss3s:^+cPosss3s^§J§§AE21§   Fam;   ! ja, je, a,e
@@ -203,7 +203,7 @@ LEXICON Gen1
  
 LEXICON Case
 +Abl:^+cAbl^t§oooe2§l     #;  ! tól, től
-+Acc:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
++Acc[lfea]:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
 +Ade:^+cAde^n§AAA2§l      #;  ! nál, nél
 +All:^+cAll^h§oeoe2§z     #;  ! hoz, hez, höz
 +Cau:^+cCau^ért           #;  ! ért
@@ -226,7 +226,7 @@ LEXICON Case
 
 LEXICON Case1
 +Abl:^+cAbl^t§oooe2§l     #;  ! tól, től
-!+Acc:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
+!+Acc[lfea]:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
 +Ade:^+cAde^n§AAA2§l      #;  ! nál, nél
 +All:^+cAll^h§oeoe2§z     #;  ! hoz, hez, höz
 +Cau:^+cCau^ért           #;  ! ért
@@ -248,5 +248,5 @@ LEXICON Case1
 +Tem:^+cTem^§k§or #; ! kor
 
 LEXICON Case2
-+Acc:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
++Acc[lfea]:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
 

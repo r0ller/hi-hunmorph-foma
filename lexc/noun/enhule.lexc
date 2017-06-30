@@ -1,6 +1,6 @@
 !!!enhu2.lexc!!!
 
-Multichar_Symbols  +Noun
+Multichar_Symbols  +Noun[gcat]
 
 +Dis +Ess +Soc +Tem 
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
@@ -8,7 +8,7 @@ Multichar_Symbols  +Noun
 
 +Plur +Fam +Gens +Genpl
 
-+Abl +Acc +Ade +All +Cau +Dat +Del
++Abl +Acc[lfea] +Ade +All +Cau +Dat +Del
 +Ela +Fac +For +Forp +Forpen +Ill +Ine +Ins +Nom
 +Sub +Sup +Ter
 
@@ -700,9 +700,9 @@ zöldbablé:zöldbablev AddNoun1;
 
 
 LEXICON AddNoun
-+Noun:0     Poss;
-+Noun:0     Plur;
-+Noun:0     Fam;
+[stem]+Noun[gcat]:0     Poss;
+[stem]+Noun[gcat]:0     Plur;
+[stem]+Noun[gcat]:0     Fam;
 
 
 LEXICON Poss
@@ -738,7 +738,7 @@ LEXICON Gen
  
 LEXICON Case
 +Abl:^+cAbl^t§oooe§l      #;  ! tól, től
-+Acc:^+cAcc^§oeoez12§t    #;  ! ot, et, öt, t
++Acc[lfea]:^+cAcc^§oeoez12§t    #;  ! ot, et, öt, t
 +Ade:^+cAde^n§AAA§l       #;  ! nál, nél
 +All:^+cAll^h§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért           #;  ! ért
@@ -760,9 +760,9 @@ LEXICON Case
 +Tem:^+cTem^§k§or #; ! kor
 
 LEXICON AddNoun1
-+Noun:0     Poss1;
-+Noun:0     Plur1;
-+Noun:0     Case1;
+[stem]+Noun[gcat]:0     Poss1;
+[stem]+Noun[gcat]:0     Plur1;
+[stem]+Noun[gcat]:0     Case1;
 
 LEXICON Poss1
 +Dis:^+cDis^§ooez13§nként    #;    ! anként, enként
@@ -785,12 +785,12 @@ LEXICON Plur1
 +Plur:^+cPlur^§oeoez11§k    Gen;
                        
 LEXICON Case1
-+Acc:^+cAcc^§oeoez12§t    #;  ! ot, et, öt, t
++Acc[lfea]:^+cAcc^§oeoez12§t    #;  ! ot, et, öt, t
 +Sup:^+cSup^§oeoez§n      #;  ! on, en, ön, n
 
 
 LEXICON AddNounlo
-+Noun:0     Famlo;
+[stem]+Noun[gcat]:0     Famlo;
 
 LEXICON Famlo
 +Tem:^+cTem^kor              #;    ! kor
@@ -804,7 +804,7 @@ LEXICON Genlo
  
 LEXICON Caselo
 +Abl:^+cAbl^t§oooe§l      #;  ! tól, től
-+Acc:^+cAcc^§oeoez12§t    #;  ! ot, et, öt, t
++Acc[lfea]:^+cAcc^§oeoez12§t    #;  ! ot, et, öt, t
 +Ade:^+cAde^n§AAA§l       #;  ! nál, nél
 +All:^+cAll^h§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért           #;  ! ért

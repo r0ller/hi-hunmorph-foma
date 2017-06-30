@@ -2,7 +2,7 @@
 !!This one builds ADDITIONALLY jaje for poss plural jaim, jaid, etc...
 !!! All words here are in enhuoaee.lexc
 
-Multichar_Symbols  +Noun
+Multichar_Symbols  +Noun[gcat]
 
 +Ess 
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
@@ -10,7 +10,7 @@ Multichar_Symbols  +Noun
 
  +Fam +Gens +Genpl
 !+Plur      
-+Abl +Acc +Ade +All +Cau +Dat +Del
++Abl +Acc[lfea] +Ade +All +Cau +Dat +Del
 +Ela +Fac +For +Forp +Forpen +Ill +Ine +Ins +Nom
 +Sub +Sup +Ter +Tem
 ! +Soc  +Tem +Dis
@@ -7632,9 +7632,9 @@ zúzónyél AddNount;
 
 
 LEXICON AddNoun
-+Noun:0     Poss;
-!+Noun:0     Plur;
-!+Noun:0     Fam;
+[stem]+Noun[gcat]:0     Poss;
+![stem]+Noun[gcat]:0     Plur;
+![stem]+Noun[gcat]:0     Fam;
 
 
 LEXICON Poss
@@ -7666,7 +7666,7 @@ LEXICON Gen
  
 LEXICON Case
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc:^+cAcc^§oeoez12§t    #;  ! ot, et, öt, t
++Acc[lfea]:^+cAcc^§oeoez12§t    #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért           #;  ! ért
@@ -7688,9 +7688,9 @@ LEXICON Case
 +Tem:^+cTem^§k§or #; ! kor
 
 LEXICON AddNounszemet
-+Noun:0     Possszemet;
-!+Noun:0     Plurszemet;
-!+Noun:0     Famszemet;
+[stem]+Noun[gcat]:0     Possszemet;
+![stem]+Noun[gcat]:0     Plurszemet;
+![stem]+Noun[gcat]:0     Famszemet;
 
 LEXICON Possszemet
 !+Dis:^+cDis^§ooez13§nként    #;    ! anként, enként
@@ -7721,7 +7721,7 @@ LEXICON Genszemet
  
 LEXICON Caseszemet
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc:^+cAcc^§oeoez12§t    #;  ! ot, et, öt, t
++Acc[lfea]:^+cAcc^§oeoez12§t    #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért           #;  ! ért
@@ -7743,10 +7743,10 @@ LEXICON Caseszemet
 +Tem:^+cTem^§k§or #; ! kor
 
 LEXICON AddNount
-+Noun:0     Posst;
+[stem]+Noun[gcat]:0     Posst;
 
 LEXICON Posst
-+Acc:^+cAcc^t    #;  ! ot, et, öt, t
++Acc[lfea]:^+cAcc^t    #;  ! ot, et, öt, t
 +Posss3s:^+cPosss3s^§J§§AE1§   Fam;   ! ja, je, a,e
 +Possp3s:^+cPossp3s^§J§§UUE1§k   Fam;   ! ük, uk
 +Posss1p:^+cPosss1p^§JP§§AE§im   Fam;   ! aim

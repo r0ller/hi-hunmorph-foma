@@ -1,6 +1,6 @@
 !!!enhuvbpfx.lexc!!!
 
-Multichar_Symbols  +Vbpfx
+Multichar_Symbols  +Vbpfx[gcat]
 
       
 LEXICON Root
@@ -71,5 +71,5 @@ végig AddVbpfx;
 vissza AddVbpfx;
 
 LEXICON AddVbpfx
-+Vbpfx:0     #;
+[stem]+Vbpfx[gcat]:0     #;
 

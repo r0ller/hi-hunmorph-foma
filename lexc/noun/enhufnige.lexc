@@ -1,6 +1,6 @@
 !!!enhu2.lexc!!!
 
-Multichar_Symbols  +Noun +Pref+
+Multichar_Symbols  +Noun[gcat] +Pref+
 
 +Dis +Ess +Soc +Tem 
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
@@ -8,7 +8,7 @@ Multichar_Symbols  +Noun +Pref+
 
 +Plur +Fam +Gens +Genpl
       
-+Abl +Acc +Ade +All +Cau +Dat +Del
++Abl +Acc[lfea] +Ade +All +Cau +Dat +Del
 +Ela +Fac +For +Forp +Forpen +Ill +Ine +Ins +Nom
 +Sub  +Sup +Ter
 !+Sue
@@ -16152,9 +16152,9 @@ zűrzavarosítás AddNoun;
 !< [ [[b | c | d | f | g | h | j | k | l | m | n | p | q | r | s | t | v | w | x | y | z]^{0,4} [a | á | e | é | i | í | o | ó | u | ú | ü | ű | ö | ő]^{1,3} ] | [ [b | c | d | f | g | h | j | k | l | m | n | p | q | r | s | t | v | w | x | y | z]^{0,4} [a | á | e | é | i | í | o | ó | u | ú | ü | ű | ö | ő]^{1,3}  [b | c | d | f | g | h | j | k | l | m | n | p | q | r | s | t | v | w | x | y | z]^{1,4} [a | á | e | é | i | í | o | ó | u | ú | ü | ű | ö | ő]^{0,3} ]* ] >    AddNoun;
 
 LEXICON AddNoun
-+Noun:0     Poss;
-+Noun:0     Plur;
-+Noun:0     Fam;
+[stem]+Noun[gcat]:0     Poss;
+[stem]+Noun[gcat]:0     Plur;
+[stem]+Noun[gcat]:0     Fam;
 
 LEXICON Poss
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
@@ -16189,7 +16189,7 @@ LEXICON Gen
  
 LEXICON Case
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -16212,8 +16212,8 @@ LEXICON Case
 
 !lépés:lépt
 LEXICON AddNounlepes
-+Noun:0     Posslepes;
-+Noun:0     Plurlepes;
+[stem]+Noun[gcat]:0     Posslepes;
+[stem]+Noun[gcat]:0     Plurlepes;
 
 LEXICON Posslepes
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
@@ -16248,7 +16248,7 @@ LEXICON Genlepes
  
 LEXICON Caselepes
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -16272,8 +16272,8 @@ LEXICON Caselepes
 
 
 !LEXICON AddNouneej
-!+Noun:0     Caseeej;
+![stem]+Noun[gcat]:0     Caseeej;
 
 !LEXICON Caseeej
-!+Acc:^+cAcc^§AA§t       #;  ! ot, et, öt, t
+!+Acc[lfea]:^+cAcc^§AA§t       #;  ! ot, et, öt, t
 
