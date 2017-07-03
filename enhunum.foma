@@ -746,5 +746,4 @@ define Grammarnum4 Lexiconnum4           .o.
                Cleanup           .o.
                ToUpCase ;
 
-
 regex Grammarnum  | Grammarnum2 | Grammarnum3 |  Grammarnum4  ;
