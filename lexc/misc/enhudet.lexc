@@ -1,6 +1,6 @@
 !!!enhudet.lexc!!!
 
-Multichar_Symbols  +Det
+Multichar_Symbols  +Det[gcat] [stem] +Def[lfea] +fwConsonant[lfea] +fwVowel[lfea]
 
       
 LEXICON Root
@@ -8,8 +8,8 @@ Det;
 
 
 LEXICON Det
-a AddDet;
-az AddDet;
+a[stem]+Det[gcat]+Def[lfea]+fwConsonant[lfea]:a #;
+az[stem]+Det[gcat]+Def[lfea]+fwVowel[lfea]:az #;
 csupa AddDet;
 egy AddDet;
 
