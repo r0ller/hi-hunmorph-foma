@@ -8,7 +8,10 @@ Multichar_Symbols  +Num[gcat] [stem]
 +Posss1p +Posss2p +Posss3p +Possp1p +Possp2p +Possp3p
 +Npref1[lfea]+ +Npref2[lfea]+ +Npref3[lfea]+ +Npref4[lfea]+
 +Npref5[lfea]+ +Npref6[lfea]+ +Npref7[lfea]+ +Npref8[lfea]+
-+Npref9[lfea]+ +Npref1n[lfea]+ +Npref1nn[lfea]+ +Npref1nnn[lfea]+
++Npref9[lfea]+ +Npref1nn[lfea]+ +Npref1nnn[lfea]+
++Npref1n[lfea]+ +Npref2n[lfea]+ +Npref3n[lfea]+ +Npref4n[lfea]+
++Npref5n[lfea]+ +Npref6n[lfea]+ +Npref7n[lfea]+ +Npref8n[lfea]+
++Npref9n[lfea]+
 
 +Plur +Fam +Gens +Genpl
       
@@ -43,62 +46,62 @@ Num4;
 Num5;
 
 Lexicon NumPref2
-+Npref1[lfea]+:egy NumPref12;
++swVowel[lfea]+Npref1[lfea]+:egy NumPref12;
 +Npref+:egyes NumPref12;
-+Npref2[lfea]+:kettő NumPref12;
-+Npref2[lfea]+:két NumPref12;
++swConsonant[lfea]+Npref2[lfea]+:kettő NumPref12;
++swConsonant[lfea]+Npref2[lfea]+:két NumPref12;
 +Npref+:kettes NumPref12;
-+Npref3[lfea]+:három NumPref12;
++swConsonant[lfea]+Npref3[lfea]+:három NumPref12;
 +Npref+:hármas NumPref12;
-+Npref4[lfea]+:négy NumPref12;
++swConsonant[lfea]+Npref4[lfea]+:négy NumPref12;
 +Npref+:négyes NumPref12;
-+Npref5[lfea]+:öt NumPref12;
++swVowel[lfea]+Npref5[lfea]+:öt NumPref12;
 +Npref+:ötös NumPref12;
-+Npref6[lfea]+:hat NumPref12;
++swConsonant[lfea]+Npref6[lfea]+:hat NumPref12;
 +Npref+:hatos NumPref12;
-+Npref7[lfea]+:hét NumPref12;
++swConsonant[lfea]+Npref7[lfea]+:hét NumPref12;
 +Npref+:hetes NumPref12;
-+Npref8[lfea]+:nyolc NumPref12;
++swConsonant[lfea]+Npref8[lfea]+:nyolc NumPref12;
 +Npref+:nyolcas NumPref12;
-+Npref9[lfea]+:kilenc NumPref12;
++swConsonant[lfea]+Npref9[lfea]+:kilenc NumPref12;
 +Npref+:kilences NumPref12;
-+Npref1[lfea]+:egy NumPref13;
++swVowel[lfea]+Npref1[lfea]+:egy NumPref13;
 +Npref+:egyes NumPref13;
-+Npref2[lfea]+:kettő NumPref13;
-+Npref2[lfea]+:két NumPref13;
++swConsonant[lfea]+Npref2[lfea]+:kettő NumPref13;
++swConsonant[lfea]+Npref2[lfea]+:két NumPref13;
 +Npref+:kettes NumPref13;
-+Npref3[lfea]+:három NumPref13;
++swConsonant[lfea]+Npref3[lfea]+:három NumPref13;
 +Npref+:hármas NumPref13;
-+Npref4[lfea]+:négy NumPref13;
++swConsonant[lfea]+Npref4[lfea]+:négy NumPref13;
 +Npref+:négyes NumPref13;
-+Npref5[lfea]+:öt NumPref13;
++swVowel[lfea]+Npref5[lfea]+:öt NumPref13;
 +Npref+:ötös NumPref13;
-+Npref6[lfea]+:hat NumPref13;
++swConsonant[lfea]+Npref6[lfea]+:hat NumPref13;
 +Npref+:hatos NumPref13;
-+Npref7[lfea]+:hét NumPref13;
++swConsonant[lfea]+Npref7[lfea]+:hét NumPref13;
 +Npref+:hetes NumPref13;
-+Npref8[lfea]+:nyolc NumPref13;
++swConsonant[lfea]+Npref8[lfea]+:nyolc NumPref13;
 +Npref+:nyolcas NumPref13;
-+Npref9[lfea]+:kilenc NumPref13;
++swConsonant[lfea]+Npref9[lfea]+:kilenc NumPref13;
 +Npref+:kilences NumPref13;
-+Npref1[lfea]+:egy NumPref14;
++swVowel[lfea]+Npref1[lfea]+:egy NumPref14;
 +Npref+:egyes NumPref14;
-+Npref2[lfea]+:kettő NumPref14;
-+Npref2[lfea]+:két NumPref14;
++swConsonant[lfea]+Npref2[lfea]+:kettő NumPref14;
++swConsonant[lfea]+Npref2[lfea]+:két NumPref14;
 +Npref+:kettes NumPref14;
-+Npref3[lfea]+:három NumPref14;
++swConsonant[lfea]+Npref3[lfea]+:három NumPref14;
 +Npref+:hármas NumPref14;
-+Npref4[lfea]+:négy NumPref14;
++swConsonant[lfea]+Npref4[lfea]+:négy NumPref14;
 +Npref+:négyes NumPref14;
-+Npref5[lfea]+:öt NumPref14;
++swVowel[lfea]+Npref5[lfea]+:öt NumPref14;
 +Npref+:ötös NumPref14;
-+Npref6[lfea]+:hat NumPref14;
++swConsonant[lfea]+Npref6[lfea]+:hat NumPref14;
 +Npref+:hatos NumPref14;
-+Npref7[lfea]+:hét NumPref14;
++swConsonant[lfea]+Npref7[lfea]+:hét NumPref14;
 +Npref+:hetes NumPref14;
-+Npref8[lfea]+:nyolc NumPref14;
++swConsonant[lfea]+Npref8[lfea]+:nyolc NumPref14;
 +Npref+:nyolcas NumPref14;
-+Npref9[lfea]+:kilenc NumPref14;
++swConsonant[lfea]+Npref9[lfea]+:kilenc NumPref14;
 +Npref+:kilences NumPref14;
 +Npref+:fél NumPref12;
 +Npref+:ketted NumPref12;
@@ -133,50 +136,50 @@ Lexicon NumPref2
           Num;
 
 Lexicon NumPref3
-+Npref1[lfea]+:tíz NumPref2;
-+Npref1[lfea]+:tizen NumPref2;
-+Npref2[lfea]+:húsz NumPref2;
-+Npref2[lfea]+:huszon NumPref2;
-+Npref3[lfea]+:harminc NumPref2;
-+Npref4[lfea]+:negyven NumPref2;
-+Npref5[lfea]+:ötven NumPref2;
-+Npref6[lfea]+:hatvan NumPref2;
-+Npref7[lfea]+:hetven NumPref2;
-+Npref8[lfea]+:nyolcvan NumPref2;
-+Npref9[lfea]+:kilencven NumPref2;
-+Npref1[lfea]+:tíz NumPref13;
-+Npref2[lfea]+:húsz NumPref13;
-+Npref3[lfea]+:harminc NumPref13;
-+Npref4[lfea]+:negyven NumPref13;
-+Npref5[lfea]+:ötven NumPref13;
-+Npref6[lfea]+:hatvan NumPref13;
-+Npref7[lfea]+:hetven NumPref13;
-+Npref8[lfea]+:nyolcvan NumPref13;
-+Npref9[lfea]+:kilencven NumPref13;
-+Npref1[lfea]+:tíz NumPref14;
-+Npref2[lfea]+:húsz NumPref14;
-+Npref3[lfea]+:harminc NumPref14;
-+Npref4[lfea]+:negyven NumPref14;
-+Npref5[lfea]+:ötven NumPref14;
-+Npref6[lfea]+:hatvan NumPref14;
-+Npref7[lfea]+:hetven NumPref14;
-+Npref8[lfea]+:nyolcvan NumPref14;
-+Npref9[lfea]+:kilencven NumPref14;
++swConsonant[lfea]+Npref1n[lfea]+:tíz NumPref2;
++swConsonant[lfea]+Npref1n[lfea]+:tizen NumPref2;
++swConsonant[lfea]+Npref2n[lfea]+:húsz NumPref2;
++swConsonant[lfea]+Npref2n[lfea]+:huszon NumPref2;
++swConsonant[lfea]+Npref3n[lfea]+:harminc NumPref2;
++swConsonant[lfea]+Npref4n[lfea]+:negyven NumPref2;
++swVowel[lfea]+Npref5n[lfea]+:ötven NumPref2;
++swConsonant[lfea]+Npref6n[lfea]+:hatvan NumPref2;
++swConsonant[lfea]+Npref7n[lfea]+:hetven NumPref2;
++swConsonant[lfea]+Npref8n[lfea]+:nyolcvan NumPref2;
++swConsonant[lfea]+Npref9n[lfea]+:kilencven NumPref2;
++swConsonant[lfea]+Npref1n[lfea]+:tíz NumPref13;
++swConsonant[lfea]+Npref2n[lfea]+:húsz NumPref13;
++swConsonant[lfea]+Npref3n[lfea]+:harminc NumPref13;
++swConsonant[lfea]+Npref4n[lfea]+:negyven NumPref13;
++swVowel[lfea]+Npref5n[lfea]+:ötven NumPref13;
++swConsonant[lfea]+Npref6n[lfea]+:hatvan NumPref13;
++swConsonant[lfea]+Npref7n[lfea]+:hetven NumPref13;
++swConsonant[lfea]+Npref8n[lfea]+:nyolcvan NumPref13;
++swConsonant[lfea]+Npref9n[lfea]+:kilencven NumPref13;
++swConsonant[lfea]+Npref1n[lfea]+:tíz NumPref14;
++swConsonant[lfea]+Npref2n[lfea]+:húsz NumPref14;
++swConsonant[lfea]+Npref3n[lfea]+:harminc NumPref14;
++swConsonant[lfea]+Npref4n[lfea]+:negyven NumPref14;
++swVowel[lfea]+Npref5n[lfea]+:ötven NumPref14;
++swConsonant[lfea]+Npref6n[lfea]+:hatvan NumPref14;
++swConsonant[lfea]+Npref7n[lfea]+:hetven NumPref14;
++swConsonant[lfea]+Npref8n[lfea]+:nyolcvan NumPref14;
++swConsonant[lfea]+Npref9n[lfea]+:kilencven NumPref14;
           Num;
 
 Lexicon NumPref12
-+Npref1nn[lfea]+:száz NumPref13;
-+Npref1nn[lfea]+:száz NumPref14;
-+Npref1nn[lfea]+:száz NumPref3;
-+Npref1nn[lfea]+:száz NumPref2;
-+Npref1nn[lfea]+:száz Num1;
++swConsonant[lfea]+Npref1nn[lfea]+:száz NumPref13;
++swConsonant[lfea]+Npref1nn[lfea]+:száz NumPref14;
++swConsonant[lfea]+Npref1nn[lfea]+:száz NumPref3;
++swConsonant[lfea]+Npref1nn[lfea]+:száz NumPref2;
++swConsonant[lfea]+Npref1nn[lfea]+:száz Num1;
           Num1;
 
 Lexicon NumPref13
-+Npref1nnn[lfea]+:ezer NumPref12;
-+Npref1nnn[lfea]+:ezer NumPref14;
-+Npref1nnn[lfea]+:ezer NumPref3;
-+Npref1nnn[lfea]+:ezer NumPref2;
++swVowel[lfea]+Npref1nnn[lfea]+:ezer NumPref12;
++swVowel[lfea]+Npref1nnn[lfea]+:ezer NumPref14;
++swVowel[lfea]+Npref1nnn[lfea]+:ezer NumPref3;
++swVowel[lfea]+Npref1nnn[lfea]+:ezer NumPref2;
           Num2;
 
 Lexicon NumPref14

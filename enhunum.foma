@@ -390,8 +390,10 @@ define Suffixr   §r§ -> 0 // r r [ %^ | 0 ] _ .o.
 define Suffixt   §t§ -> 0 // t t  [ %^ | 0 ] _ .o.
                  §t§ -> t // \[ t t ] [ %^ | 0 ]  _ ;
 
-
 define ToUpCase [a:A|á:Á|b:B|c:C|d:D|e:E|é:É|f:F|g:G|h:H|i:I|í:Í|j:J|k:K|l:L|m:M|n:N|o:O|ó:Ó|ö:Ö|ő:Ő|p:P|q:Q|r:R|s:S|t:T|u:U|ú:Ú|ü:Ü|ű:Ű|v:V|w:W|x:X|y:Y|z:Z] ?* | ?* ;
+
+def AddTag [..] -> "+swVowel[lfea]+" || .#. _ Vowel ?* .#. .o.
+           [..] -> "+swConsonant[lfea]+" || .#. _ Cons ?* .#. ;
 
 # Cleanup: remove morpheme boundaries
 define Cleanup      "^"        -> 0;
@@ -444,7 +446,7 @@ echo ">>> read in enhunum <<<"
 read lexc lexc/num/enhunum1.lexc
 define Lexiconnum
 
-define Grammarnum Lexiconnum           .o. 
+define Grammarnum Lexiconnum           .o.
                Etoee             .o. 
                Atoaa             .o. 
                Changez2          .o.
@@ -746,4 +748,4 @@ define Grammarnum4 Lexiconnum4           .o.
                Cleanup           .o.
                ToUpCase ;
 
-regex Grammarnum  | Grammarnum2 | Grammarnum3 |  Grammarnum4  ;
+regex [Grammarnum.i .o. AddTag].i | [Grammarnum2.i .o. AddTag].i | [Grammarnum3.i .o. AddTag].i | [Grammarnum4.i .o. AddTag].i;
