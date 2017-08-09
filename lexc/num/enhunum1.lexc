@@ -1,21 +1,21 @@
 !!!enhunum1.lexc!!!
 ! szor, szer, ször, edik, adik, odik, ed, ad,öd ragok
 
-Multichar_Symbols  +Num[gcat] [stem]
+Multichar_Symbols  +Num [stem]
 
-+Dis +Ess +Soc +Tem +Tmp +Ik[lfea] +Iadj +Kas +Npref+ +Par[lfea]
++Dis +Ess +Soc +Tem +Tmp +Ik +Iadj +Kas +Npref+ +Par
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
 +Posss1p +Posss2p +Posss3p +Possp1p +Possp2p +Possp3p
-+Npref1[lfea]+ +Npref2[lfea]+ +Npref3[lfea]+ +Npref4[lfea]+
-+Npref5[lfea]+ +Npref6[lfea]+ +Npref7[lfea]+ +Npref8[lfea]+
-+Npref9[lfea]+ +Npref1nn[lfea]+ +Npref1nnn[lfea]+
-+Npref1n[lfea]+ +Npref2n[lfea]+ +Npref3n[lfea]+ +Npref4n[lfea]+
-+Npref5n[lfea]+ +Npref6n[lfea]+ +Npref7n[lfea]+ +Npref8n[lfea]+
-+Npref9n[lfea]+
++Npref1+ +Npref2+ +Npref3+ +Npref4+
++Npref5+ +Npref6+ +Npref7+ +Npref8+
++Npref9+ +Npref1nn+ +Npref1nnn+
++Npref1n+ +Npref2n+ +Npref3n+ +Npref4n+
++Npref5n+ +Npref6n+ +Npref7n+ +Npref8n+
++Npref9n+
 
 +Plur +Fam +Gens +Genpl
       
-+Abl +Acc[lfea] +Ade +All +Cau +Dat +Del
++Abl +Acc +Ade +All +Cau +Dat +Del
 +Ela +Fac +For +Forp +Forpen +Ill +Ine +Ins +Nom
 +Sub +Sup +Ter 
       
@@ -46,62 +46,62 @@ Num4;
 Num5;
 
 Lexicon NumPref2
-+swVowel[lfea]+Npref1[lfea]+:egy NumPref12;
++swVowel+Npref1+:egy NumPref12;
 +Npref+:egyes NumPref12;
-+swConsonant[lfea]+Npref2[lfea]+:kettő NumPref12;
-+swConsonant[lfea]+Npref2[lfea]+:két NumPref12;
++swConsonant+Npref2+:kettő NumPref12;
++swConsonant+Npref2+:két NumPref12;
 +Npref+:kettes NumPref12;
-+swConsonant[lfea]+Npref3[lfea]+:három NumPref12;
++swConsonant+Npref3+:három NumPref12;
 +Npref+:hármas NumPref12;
-+swConsonant[lfea]+Npref4[lfea]+:négy NumPref12;
++swConsonant+Npref4+:négy NumPref12;
 +Npref+:négyes NumPref12;
-+swVowel[lfea]+Npref5[lfea]+:öt NumPref12;
++swVowel+Npref5+:öt NumPref12;
 +Npref+:ötös NumPref12;
-+swConsonant[lfea]+Npref6[lfea]+:hat NumPref12;
++swConsonant+Npref6+:hat NumPref12;
 +Npref+:hatos NumPref12;
-+swConsonant[lfea]+Npref7[lfea]+:hét NumPref12;
++swConsonant+Npref7+:hét NumPref12;
 +Npref+:hetes NumPref12;
-+swConsonant[lfea]+Npref8[lfea]+:nyolc NumPref12;
++swConsonant+Npref8+:nyolc NumPref12;
 +Npref+:nyolcas NumPref12;
-+swConsonant[lfea]+Npref9[lfea]+:kilenc NumPref12;
++swConsonant+Npref9+:kilenc NumPref12;
 +Npref+:kilences NumPref12;
-+swVowel[lfea]+Npref1[lfea]+:egy NumPref13;
++swVowel+Npref1+:egy NumPref13;
 +Npref+:egyes NumPref13;
-+swConsonant[lfea]+Npref2[lfea]+:kettő NumPref13;
-+swConsonant[lfea]+Npref2[lfea]+:két NumPref13;
++swConsonant+Npref2+:kettő NumPref13;
++swConsonant+Npref2+:két NumPref13;
 +Npref+:kettes NumPref13;
-+swConsonant[lfea]+Npref3[lfea]+:három NumPref13;
++swConsonant+Npref3+:három NumPref13;
 +Npref+:hármas NumPref13;
-+swConsonant[lfea]+Npref4[lfea]+:négy NumPref13;
++swConsonant+Npref4+:négy NumPref13;
 +Npref+:négyes NumPref13;
-+swVowel[lfea]+Npref5[lfea]+:öt NumPref13;
++swVowel+Npref5+:öt NumPref13;
 +Npref+:ötös NumPref13;
-+swConsonant[lfea]+Npref6[lfea]+:hat NumPref13;
++swConsonant+Npref6+:hat NumPref13;
 +Npref+:hatos NumPref13;
-+swConsonant[lfea]+Npref7[lfea]+:hét NumPref13;
++swConsonant+Npref7+:hét NumPref13;
 +Npref+:hetes NumPref13;
-+swConsonant[lfea]+Npref8[lfea]+:nyolc NumPref13;
++swConsonant+Npref8+:nyolc NumPref13;
 +Npref+:nyolcas NumPref13;
-+swConsonant[lfea]+Npref9[lfea]+:kilenc NumPref13;
++swConsonant+Npref9+:kilenc NumPref13;
 +Npref+:kilences NumPref13;
-+swVowel[lfea]+Npref1[lfea]+:egy NumPref14;
++swVowel+Npref1+:egy NumPref14;
 +Npref+:egyes NumPref14;
-+swConsonant[lfea]+Npref2[lfea]+:kettő NumPref14;
-+swConsonant[lfea]+Npref2[lfea]+:két NumPref14;
++swConsonant+Npref2+:kettő NumPref14;
++swConsonant+Npref2+:két NumPref14;
 +Npref+:kettes NumPref14;
-+swConsonant[lfea]+Npref3[lfea]+:három NumPref14;
++swConsonant+Npref3+:három NumPref14;
 +Npref+:hármas NumPref14;
-+swConsonant[lfea]+Npref4[lfea]+:négy NumPref14;
++swConsonant+Npref4+:négy NumPref14;
 +Npref+:négyes NumPref14;
-+swVowel[lfea]+Npref5[lfea]+:öt NumPref14;
++swVowel+Npref5+:öt NumPref14;
 +Npref+:ötös NumPref14;
-+swConsonant[lfea]+Npref6[lfea]+:hat NumPref14;
++swConsonant+Npref6+:hat NumPref14;
 +Npref+:hatos NumPref14;
-+swConsonant[lfea]+Npref7[lfea]+:hét NumPref14;
++swConsonant+Npref7+:hét NumPref14;
 +Npref+:hetes NumPref14;
-+swConsonant[lfea]+Npref8[lfea]+:nyolc NumPref14;
++swConsonant+Npref8+:nyolc NumPref14;
 +Npref+:nyolcas NumPref14;
-+swConsonant[lfea]+Npref9[lfea]+:kilenc NumPref14;
++swConsonant+Npref9+:kilenc NumPref14;
 +Npref+:kilences NumPref14;
 +Npref+:fél NumPref12;
 +Npref+:ketted NumPref12;
@@ -136,77 +136,77 @@ Lexicon NumPref2
           Num;
 
 Lexicon NumPref3
-+swConsonant[lfea]+Npref1n[lfea]+:tíz NumPref2;
-+swConsonant[lfea]+Npref1n[lfea]+:tizen NumPref2;
-+swConsonant[lfea]+Npref2n[lfea]+:húsz NumPref2;
-+swConsonant[lfea]+Npref2n[lfea]+:huszon NumPref2;
-+swConsonant[lfea]+Npref3n[lfea]+:harminc NumPref2;
-+swConsonant[lfea]+Npref4n[lfea]+:negyven NumPref2;
-+swVowel[lfea]+Npref5n[lfea]+:ötven NumPref2;
-+swConsonant[lfea]+Npref6n[lfea]+:hatvan NumPref2;
-+swConsonant[lfea]+Npref7n[lfea]+:hetven NumPref2;
-+swConsonant[lfea]+Npref8n[lfea]+:nyolcvan NumPref2;
-+swConsonant[lfea]+Npref9n[lfea]+:kilencven NumPref2;
-+swConsonant[lfea]+Npref1n[lfea]+:tíz NumPref13;
-+swConsonant[lfea]+Npref2n[lfea]+:húsz NumPref13;
-+swConsonant[lfea]+Npref3n[lfea]+:harminc NumPref13;
-+swConsonant[lfea]+Npref4n[lfea]+:negyven NumPref13;
-+swVowel[lfea]+Npref5n[lfea]+:ötven NumPref13;
-+swConsonant[lfea]+Npref6n[lfea]+:hatvan NumPref13;
-+swConsonant[lfea]+Npref7n[lfea]+:hetven NumPref13;
-+swConsonant[lfea]+Npref8n[lfea]+:nyolcvan NumPref13;
-+swConsonant[lfea]+Npref9n[lfea]+:kilencven NumPref13;
-+swConsonant[lfea]+Npref1n[lfea]+:tíz NumPref14;
-+swConsonant[lfea]+Npref2n[lfea]+:húsz NumPref14;
-+swConsonant[lfea]+Npref3n[lfea]+:harminc NumPref14;
-+swConsonant[lfea]+Npref4n[lfea]+:negyven NumPref14;
-+swVowel[lfea]+Npref5n[lfea]+:ötven NumPref14;
-+swConsonant[lfea]+Npref6n[lfea]+:hatvan NumPref14;
-+swConsonant[lfea]+Npref7n[lfea]+:hetven NumPref14;
-+swConsonant[lfea]+Npref8n[lfea]+:nyolcvan NumPref14;
-+swConsonant[lfea]+Npref9n[lfea]+:kilencven NumPref14;
++swConsonant+Npref1n+:tíz NumPref2;
++swConsonant+Npref1n+:tizen NumPref2;
++swConsonant+Npref2n+:húsz NumPref2;
++swConsonant+Npref2n+:huszon NumPref2;
++swConsonant+Npref3n+:harminc NumPref2;
++swConsonant+Npref4n+:negyven NumPref2;
++swVowel+Npref5n+:ötven NumPref2;
++swConsonant+Npref6n+:hatvan NumPref2;
++swConsonant+Npref7n+:hetven NumPref2;
++swConsonant+Npref8n+:nyolcvan NumPref2;
++swConsonant+Npref9n+:kilencven NumPref2;
++swConsonant+Npref1n+:tíz NumPref13;
++swConsonant+Npref2n+:húsz NumPref13;
++swConsonant+Npref3n+:harminc NumPref13;
++swConsonant+Npref4n+:negyven NumPref13;
++swVowel+Npref5n+:ötven NumPref13;
++swConsonant+Npref6n+:hatvan NumPref13;
++swConsonant+Npref7n+:hetven NumPref13;
++swConsonant+Npref8n+:nyolcvan NumPref13;
++swConsonant+Npref9n+:kilencven NumPref13;
++swConsonant+Npref1n+:tíz NumPref14;
++swConsonant+Npref2n+:húsz NumPref14;
++swConsonant+Npref3n+:harminc NumPref14;
++swConsonant+Npref4n+:negyven NumPref14;
++swVowel+Npref5n+:ötven NumPref14;
++swConsonant+Npref6n+:hatvan NumPref14;
++swConsonant+Npref7n+:hetven NumPref14;
++swConsonant+Npref8n+:nyolcvan NumPref14;
++swConsonant+Npref9n+:kilencven NumPref14;
           Num;
 
 Lexicon NumPref12
-+swConsonant[lfea]+Npref1nn[lfea]+:száz NumPref13;
-+swConsonant[lfea]+Npref1nn[lfea]+:száz NumPref14;
-+swConsonant[lfea]+Npref1nn[lfea]+:száz NumPref3;
-+swConsonant[lfea]+Npref1nn[lfea]+:száz NumPref2;
-+swConsonant[lfea]+Npref1nn[lfea]+:száz Num1;
++swConsonant+Npref1nn+:száz NumPref13;
++swConsonant+Npref1nn+:száz NumPref14;
++swConsonant+Npref1nn+:száz NumPref3;
++swConsonant+Npref1nn+:száz NumPref2;
++swConsonant+Npref1nn+:száz Num1;
           Num1;
 
 Lexicon NumPref13
-+swVowel[lfea]+Npref1nnn[lfea]+:ezer NumPref12;
-+swVowel[lfea]+Npref1nnn[lfea]+:ezer NumPref14;
-+swVowel[lfea]+Npref1nnn[lfea]+:ezer NumPref3;
-+swVowel[lfea]+Npref1nnn[lfea]+:ezer NumPref2;
++swVowel+Npref1nnn+:ezer NumPref12;
++swVowel+Npref1nnn+:ezer NumPref14;
++swVowel+Npref1nnn+:ezer NumPref3;
++swVowel+Npref1nnn+:ezer NumPref2;
           Num2;
 
 Lexicon NumPref14
 !+Npref+:millió NumPref13;
-!+Npref1nnn[lfea]+:millió NumPref13;
+!+Npref1nnn+:millió NumPref13;
 !+Npref+:millió NumPref12;
-!+Npref1nn[lfea]+:millió NumPref12;
+!+Npref1nn+:millió NumPref12;
 !+Npref+:millió NumPref3;
-!+Npref1[lfea]+:millió NumPref3;
-!+Npref2[lfea]+:millió NumPref3;
-!+Npref3[lfea]+:millió NumPref3;
-!+Npref4[lfea]+:millió NumPref3;
-!+Npref5[lfea]+:millió NumPref3;
-!+Npref6[lfea]+:millió NumPref3;
-!+Npref7[lfea]+:millió NumPref3;
-!+Npref8[lfea]+:millió NumPref3;
-!+Npref9[lfea]+:millió NumPref3;
+!+Npref1+:millió NumPref3;
+!+Npref2+:millió NumPref3;
+!+Npref3+:millió NumPref3;
+!+Npref4+:millió NumPref3;
+!+Npref5+:millió NumPref3;
+!+Npref6+:millió NumPref3;
+!+Npref7+:millió NumPref3;
+!+Npref8+:millió NumPref3;
+!+Npref9+:millió NumPref3;
 !+Npref+:millió NumPref2;
-!+Npref1[lfea]+:millió NumPref2;
-!+Npref2[lfea]+:millió NumPref2;
-!+Npref3[lfea]+:millió NumPref2;
-!+Npref4[lfea]+:millió NumPref2;
-!+Npref5[lfea]+:millió NumPref2;
-!+Npref6[lfea]+:millió NumPref2;
-!+Npref7[lfea]+:millió NumPref2;
-!+Npref8[lfea]+:millió NumPref2;
-!+Npref9[lfea]+:millió NumPref2;
+!+Npref1+:millió NumPref2;
+!+Npref2+:millió NumPref2;
+!+Npref3+:millió NumPref2;
+!+Npref4+:millió NumPref2;
+!+Npref5+:millió NumPref2;
+!+Npref6+:millió NumPref2;
+!+Npref7+:millió NumPref2;
+!+Npref8+:millió NumPref2;
+!+Npref9+:millió NumPref2;
 +Npref+:millió Num4;
          Num4;
 
@@ -372,7 +372,7 @@ legeslegtöbb AddNum;
 nulla AddNum;
 
 LEXICON AddNum
-[stem]+Num[gcat]:0     Poss;
+[stem]+Num:0     Poss;
 +Num:0     Plur;
 +Num:0     Fam;
 
@@ -380,7 +380,7 @@ LEXICON Poss
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
 +Soc:^+cSoc^§EOA§st§uue§l   #;    ! astul, estül
 +Tem:^+cTem^§k§or             #;    ! kor
-+Par[lfea]:^+cPar^§aeoenr§d       Szor;  ! od,ed,öd
++Par:^+cPar^§aeoenr§d       Szor;  ! od,ed,öd
 +Tmp:^+cTmp^sz§oeanr§r      Sub;  ! szor, szer, ször
 +Posss1s:^+cPosss1s^§OEOE1§m   Fam;   ! m
 +Posss2s:^+cPosss2s^§OEOE1§d   Fam;   ! d
@@ -418,7 +418,7 @@ LEXICON Gen1
  
 LEXICON Case
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -440,7 +440,7 @@ LEXICON Case
 
 LEXICON Case1
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -462,7 +462,7 @@ LEXICON Case1
 
 LEXICON Szor
 +Tmp:^+cTmp^sz§oeanr§r      Sub;  ! szor, szer, ször
-+Ik[lfea]:^+cIk^ik                NumAcc;  ! ik
++Ik:^+cIk^ik                NumAcc;  ! ik
                             #;
 
 LEXICON Sub
@@ -480,9 +480,9 @@ LEXICON Possat
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
 +Soc:^+cSoc^§EOA§st§uue§l   #;    ! astul, estül
 +Tem:^+cTem^§k§or             #;    ! kor
-+Par[lfea]:^+cPar^§aeoenr§d       Szor;  ! od,ed,öd
++Par:^+cPar^§aeoenr§d       Szor;  ! od,ed,öd
 +Tmp:^+cTmp^sz§oeanr§r      Sub;  ! szor, szer, ször
-+Acc[lfea]:^+cAcc^§AA§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§AA§t       #;  ! ot, et, öt, t
 +Posss1s:^+cPosss1s^§OEOE1§m   Fam;   ! m
 +Posss2s:^+cPosss2s^§OEOE1§d   Fam;   ! d
 +Posss3s:^+cPosss3s^§J§§AE1§   Fam;   ! ja, je, a,e
@@ -511,7 +511,7 @@ LEXICON Possmil
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
 +Soc:^+cSoc^§EOA§st§uue§l   #;    ! astul, estül
 +Tem:^+cTem^§k§or             #;    ! kor
-+Par[lfea]:^+cPar^§aeoenr§d       Szormil;  ! od,ed,öd
++Par:^+cPar^§aeoenr§d       Szormil;  ! od,ed,öd
 +Tmp:^+cTmp^sz§oeanr§r      Submil;  ! szor, szer, ször
 +Posss1s:^+cPosss1s^§OEOE1§m   Fammil;   ! m
 +Posss2s:^+cPosss2s^§OEOE1§d   Fammil;   ! d
@@ -549,7 +549,7 @@ LEXICON Genmil1
  
 LEXICON Casemil
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -571,7 +571,7 @@ LEXICON Casemil
 
 LEXICON Casemil1
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -594,7 +594,7 @@ LEXICON Casemil1
 
 LEXICON Szormil
 +Tmp:^+cTmp^sz§oeanr§r      Sub;  ! szor, szer, ször
-+Ik[lfea]:^+cIk^ik                NumAcc;  ! ik
++Ik:^+cIk^ik                NumAcc;  ! ik
                             #;
 
 LEXICON Submil
@@ -607,11 +607,11 @@ LEXICON AddNummilliom
 +Num:0     Possmilliom;
 
 LEXICON Possmilliom
-+Par[lfea]:^+cPar^§aeoenr§d       Szormilliom;  ! od,ed,öd
++Par:^+cPar^§aeoenr§d       Szormilliom;  ! od,ed,öd
 
 LEXICON Szormilliom
 +Tmp:^+cTmp^sz§oeanr§r      Submilliom;  ! szor, szer, ször
-+Ik[lfea]:^+cIk^ik                NumAcc;  ! ik
++Ik:^+cIk^ik                NumAcc;  ! ik
                             #;
 LEXICON Submilliom
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
@@ -627,7 +627,7 @@ LEXICON Possezr
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
 +Soc:^+cSoc^§EOA§st§uue§l   #;    ! astul, estül
 !+Tem:^+cTem^§k§or             #;    ! kor
-+Par[lfea]:^+cPar^§aeoenr§d       Szorezr;  ! od,ed,öd
++Par:^+cPar^§aeoenr§d       Szorezr;  ! od,ed,öd
 !+Tmp:^+cTmp^sz§oeanr§r      #;  ! szor, szer, ször
 +Posss1s:^+cPosss1s^em   Famezr;   ! m
 +Posss2s:^+cPosss2s^ed   Famezr;   ! d
@@ -658,7 +658,7 @@ LEXICON Genezr
  
 LEXICON Caseezr
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -680,7 +680,7 @@ LEXICON Caseezr
 
 LEXICON Caseezr1
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -701,12 +701,12 @@ LEXICON Caseezr1
 +Ter:^+cTer^ig              #;  ! ig
 
 LEXICON Case1ezr
-+Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
 +Sup:^+cSup^§oeoezoa§n        #;  ! on, en, ön, n
 
 LEXICON Szorezr
 +Tmp:^+cTmp^sz§oeanr§r      Subezr;  ! szor, szer, ször
-+Ik[lfea]:^+cIk^ik                NumAcc;  ! ik
++Ik:^+cIk^ik                NumAcc;  ! ik
                             #;
 LEXICON Subezr
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
@@ -715,7 +715,7 @@ LEXICON Subezr
                             #;
 
 LEXICON AddNumoa
-[stem]+Num[gcat]:0     Possoa;
+[stem]+Num:0     Possoa;
 +Num:0     Pluroa;
 +Num:0     Famoa;
 
@@ -725,7 +725,7 @@ LEXICON Possoa
 +Soc:^+cSoc^§EOA§st§uue§l   #;    ! astul, estül
 +Soc:^+cSoc^§EOA2§st§uue§l   #;    ! astul, estül
 +Tem:^+cTem^§k§or             #;    ! kor
-+Par[lfea]:^+cPar^§aeoenra§d       Szoroa;  ! od,ed,öd
++Par:^+cPar^§aeoenra§d       Szoroa;  ! od,ed,öd
 +Tmp:^+cTmp^sz§oeanr§r      Suboa;  ! szor, szer, ször
 +Posss1s:^+cPosss1s^§OEOE1§m   Famoa;   ! m
 +Posss1s:^+cPosss1s^§OEOE11§m   Famoa;   ! m
@@ -767,7 +767,7 @@ LEXICON Genoa1
  
 LEXICON Caseoa
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -789,7 +789,7 @@ LEXICON Caseoa
 
 LEXICON Caseoa1
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -811,7 +811,7 @@ LEXICON Caseoa1
 
 LEXICON Szoroa
 +Tmp:^+cTmp^sz§oeanr§r      Suboa;  ! szor, szer, ször
-+Ik[lfea]:^+cIk^ik                NumAcc;  ! ik
++Ik:^+cIk^ik                NumAcc;  ! ik
                             #;
 LEXICON Suboa
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
@@ -821,7 +821,7 @@ LEXICON Suboa
 
 
 LEXICON AddNummelyoa
-[stem]+Num[gcat]:0     Possmelyoa;
+[stem]+Num:0     Possmelyoa;
 +Num:0     Plurmelyoa;
 +Num:0     Fammelyoa;
 
@@ -831,7 +831,7 @@ LEXICON Possmelyoa
 +Soc:^+cSoc^§EOA17§st§uue2§l  #;    ! astul, estül
 +Soc:^+cSoc^§EOA18§st§uue2§l  #;    ! astul, estül
 +Tem:^+cTem^§k§or               #;    ! kor
-+Par[lfea]:^+cPar^§aeoenrmelya§d       Szormelyoa;  ! od,ed,öd
++Par:^+cPar^§aeoenrmelya§d       Szormelyoa;  ! od,ed,öd
 +Tmp:^+cTmp^sz§oeanrmely§r      Submelyoa;  ! szor, szer, ször
 +Posss1s:^+cPosss1s^§OEOE17§m   Fammelyoa;   ! m
 +Posss1s:^+cPosss1s^§OEOE18§m   Fammelyoa;   ! m ! a
@@ -873,7 +873,7 @@ LEXICON Genmelyoa1
  
 LEXICON Casemelyoa
 +Abl:^+cAbl^§t§§oooe2§l     #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA2§l      #;  ! nál, nél
 +All:^+cAll^§h§§oeoe2§z     #;  ! hoz, hez, höz
 +Cau:^+cCau^ért           #;  ! ért
@@ -895,7 +895,7 @@ LEXICON Casemelyoa
 
 LEXICON Casemelyoa1
 +Abl:^+cAbl^§t§§oooe2§l     #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA2§l      #;  ! nál, nél
 +All:^+cAll^§h§§oeoe2§z     #;  ! hoz, hez, höz
 +Cau:^+cCau^ért           #;  ! ért
@@ -917,7 +917,7 @@ LEXICON Casemelyoa1
 
 LEXICON Szormelyoa
 +Tmp:^+cTmp^sz§oeanrmely§r      Submelyoa;  ! szor, szer, ször
-+Ik[lfea]:^+cIk^ik                NumAcc_at;  ! ik
++Ik:^+cIk^ik                NumAcc_at;  ! ik
                             #;
 LEXICON Submelyoa
 +Sub:^+cSub^§r§§AA2§         #;  ! ra, re
@@ -926,7 +926,7 @@ LEXICON Submelyoa
                             #;
 
 LEXICON AddNuma
-[stem]+Num[gcat]:0     Possa;
+[stem]+Num:0     Possa;
 +Num:0     Plura;
 +Num:0     Fama;
 
@@ -934,7 +934,7 @@ LEXICON Possa
 +Dis:^+cDis^§ooez13§nként    #;    ! anként, enként
 +Soc:^+cSoc^§EOA2§st§uue§l   #;    ! astul, estül
 +Tem:^+cTem^§k§or             #;    ! kor
-+Par[lfea]:^+cPar^§aeoenra§d       Szora;  ! od,ed,öd
++Par:^+cPar^§aeoenra§d       Szora;  ! od,ed,öd
 +Tmp:^+cTmp^sz§oeanr§r      Suba;  ! szor, szer, ször
 +Posss1s:^+cPosss1s^§OEOE11§m   Fama;   ! m
 +Posss2s:^+cPosss2s^§OEOE11§d   Fama;   ! d
@@ -972,7 +972,7 @@ LEXICON Gena1
  
 LEXICON Casea
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez12§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez12§t       #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -994,7 +994,7 @@ LEXICON Casea
 
 LEXICON Casea1
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez12§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez12§t       #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -1016,7 +1016,7 @@ LEXICON Casea1
 
 LEXICON Szora
 +Tmp:^+cTmp^sz§oeanr§r      Suba;  ! szor, szer, ször
-+Ik[lfea]:^+cIk^ik                NumAcc;  ! ik
++Ik:^+cIk^ik                NumAcc;  ! ik
                             #;
 LEXICON Suba
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
@@ -1026,7 +1026,7 @@ LEXICON Suba
 
 ! három:hárm
 LEXICON AddNumhar
-[stem]+Num[gcat]:0     Posshar;
+[stem]+Num:0     Posshar;
 +Num:0     Plurhar;
 
 LEXICON Posshar
@@ -1067,7 +1067,7 @@ LEXICON Genhar
  
 LEXICON Casehar
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez12§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez12§t       #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -1089,7 +1089,7 @@ LEXICON Casehar
                             #;
 LEXICON Casehar1
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez12§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez12§t       #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -1110,12 +1110,12 @@ LEXICON Casehar1
 +Ter:^+cTer^ig              #;  ! ig
 
 !LEXICON Case1har
-!+Acc[lfea]:^+cAcc^§oeoez12§t       #;  ! ot, et, öt, t
+!+Acc:^+cAcc^§oeoez12§t       #;  ! ot, et, öt, t
 !+Sup:^+cSup^§oeoezoa§n        #;  ! on, en, ön, n
 
 
 LEXICON AddNummar
-[stem]+Num[gcat]:0     Possmar;
+[stem]+Num:0     Possmar;
 +Num:0     Plurmar;
 +Num:0     Fammar;
 
@@ -1160,7 +1160,7 @@ LEXICON Genmar1
  
 LEXICON Casemar
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -1182,7 +1182,7 @@ LEXICON Casemar
 
 LEXICON Casemar1
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -1210,7 +1210,7 @@ LEXICON Submar
 
 
 LEXICON AddNummara
-[stem]+Num[gcat]:0     Possmara;
+[stem]+Num:0     Possmara;
 +Num:0     Plurmara;
 +Num:0     Fammara;
 
@@ -1255,8 +1255,8 @@ LEXICON Genmara1
  
 LEXICON Casemara
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez12§t       #;  ! ot, et, öt, t
-+Acc[lfea]:^+cAcc^at              #;  ! húszat
++Acc:^+cAcc^§oeoez12§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^at              #;  ! húszat
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -1278,8 +1278,8 @@ LEXICON Casemara
 
 LEXICON Casemara1
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez12§t       #;  ! ot, et, öt, t
-+Acc[lfea]:^+cAcc^at              #;  ! húszat
++Acc:^+cAcc^§oeoez12§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^at              #;  ! húszat
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -1307,7 +1307,7 @@ LEXICON Submara
 
 !három
 LEXICON AddNummarharom
-[stem]+Num[gcat]:0     Possmarharom;
+[stem]+Num:0     Possmarharom;
 +Num:0     Fammarharom;
 
 LEXICON Possmarharom
@@ -1330,7 +1330,7 @@ LEXICON Gen1marharom
  
 LEXICON Casemarharom
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -1352,7 +1352,7 @@ LEXICON Casemarharom
 
 LEXICON Case1marharom
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-!+Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
+!+Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -1374,7 +1374,7 @@ LEXICON Case1marharom
 
 LEXICON Case2marharom
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -1402,7 +1402,7 @@ LEXICON Submarharom
 
 
 LEXICON AddNummarjnull
-[stem]+Num[gcat]:0     Possmarjnull;
+[stem]+Num:0     Possmarjnull;
 +Num:0     Plurmarjnull;
 +Num:0     Fammarjnull;
 
@@ -1447,7 +1447,7 @@ LEXICON Genmarjnull1
  
 LEXICON Casemarjnull
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -1469,7 +1469,7 @@ LEXICON Casemarjnull
 
 LEXICON Casemarjnull1
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -1497,7 +1497,7 @@ LEXICON Submarjnull
 
 ! hét
 LEXICON AddNummarhet
-[stem]+Num[gcat]:0     Possmarhet;
+[stem]+Num:0     Possmarhet;
 +Num:0     Fammarhet;
 
 LEXICON Possmarhet
@@ -1521,7 +1521,7 @@ LEXICON Genmar1het
  
 LEXICON Casemarhet
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -1543,7 +1543,7 @@ LEXICON Casemarhet
 
 LEXICON Case1marhet
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-!+Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
+!+Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -1571,13 +1571,13 @@ LEXICON Submarhet
 
 !hét:het
 LEXICON AddNumketthet
-[stem]+Num[gcat]:0     Possketthet;
+[stem]+Num:0     Possketthet;
 +Num:0     Plurketthet;
 
 LEXICON Possketthet
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
 +Soc:^+cSoc^§EOA§st§uue§l   #;    ! astul, estül
-+Par[lfea]:^+cPar^§aeoenr§d       Szorketthet;  ! od,ed,öd
++Par:^+cPar^§aeoenr§d       Szorketthet;  ! od,ed,öd
 +Posss1s:^+cPosss1s^§OEOE1§m   Famketthet;   ! m
 +Posss2s:^+cPosss2s^§OEOE1§d   Famketthet;   ! d
 +Posss3s:^+cPosss3s^§JPnull§§AE1§   Famketthet;   ! ja, je, a,e
@@ -1607,7 +1607,7 @@ LEXICON Genketthet
  
 LEXICON Caseketthet
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -1629,7 +1629,7 @@ LEXICON Caseketthet
 
 LEXICON Caseketthet1
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -1650,12 +1650,12 @@ LEXICON Caseketthet1
 +Ter:^+cTer^ig              #;  ! ig
 
 LEXICON Case1ketthet
-+Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
 +Sup:^+cSup^§oeoezoa§n        #;  ! on, en, ön, n
 
 LEXICON Szorketthet
 +Tmp:^+cTmp^sz§oeanr§r      Subketthet;  ! szor, szer, ször
-+Ik[lfea]:^+cIk^ik                NumAcc;  ! ik
++Ik:^+cIk^ik                NumAcc;  ! ik
                             #;
 LEXICON Subketthet
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
@@ -1665,14 +1665,14 @@ LEXICON Subketthet
 
 
 LEXICON AddNumkett
-[stem]+Num[gcat]:0     Posskett;
+[stem]+Num:0     Posskett;
 
 LEXICON Posskett
-+Par[lfea]:^+cPar^§aeoenr§d       Szorkett;  ! od,ed,öd
++Par:^+cPar^§aeoenr§d       Szorkett;  ! od,ed,öd
 
 LEXICON Szorkett
 +Tmp:^+cTmp^sz§oeanr§r      Subkett;  ! szor, szer, ször
-+Ik[lfea]:^+cIk^ik                NumAcc;  ! ik
++Ik:^+cIk^ik                NumAcc;  ! ik
                             #;
 LEXICON Subkett
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
@@ -1682,7 +1682,7 @@ LEXICON Subkett
 
 
 LEXICON AddNumkett2
-[stem]+Num[gcat]:0     Posskett;
+[stem]+Num:0     Posskett;
 +Num:0     Casekett2;
 
 LEXICON Casekett2
@@ -1691,14 +1691,14 @@ LEXICON Casekett2
 
 
 LEXICON AddNumketta
-[stem]+Num[gcat]:0     Possketta;
+[stem]+Num:0     Possketta;
 
 LEXICON Possketta
-+Par[lfea]:^+cPar^§aeoenra§d       Szorketta;  ! od,ed,öd
++Par:^+cPar^§aeoenra§d       Szorketta;  ! od,ed,öd
 
 LEXICON Szorketta
 +Tmp:^+cTmp^§sz§§oeanr§r      Subketta;  ! szor, szer, ször
-+Ik[lfea]:^+cIk^ik                NumAcc;  ! ik
++Ik:^+cIk^ik                NumAcc;  ! ik
                             #;
 LEXICON Subketta
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
@@ -1708,11 +1708,11 @@ LEXICON Subketta
 
 !kettő:két
 LEXICON AddNumket
-[stem]+Num[gcat]:0     Szorket;
+[stem]+Num:0     Szorket;
 
 LEXICON Szorket
 +Tmp:^+cTmp^sz§oeanr§r      Subket;  ! szor, szer, ször
-+Ik[lfea]:^+cIk^ik                NumAcc;  ! ik
++Ik:^+cIk^ik                NumAcc;  ! ik
                             #;
 LEXICON Subket
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
@@ -1721,14 +1721,14 @@ LEXICON Subket
                             #;
 
 LEXICON AddNumkettharom
-[stem]+Num[gcat]:0     Posskettharom;
+[stem]+Num:0     Posskettharom;
 
 LEXICON Posskettharom
-+Par[lfea]:^+cPar^§aeoenra§d       Szorkettharom;  ! od,ed,öd
++Par:^+cPar^§aeoenra§d       Szorkettharom;  ! od,ed,öd
 
 LEXICON Szorkettharom
 +Tmp:^+cTmp^sz§oeanr§r      Subkettharom;  ! szor, szer, ször
-+Ik[lfea]:^+cIk^ik                NumAcc;  ! ik
++Ik:^+cIk^ik                NumAcc;  ! ik
                             #;
 
 LEXICON Subkettharom
@@ -1743,7 +1743,7 @@ LEXICON AddNummkette
  
 LEXICON Casekette
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -1764,7 +1764,7 @@ LEXICON Casekette
 +Ter:^+cTer^ig              #;  ! ig
 
 LEXICON AddNumoet
-[stem]+Num[gcat]:0     Possoet;
+[stem]+Num:0     Possoet;
 +Num:0     Pluroet;
 +Num:0     Famoet;
 
@@ -1772,7 +1772,7 @@ LEXICON Possoet
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
 +Soc:^+cSoc^§EOA§st§uue§l   #;    ! astul, estül
 +Tem:^+cTem^§k§or             #;    ! kor
-+Par[lfea]:^+cPar^§aeoenr§d       Szoroet;  ! od,ed,öd
++Par:^+cPar^§aeoenr§d       Szoroet;  ! od,ed,öd
 +Tmp:^+cTmp^sz§oeanr§r      Suboet;  ! szor, szer, ször
 +Posss1s:^+cPosss1s^§OEOE1§m   Famoet;   ! m
 +Posss2s:^+cPosss2s^§OEOE1§d   Famoet;   ! d
@@ -1810,7 +1810,7 @@ LEXICON Gen1oet
  
 LEXICON Caseoet
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -1832,7 +1832,7 @@ LEXICON Caseoet
 
 LEXICON Case1oet
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -1855,7 +1855,7 @@ LEXICON Case1oet
 
 LEXICON Szoroet
 +Tmp:^+cTmp^sz§oeanr§r      Suboet;  ! szor, szer, ször
-+Ik[lfea]:^+cIk^ik                NumAcc_et;  ! ik
++Ik:^+cIk^ik                NumAcc_et;  ! ik
                             #;
 
 LEXICON Suboet
@@ -1865,14 +1865,14 @@ LEXICON Suboet
                             #;
 
 LEXICON AddNumketthet2
-[stem]+Num[gcat]:0     Possketthet2;
+[stem]+Num:0     Possketthet2;
 
 LEXICON Possketthet2
-+Par[lfea]:^+cPar^§aeoenr§d       Szorketthet2;  ! od,ed,öd
++Par:^+cPar^§aeoenr§d       Szorketthet2;  ! od,ed,öd
 
 LEXICON Szorketthet2
 +Tmp:^+cTmp^sz§oeanr§r      Subketthet2;  ! szor, szer, ször
-+Ik[lfea]:^+cIk^ik                NumAcc;  ! ik
++Ik:^+cIk^ik                NumAcc;  ! ik
                             #;
 LEXICON Subketthet2
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
@@ -1881,13 +1881,13 @@ LEXICON Subketthet2
                             #;
 
 LEXICON NumAcc
-+Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
                     #;
 
 LEXICON NumAcc_et
-+Acc[lfea]:^+cAcc^et       #;  !et
++Acc:^+cAcc^et       #;  !et
                     #;
 LEXICON NumAcc_at
-+Acc[lfea]:^+cAcc^at       #;  !at
++Acc:^+cAcc^at       #;  !at
                     #;
                     

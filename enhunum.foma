@@ -392,8 +392,8 @@ define Suffixt   §t§ -> 0 // t t  [ %^ | 0 ] _ .o.
 
 define ToUpCase [a:A|á:Á|b:B|c:C|d:D|e:E|é:É|f:F|g:G|h:H|i:I|í:Í|j:J|k:K|l:L|m:M|n:N|o:O|ó:Ó|ö:Ö|ő:Ő|p:P|q:Q|r:R|s:S|t:T|u:U|ú:Ú|ü:Ü|ű:Ű|v:V|w:W|x:X|y:Y|z:Z] ?* | ?* ;
 
-def AddTag [..] -> "+swVowel[lfea]+" || .#. _ Vowel ?* .#. .o.
-           [..] -> "+swConsonant[lfea]+" || .#. _ Cons ?* .#. ;
+def AddTag [..] -> "+swVowel+" || .#. _ Vowel ?* .#. .o.
+           [..] -> "+swConsonant+" || .#. _ Cons ?* .#. ;
 
 # Cleanup: remove morpheme boundaries
 define Cleanup      "^"        -> 0;

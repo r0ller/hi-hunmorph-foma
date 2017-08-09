@@ -1,6 +1,6 @@
 !!!enhuazez2.lexc!!!
 
-Multichar_Symbols  +Noun[gcat]
+Multichar_Symbols  +Noun
 
 +Ess  +Tem 
 !+Dis +Soc
@@ -12,7 +12,7 @@ Multichar_Symbols  +Noun[gcat]
 +Abl  +Ade +All +Dat +Del
 +Ela  +For +Forp +Forpen +Ill +Ine +Ins +Nom
 +Sub  +Ter
-!+Fac +Acc[lfea] +Sup +Cau 
+!+Fac +Acc +Sup +Cau 
       
 §uue§ 
 §oooe§ §AAA§ §oeoe§ §AA§ 
@@ -35,11 +35,11 @@ ugyanez:ugyane AddDet1;
 
 
 LEXICON AddDet1
-[stem]+Noun[gcat]:0     Case2;
+[stem]+Noun:0     Case2;
 
 LEXICON Case2
 +Abl:^+cAbl^§t§t§oooe§l      #;  ! tól, től
-!+Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
+!+Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§n§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§h§oeoe§z      #;  ! hoz, hez, höz
 !+Cau:^+cCau^ért             #;  ! ért

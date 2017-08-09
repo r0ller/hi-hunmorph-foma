@@ -1034,8 +1034,8 @@ define ItoY   G h i c z i -> G h y c z y ,,
               C z i n k -> C z y n k ,,
               I b l  -> Y b l ;
 
-def AddTag [..] -> "+swVowel[lfea]+" || .#. _ Vowel ?* .#. .o. 
-           [..] -> "+swConsonant[lfea]+" || .#. _ Cons ?* .#. ;
+def AddTag [..] -> "+swVowel+" || .#. _ Vowel ?* .#. .o. 
+           [..] -> "+swConsonant+" || .#. _ Cons ?* .#. ;
 
 echo ">>> read in enhu2 <<<"                    
 read lexc lexc/noun/enhu2.lexc

@@ -1,6 +1,6 @@
 !!!enhu2.lexc!!!
 
-Multichar_Symbols  +Noun[gcat]
+Multichar_Symbols  +Noun
 
 +Dis +Ess +Soc +Tem 
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
@@ -8,7 +8,7 @@ Multichar_Symbols  +Noun[gcat]
 
 +Plur +Fam +Gens +Genpl
       
-+Abl +Acc[lfea] +Ade +All +Cau +Dat +Del
++Abl +Acc +Ade +All +Cau +Dat +Del
 +Ela +Fac +For +Forp +Forpen +Ill +Ine +Ins +Nom
 +Sub +Sup +Ter
       
@@ -5078,9 +5078,9 @@ szerencsefi AddNoun;
 
 
 LEXICON AddNoun
-[stem]+Noun[gcat]:0     Poss;
-[stem]+Noun[gcat]:0     Plur;
-[stem]+Noun[gcat]:0     Fam;
+[stem]+Noun:0     Poss;
+[stem]+Noun:0     Plur;
+[stem]+Noun:0     Fam;
 
 LEXICON Poss
 +Dis:^+cDis^§ooez3magas§nként    #;    ! anként, enként
@@ -5115,7 +5115,7 @@ LEXICON Gen
  
 LEXICON Case
 +Abl:^+cAbl^t§oooemagas§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez2magas§t     #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez2magas§t     #;  ! ot, et, öt, t
 +Ade:^+cAde^n§AAAmagas§l       #;  ! nál, nél
 +All:^+cAll^h§oeoemagas§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért                #;  ! ért
@@ -5137,9 +5137,9 @@ LEXICON Case
 +Tem:^+cTem^§k§or #; ! kor
 
 LEXICON AddNounoe
-[stem]+Noun[gcat]:0     Possoe;
-[stem]+Noun[gcat]:0     Pluroe;
-[stem]+Noun[gcat]:0     Famoe1;
+[stem]+Noun:0     Possoe;
+[stem]+Noun:0     Pluroe;
+[stem]+Noun:0     Famoe1;
 
 LEXICON Possoe
 +Dis:^+cDis^önként    #;    ! anként, enként
@@ -5181,7 +5181,7 @@ LEXICON Genoe1
  
 LEXICON Caseoe
 +Abl:^+cAbl^t§oooemagas§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez2magas§t     #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez2magas§t     #;  ! ot, et, öt, t
 +Ade:^+cAde^n§AAAmagas§l       #;  ! nál, nél
 +All:^+cAll^h§oeoemagas§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért                #;  ! ért
@@ -5204,7 +5204,7 @@ LEXICON Caseoe
 
 LEXICON Caseoe1
 +Abl:^+cAbl^t§oooemagas§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^öt     #;  ! ot, et, öt, t
++Acc:^+cAcc^öt     #;  ! ot, et, öt, t
 +Ade:^+cAde^n§AAAmagas§l       #;  ! nál, nél
 +All:^+cAll^höz      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért                #;  ! ért

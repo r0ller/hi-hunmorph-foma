@@ -1,6 +1,6 @@
 !!!enhuoa.lexc!!!
 
-Multichar_Symbols  +Noun[gcat]
+Multichar_Symbols  +Noun
 
 +Dis +Ess +Soc +Tem 
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
@@ -8,7 +8,7 @@ Multichar_Symbols  +Noun[gcat]
 
 +Plur +Fam +Gens +Genpl
       
-+Abl +Acc[lfea] +Ade +All +Cau +Dat +Del
++Abl +Acc +Ade +All +Cau +Dat +Del
 +Ela +Fac +For +Forp +Forpen +Ill +Ine +Ins +Nom
 +Sub +Sup +Ter
       
@@ -1026,9 +1026,9 @@ zöldséghéj AddNoun;
 őszibarackhéj AddNoun;
 
 LEXICON AddNoun
-[stem]+Noun[gcat]:0     Poss;
-[stem]+Noun[gcat]:0     Plur;
-[stem]+Noun[gcat]:0     Fam1;
+[stem]+Noun:0     Poss;
+[stem]+Noun:0     Plur;
+[stem]+Noun:0     Fam1;
 
 LEXICON Poss
 +Dis:^+cDis^§ooez23§nként     #;    ! anként, enként
@@ -1070,7 +1070,7 @@ LEXICON Gen1
  
 LEXICON Case
 +Abl:^+cAbl^§t§§oooe2§l     #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
 +Ade:^+cAde^n§AAA2§l      #;  ! nál, nél
 +All:^+cAll^h§oeoe2§z     #;  ! hoz, hez, höz
 +Cau:^+cCau^ért           #;  ! ért
@@ -1093,8 +1093,8 @@ LEXICON Case
 
 LEXICON Case1
 +Abl:^+cAbl^§t§§oooe2§l     #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
-+Acc[lfea]:^+cAcc^§AA2§t    #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
++Acc:^+cAcc^§AA2§t    #;  ! ot, et, öt, t
 +Ade:^+cAde^n§AAA2§l      #;  ! nál, nél
 +All:^+cAll^h§oeoe2§z     #;  ! hoz, hez, höz
 +Cau:^+cCau^ért           #;  ! ért
@@ -1116,9 +1116,9 @@ LEXICON Case1
 +Tem:^+cTem^§k§or #; ! kor
 
 LEXICON AddNounvekny
-[stem]+Noun[gcat]:0     Possvekny;
-[stem]+Noun[gcat]:0     Plurvekny;
-[stem]+Noun[gcat]:0     Fam1vekny;
+[stem]+Noun:0     Possvekny;
+[stem]+Noun:0     Plurvekny;
+[stem]+Noun:0     Fam1vekny;
 
 LEXICON Possvekny
 +Dis:^+cDis^§ooez23§nként     #;    ! anként, enként
@@ -1161,7 +1161,7 @@ LEXICON Gen1vekny
  
 LEXICON Casevekny
 +Abl:^+cAbl^§t§§oooe2§l     #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
 +Ade:^+cAde^n§AAA2§l      #;  ! nál, nél
 +All:^+cAll^h§oeoe2§z     #;  ! hoz, hez, höz
 +Cau:^+cCau^ért           #;  ! ért
@@ -1184,7 +1184,7 @@ LEXICON Casevekny
 
 LEXICON Case1vekny
 !+Abl:^+cAbl^§t§§oooe2§l     #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
 !+Ade:^+cAde^n§AAA2§l      #;  ! nál, nél
 !+All:^+cAll^h§oeoe2§z     #;  ! hoz, hez, höz
 !+Cau:^+cCau^ért           #;  ! ért
@@ -1206,11 +1206,11 @@ LEXICON Case1vekny
 +Tem:^+cTem^§k§or #; ! kor
 
 LEXICON AddNounvekny1
-[stem]+Noun[gcat]:0     Casevekny1;
+[stem]+Noun:0     Casevekny1;
 
 LEXICON Casevekny1
 +Abl:^+cAbl^§t§§oooe2§l     #;  ! tól, től
-!+Acc[lfea]:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
+!+Acc:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
 +Ade:^+cAde^n§AAA2§l      #;  ! nál, nél
 +All:^+cAll^h§oeoe2§z     #;  ! hoz, hez, höz
 +Cau:^+cCau^ért           #;  ! ért

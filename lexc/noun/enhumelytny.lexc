@@ -1,6 +1,6 @@
 !!!enhuoa.lexc!!!
 
-Multichar_Symbols  +Noun[gcat]
+Multichar_Symbols  +Noun
 
 +Dis +Ess +Soc +Tem 
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
@@ -8,7 +8,7 @@ Multichar_Symbols  +Noun[gcat]
 
 +Plur +Fam +Gens +Genpl
       
-+Abl +Acc[lfea] +Ade +All +Cau +Dat +Del
++Abl +Acc +Ade +All +Cau +Dat +Del
 +Ela +Fac +For +Forp +Forpen +Ill +Ine +Ins +Nom
 +Sub +Sup +Ter
       
@@ -122,16 +122,16 @@ Zách AddNoun1;
 
 
 LEXICON AddNoun
-[stem]+Noun[gcat]:0     Poss;
-[stem]+Noun[gcat]:0     Plur;
-[stem]+Noun[gcat]:0     Fam11;
-![stem]+Noun[gcat]:0     Gen11;
+[stem]+Noun:0     Poss;
+[stem]+Noun:0     Plur;
+[stem]+Noun:0     Fam11;
+![stem]+Noun:0     Gen11;
 
 LEXICON Poss
 +Dis:^+cDis^§ooez18§nként     #;    ! anként, enként
 +Soc:^+cSoc^§EOA17§st§uue2§l  #;    ! astul, estül
 +Tem:^+cTem^§k§or               #;    ! kor
-+Acc[lfea]:^+cAcc^t    #;  ! ot, et, öt, t
++Acc:^+cAcc^t    #;  ! ot, et, öt, t
 +Sup:^+cSup^n    #;  ! on, en, ön, n
 +Fac:^+cFac^v§AAA2§    #;  ! vá, vé
 +Ins:^+cIns^v§AA2§l    #;  ! val, vel
@@ -172,7 +172,7 @@ LEXICON Gen11
  
 LEXICON Case
 +Abl:^+cAbl^§t§§oooe2§l     #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez22§t    #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez22§t    #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA2§l      #;  ! nál, nél
 +All:^+cAll^§h§§oeoe2§z     #;  ! hoz, hez, höz
 +Cau:^+cCau^ért           #;  ! ért
@@ -196,7 +196,7 @@ LEXICON Case
  
 LEXICON Case11
 +Abl:^+cAbl^§t§§oooe2§l     #;  ! tól, től
-!+Acc[lfea]:^+cAcc^§oeoez22§t    #;  ! ot, et, öt, t
+!+Acc:^+cAcc^§oeoez22§t    #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA2§l      #;  ! nál, nél
 +All:^+cAll^§h§§oeoe2§z     #;  ! hoz, hez, höz
 +Cau:^+cCau^ért           #;  ! ért
@@ -219,9 +219,9 @@ LEXICON Case11
 
 
 LEXICON AddNoun1
-[stem]+Noun[gcat]:0     Poss1;
-[stem]+Noun[gcat]:0     Plur1;
-[stem]+Noun[gcat]:0     Fam1;
+[stem]+Noun:0     Poss1;
+[stem]+Noun:0     Plur1;
+[stem]+Noun:0     Fam1;
 
 LEXICON Poss1
 +Dis:^+cDis^§ooez18§nként     #;    ! anként, enként
@@ -256,7 +256,7 @@ LEXICON Gen1
  
 LEXICON Case1
 +Abl:^+cAbl^§t§§oooe2§l     #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez22§t    #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez22§t    #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA2§l      #;  ! nál, nél
 +All:^+cAll^§h§§oeoe2§z     #;  ! hoz, hez, höz
 +Cau:^+cCau^ért           #;  ! ért

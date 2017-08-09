@@ -1,6 +1,6 @@
 !!!enhu2.lexc!!!
 
-Multichar_Symbols  +Noun[gcat]
+Multichar_Symbols  +Noun
 
 +Dis +Ess +Soc +Tem 
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
@@ -8,7 +8,7 @@ Multichar_Symbols  +Noun[gcat]
 
 +Plur +Fam +Gens +Genpl
       
-+Abl +Acc[lfea] +Ade +All +Cau +Dat +Del
++Abl +Acc +Ade +All +Cau +Dat +Del
 +Ela +Fac +For +Forp +Forpen +Ill +Ine +Ins +Nom
 +Sub +Sup +Ter
       
@@ -6099,9 +6099,9 @@ Zénóné AddNounmely;
 
 
 LEXICON AddNoun
-[stem]+Noun[gcat]:0     Poss;
-[stem]+Noun[gcat]:0     Plur;
-[stem]+Noun[gcat]:0     Fam;
+[stem]+Noun:0     Poss;
+[stem]+Noun:0     Plur;
+[stem]+Noun:0     Fam;
 
 LEXICON Poss
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
@@ -6136,7 +6136,7 @@ LEXICON Gen
  
 LEXICON Case
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -6159,9 +6159,9 @@ LEXICON Case
 
 
 LEXICON AddNouni
-[stem]+Noun[gcat]:0     Possi;
-[stem]+Noun[gcat]:0     Plur;
-[stem]+Noun[gcat]:0     Fam;
+[stem]+Noun:0     Possi;
+[stem]+Noun:0     Plur;
+[stem]+Noun:0     Fam;
 
 LEXICON Possi
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
@@ -6189,9 +6189,9 @@ LEXICON Possi
 
 
 LEXICON AddNounmely
-[stem]+Noun[gcat]:0     Possmely;
-[stem]+Noun[gcat]:0     Plurmely;
-[stem]+Noun[gcat]:0     Fammely;
+[stem]+Noun:0     Possmely;
+[stem]+Noun:0     Plurmely;
+[stem]+Noun:0     Fammely;
 
 LEXICON Possmely
 +Dis:^+cDis^§ooez18§nként     #;    ! anként, enként
@@ -6226,7 +6226,7 @@ LEXICON Genmely
  
 LEXICON Casemely
 +Abl:^+cAbl^§t§§oooe2§l     #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez22§t    #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez22§t    #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA2§l      #;  ! nál, nél
 +All:^+cAll^§h§§oeoe2§z     #;  ! hoz, hez, höz
 +Cau:^+cCau^ért           #;  ! ért
@@ -6249,9 +6249,9 @@ LEXICON Casemely
 
 
 LEXICON AddNounmelyi
-[stem]+Noun[gcat]:0     Possmelyi;
-[stem]+Noun[gcat]:0     Plurmely;
-[stem]+Noun[gcat]:0     Fammely;
+[stem]+Noun:0     Possmelyi;
+[stem]+Noun:0     Plurmely;
+[stem]+Noun:0     Fammely;
 
 LEXICON Possmelyi
 +Dis:^+cDis^§ooez18§nként     #;    ! anként, enként
@@ -6278,15 +6278,15 @@ LEXICON Possmelyi
                            Fammely;
 
 LEXICON AddNounmelyot
-[stem]+Noun[gcat]:0     Possmelyot;
-[stem]+Noun[gcat]:0     Plurmely;
-[stem]+Noun[gcat]:0     Fammely;
+[stem]+Noun:0     Possmelyot;
+[stem]+Noun:0     Plurmely;
+[stem]+Noun:0     Fammely;
 
 LEXICON Possmelyot
 +Dis:^+cDis^§ooez18§nként     #;    ! anként, enként
 +Soc:^+cSoc^§EOA17§st§uue2§l  #;    ! astul, estül
 +Tem:^+cTem^§k§or               #;    ! kor
-+Acc[lfea]:^+cAcc^§oeoe2§t    #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoe2§t    #;  ! ot, et, öt, t
 +Posss1s:^+cPosss1s^§OEOE17§m   Fammely;   ! m
 +Posss2s:^+cPosss2s^§OEOE17§d   Fammely;   ! d
 +Posss3s:^+cPosss3s^§J§§AE21§   Fammely;   ! ja, je, a,e

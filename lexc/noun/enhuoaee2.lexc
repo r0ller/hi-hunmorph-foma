@@ -9,13 +9,13 @@
 !!
 !!!
 
-Multichar_Symbols  +Noun[gcat]
+Multichar_Symbols  +Noun
   
 !+Posss3p +Possp3p +Possp2p +Posss1s +Possp3s +Posss2p
 !+Possp1p +Posss1p  +Posss3s +Possp2s +Posss2s +Possp1s 
 
 !+Fam  +Genpl +Plur +Gens
-+Acc[lfea]
++Acc
 
 !+Sub +Fac +Ill +Dat +Dis +Del +Soc +Ine +Sup +Ela +Ess
 !+All +Ter +Cau +Nom +Forpen +Abl +Ade +Tem +Ins +For +Forp  
@@ -750,7 +750,7 @@ zátonyvíz AddNoun;
 !dublettek_veege
 
 LEXICON AddNoun
-[stem]+Noun[gcat]:0     Case;
+[stem]+Noun:0     Case;
  
 LEXICON Case
-+Acc[lfea]:^+cAcc^§oeoez43§t    #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez43§t    #;  ! ot, et, öt, t

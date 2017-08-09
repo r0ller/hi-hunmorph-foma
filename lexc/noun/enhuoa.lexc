@@ -1,6 +1,6 @@
 !!!enhuoa.lexc!!!
 
-Multichar_Symbols  +Noun[gcat]
+Multichar_Symbols  +Noun
 
 +Dis +Ess +Soc +Tem +Pref+
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
@@ -8,7 +8,7 @@ Multichar_Symbols  +Noun[gcat]
 
 +Plur +Fam +Gens +Genpl
       
-+Abl +Acc[lfea] +Ade +All +Cau +Dat +Del
++Abl +Acc +Ade +All +Cau +Dat +Del
 +Ela +Fac +For +Forp +Forpen +Ill +Ine +Ins +Nom
 +Sub +Sup +Ter
       
@@ -11130,9 +11130,9 @@ zúzóarany AddNounat;
 
 
 LEXICON AddNoun1
-[stem]+Noun[gcat]:0     Poss;
-[stem]+Noun[gcat]:0     Plur1;
-[stem]+Noun[gcat]:0     Fam;
+[stem]+Noun:0     Poss;
+[stem]+Noun:0     Plur1;
+[stem]+Noun:0     Fam;
 
  
 LEXICON Plur1
@@ -11141,9 +11141,9 @@ LEXICON Plur1
 
 ! raktár - raktárak, raktárok Plur
 LEXICON AddNoun2
-[stem]+Noun[gcat]:0     Possvall;
-[stem]+Noun[gcat]:0     Plur2;
-[stem]+Noun[gcat]:0     Fam;
+[stem]+Noun:0     Possvall;
+[stem]+Noun:0     Plur2;
+[stem]+Noun:0     Fam;
 
 LEXICON Plur2
 +Plur:^+cPlur^§oeoez11§k    Gen;
@@ -11151,9 +11151,9 @@ LEXICON Plur2
                             Gen;
 
 LEXICON AddNoun
-[stem]+Noun[gcat]:0     Poss;
-[stem]+Noun[gcat]:0     Plur;
-[stem]+Noun[gcat]:0     Fam;
+[stem]+Noun:0     Poss;
+[stem]+Noun:0     Plur;
+[stem]+Noun:0     Fam;
 
 LEXICON Poss
 +Dis:^+cDis^§ooez13§nként    #;    ! anként, enként
@@ -11188,7 +11188,7 @@ LEXICON Gen
  
 LEXICON Case
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez12§t      #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez12§t      #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -11210,15 +11210,15 @@ LEXICON Case
 +Tem:^+cTem^§k§or #; ! kor
 
 LEXICON AddNounvall
-[stem]+Noun[gcat]:0     Possvall;
-[stem]+Noun[gcat]:0     Plur;
-[stem]+Noun[gcat]:0     Fam;
+[stem]+Noun:0     Possvall;
+[stem]+Noun:0     Plur;
+[stem]+Noun:0     Fam;
 
 LEXICON Possvall
 +Dis:^+cDis^§ooez13§nként    #;    ! anként, enként
 +Soc:^+cSoc^§EOA2§st§uue§l   #;    ! astul, estül
 +Tem:^+cTem^kor              #;    ! kor
-+Acc[lfea]:^+cAcc^§AA§t    #;  ! ot, et, öt, t
++Acc:^+cAcc^§AA§t    #;  ! ot, et, öt, t
 +Posss1s:^+cPosss1s^§OEOE11§m   Fam;   ! m
 +Posss2s:^+cPosss2s^§OEOE11§d   Fam;   ! d
 +Posss3s:^+cPosss3s^§J§§AE1§   Fam;   ! ja, je, a,e
@@ -11234,15 +11234,15 @@ LEXICON Possvall
                            Fam;
 
 LEXICON AddNounhosszt
-[stem]+Noun[gcat]:0     Posshosszt;
-[stem]+Noun[gcat]:0     Plurhosszt;
-[stem]+Noun[gcat]:0     Fam;
+[stem]+Noun:0     Posshosszt;
+[stem]+Noun:0     Plurhosszt;
+[stem]+Noun:0     Fam;
 
 LEXICON Posshosszt
 +Dis:^+cDis^§ooez13§nként    #;    ! anként, enként
 +Soc:^+cSoc^§EOA2§st§uue§l   #;    ! astul, estül
 +Tem:^+cTem^kor              #;    ! kor
-+Acc[lfea]:^+cAcc^t      #;  ! ot, et, öt, t
++Acc:^+cAcc^t      #;  ! ot, et, öt, t
 +Posss1s:^+cPosss1s^§OEOE11§m   Fam;   ! m
 +Posss2s:^+cPosss2s^§OEOE11§d   Fam;   ! d
 +Posss3s:^+cPosss3s^§J§§AE1§   Fam;   ! ja, je, a,e
@@ -11262,9 +11262,9 @@ LEXICON Plurhosszt
                             Gen;
 
 LEXICON AddNounat
-[stem]+Noun[gcat]:0     Possat;
-[stem]+Noun[gcat]:0     Plurat;
-[stem]+Noun[gcat]:0     Famat;
+[stem]+Noun:0     Possat;
+[stem]+Noun:0     Plurat;
+[stem]+Noun:0     Famat;
 
 LEXICON Possat
 +Dis:^+cDis^§ooez13§nként    #;    ! anként, enként
@@ -11306,7 +11306,7 @@ LEXICON Genat1
  
 LEXICON Caseat
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez12§t      #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez12§t      #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -11329,8 +11329,8 @@ LEXICON Caseat
 
 LEXICON Caseat1
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez12§t      #;  ! ot, et, öt, t
-+Acc[lfea]:^+cAcc^§oeoez11§t      #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez12§t      #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez11§t      #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -11353,10 +11353,10 @@ LEXICON Caseat1
 
 
 LEXICON AddNoun10
-[stem]+Noun[gcat]:0     Poss10;
-[stem]+Noun[gcat]:0     Plur10;
-[stem]+Noun[gcat]:0     Fam10;
-[stem]+Noun[gcat]:0     Gen11;
+[stem]+Noun:0     Poss10;
+[stem]+Noun:0     Plur10;
+[stem]+Noun:0     Fam10;
+[stem]+Noun:0     Gen11;
 
 LEXICON Poss10
 +Dis:^+cDis^§ooez13§nként    #;    ! anként, enként
@@ -11396,7 +11396,7 @@ LEXICON Gen11
  
 LEXICON Case10
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez12§t      #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez12§t      #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -11419,7 +11419,7 @@ LEXICON Case10
 
 LEXICON Case11
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^at    #;  ! ot, et, öt, t
++Acc:^+cAcc^at    #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -11441,10 +11441,10 @@ LEXICON Case11
 +Tem:^+cTem^§k§or #; ! kor
 
 LEXICON AddNoun20
-[stem]+Noun[gcat]:0     Poss20;
-[stem]+Noun[gcat]:0     Plur20;
-[stem]+Noun[gcat]:0     Fam21;
-![stem]+Noun[gcat]:0     Gen21;
+[stem]+Noun:0     Poss20;
+[stem]+Noun:0     Plur20;
+[stem]+Noun:0     Fam21;
+![stem]+Noun:0     Gen21;
 
 LEXICON Poss20
 +Dis:^+cDis^§ooez13§nként    #;    ! anként, enként
@@ -11488,7 +11488,7 @@ LEXICON Gen21
  
 LEXICON Case20
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez12§t      #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez12§t      #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -11511,8 +11511,8 @@ LEXICON Case20
 
 LEXICON Case21
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^at    #;  ! ot, et, öt, t
-+Acc[lfea]:^+cAcc^t     #;  ! ot, et, öt, t
++Acc:^+cAcc^at    #;  ! ot, et, öt, t
++Acc:^+cAcc^t     #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -11535,13 +11535,13 @@ LEXICON Case21
 
 
 LEXICON AddNountej
-[stem]+Noun[gcat]:0     Casetej;
+[stem]+Noun:0     Casetej;
 
 LEXICON Casetej
-+Acc[lfea]:^+cAcc^t       #;  ! ot, et, öt, t
++Acc:^+cAcc^t       #;  ! ot, et, öt, t
 
 LEXICON AddNounszaj
-[stem]+Noun[gcat]:0     Possszaj;
+[stem]+Noun:0     Possszaj;
 
 LEXICON Possszaj
 +Posss1s:^+cPosss1s^§OEOE11§m   Genszaj;   ! m
@@ -11569,7 +11569,7 @@ LEXICON Genszaj
  
 LEXICON Caseszaj
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
-+Acc[lfea]:^+cAcc^§oeoez12§t      #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez12§t      #;  ! ot, et, öt, t
 +Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
 +All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
 +Cau:^+cCau^ért             #;  ! ért
@@ -11591,9 +11591,9 @@ LEXICON Caseszaj
 +Tem:^+cTem^§k§or #; ! kor
 
 LEXICON AddNounjnull
-[stem]+Noun[gcat]:0     Possjnull;
-[stem]+Noun[gcat]:0     Plur;
-[stem]+Noun[gcat]:0     Fam;
+[stem]+Noun:0     Possjnull;
+[stem]+Noun:0     Plur;
+[stem]+Noun:0     Fam;
 
 LEXICON Possjnull
 +Dis:^+cDis^§ooez13§nként    #;    ! anként, enként
@@ -11622,15 +11622,15 @@ LEXICON Possjnull
                            Fam;
 
 LEXICON AddNounolaj
-[stem]+Noun[gcat]:0     Possolaj;
-[stem]+Noun[gcat]:0     Plurolaj;
-[stem]+Noun[gcat]:0     Fam;
+[stem]+Noun:0     Possolaj;
+[stem]+Noun:0     Plurolaj;
+[stem]+Noun:0     Fam;
 
 LEXICON Possolaj
 +Dis:^+cDis^§ooez13§nként    #;    ! anként, enként
 +Soc:^+cSoc^§EOA2§st§uue§l   #;    ! astul, estül
 +Tem:^+cTem^kor              #;    ! kor
-+Acc[lfea]:^+cAcc^§AA§t    #;  ! ot, et, öt, t
++Acc:^+cAcc^§AA§t    #;  ! ot, et, öt, t
 +Posss1s:^+cPosss1s^§OEOE11§m   Fam;   ! m
 +Posss2s:^+cPosss2s^§OEOE11§d   Fam;   ! d
 +Posss3s:^+cPosss3s^§J§§AE1§   Fam;   ! ja, je, a,e
@@ -11651,7 +11651,7 @@ LEXICON Plurolaj
                             Gen;
 
 LEXICON AddNounnyugtot
-[stem]+Noun[gcat]:0 CaseNounnyugtot;
+[stem]+Noun:0 CaseNounnyugtot;
 
 LEXICON CaseNounnyugtot
-+Acc[lfea]:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
