@@ -844,9 +844,9 @@ LEXICON AddAdj
 @U.ART.ABSENT@  Tocase;
 
 Lexicon Tocase1
-+Adj+Mid:0     Poss1;
-+Adj+Mid:0     Plur1;
-+Adj+Mid:0     Fam1;
+[stem]+Adj+Mid:0     Poss1;
+[stem]+Adj+Mid:0     Plur1;
+[stem]+Adj+Mid:0     Fam1;
 
 LEXICON Poss1
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként

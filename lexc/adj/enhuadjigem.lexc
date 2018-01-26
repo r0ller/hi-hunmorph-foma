@@ -29247,9 +29247,9 @@ LEXICON Caseboe2
                             Ik;
 
 Lexicon Tocase1boe
-+Adj+Mid:0     Possmboe;
-+Adj+Mid:0     Plurmboe;
-+Adj+Mid:0     Famboe11;
+[stem]+Adj+Mid:0     Possmboe;
+[stem]+Adj+Mid:0     Plurmboe;
+[stem]+Adj+Mid:0     Famboe11;
 
 LEXICON Possmboe
 +Dis:^+cDis^§ooez13§nként     #;    ! anként, enként

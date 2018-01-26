@@ -86385,9 +86385,9 @@ LEXICON Case111
 +Ter:^+cTer^ig              #;  ! ig
 
 Lexicon Tocase1
-+Adj+Mid:0     Possm;
-+Adj+Mid:0     Plurm;
-+Adj+Mid:0     Famm;
+[stem]+Adj+Mid:0     Possm;
+[stem]+Adj+Mid:0     Plurm;
+[stem]+Adj+Mid:0     Famm;
 
 LEXICON Possm
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
@@ -86536,9 +86536,9 @@ LEXICON Casei
 +Ter:^+cTer^ig              #;  ! ig
 
 Lexicon Tocase1i
-+Adj+Mid:0     Possim;
-+Adj+Mid:0     Plurim;
-+Adj+Mid:0     Famim;
+[stem]+Adj+Mid:0     Possim;
+[stem]+Adj+Mid:0     Plurim;
+[stem]+Adj+Mid:0     Famim;
 
 LEXICON Possim
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
@@ -86742,9 +86742,9 @@ LEXICON Caseopt
 +Ter:^+cTer^ig              #;  ! ig
 
 Lexicon Tocase1optimista
-+Adj+Mid:0     Possioptimista;
-+Adj+Mid:0     Plurioptimista;
-+Adj+Mid:0     Famioptimista;
+[stem]+Adj+Mid:0     Possioptimista;
+[stem]+Adj+Mid:0     Plurioptimista;
+[stem]+Adj+Mid:0     Famioptimista;
 
 LEXICON Possioptimista
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
@@ -86809,9 +86809,9 @@ LEXICON AddAdjaonly
 @U.ART.ABSENT@  Tocaseaonly;
 
 Lexicon Tocase1aonly
-+Adj+Mid:0     Possaonly;
-+Adj+Mid:0     Plurmaonly;
-+Adj+Mid:0     Famaonly;
+[stem]+Adj+Mid:0     Possaonly;
+[stem]+Adj+Mid:0     Plurmaonly;
+[stem]+Adj+Mid:0     Famaonly;
 
 Lexicon Tocaseaonly
 [stem]+Adj:0     Possaonly;
@@ -86912,9 +86912,9 @@ LEXICON AddAdj3
 @U.ART.ABSENT@  Tocase3;
 
 Lexicon Tocase31
-+Adj+Mid:0     Possm3;
-+Adj+Mid:0     Plurm3;
-+Adj+Mid:0     Famm3;
+[stem]+Adj+Mid:0     Possm3;
+[stem]+Adj+Mid:0     Plurm3;
+[stem]+Adj+Mid:0     Famm3;
 
 Lexicon Tocase3
 [stem]+Adj:0     Poss3;

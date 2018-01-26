@@ -155,9 +155,9 @@ Lexicon Tocase
 [stem]+Adj:0     Fam;
 
 Lexicon Tocase1
-+Adj+Mid:0     Poss1;
-+Adj+Mid:0     Plur1;
-+Adj+Mid:0     Fam1;
+[stem]+Adj+Mid:0     Poss1;
+[stem]+Adj+Mid:0     Plur1;
+[stem]+Adj+Mid:0     Fam1;
 
 
 
@@ -344,9 +344,9 @@ Lexicon Tocasemely
 [stem]+Adj:0     Fammely;
 
 Lexicon Tocase1mely
-+Adj+Mid:0     Possmely1;
-+Adj+Mid:0     Plurmely1;
-+Adj+Mid:0     Fammely1;
+[stem]+Adj+Mid:0     Possmely1;
+[stem]+Adj+Mid:0     Plurmely1;
+[stem]+Adj+Mid:0     Fammely1;
 
 LEXICON Possmely
 +Dis:^+cDis^§ooez23§nként     #;    ! anként, enként
@@ -548,9 +548,9 @@ Lexicon Tocasei
 [stem]+Adj:0     Fami;
 
 Lexicon Tocase1i
-+Adj+Mid:0     Possim;
-+Adj+Mid:0     Plurim;
-+Adj+Mid:0     Famim;
+[stem]+Adj+Mid:0     Possim;
+[stem]+Adj+Mid:0     Plurim;
+[stem]+Adj+Mid:0     Famim;
 
 Lexicon Tocasemelyi
 [stem]+Adj:0     Possmelyi;
@@ -558,9 +558,9 @@ Lexicon Tocasemelyi
 [stem]+Adj:0     Fammelyi;
 
 Lexicon Tocase1melyi
-+Adj+Mid:0     Possmelyim;
-+Adj+Mid:0     Plurmelyim;
-+Adj+Mid:0     Fammelyim;
+[stem]+Adj+Mid:0     Possmelyim;
+[stem]+Adj+Mid:0     Plurmelyim;
+[stem]+Adj+Mid:0     Fammelyim;
 
 LEXICON Possi
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként

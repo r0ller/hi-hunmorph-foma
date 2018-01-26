@@ -58899,9 +58899,9 @@ LEXICON AddAdj
 @U.ART.ABSENT@  Tocase;
 
 Lexicon Tocase1
-+Adj+Mid:0     Possmmely;
-+Adj+Mid:0     Plurmmely;
-+Adj+Mid:0     Fammely1;
+[stem]+Adj+Mid:0     Possmmely;
+[stem]+Adj+Mid:0     Plurmmely;
+[stem]+Adj+Mid:0     Fammely1;
 
 Lexicon Tocase
 [stem]+Adj:0     Possmely;
@@ -59100,9 +59100,9 @@ LEXICON AddAdja
 @U.ART.ABSENT@  Tocasea;
 
 Lexicon Tocase1a
-+Adj+Mid:0     Possmmelya;
-+Adj+Mid:0     Plurmmelya;
-+Adj+Mid:0     Fammelya1;
+[stem]+Adj+Mid:0     Possmmelya;
+[stem]+Adj+Mid:0     Plurmmelya;
+[stem]+Adj+Mid:0     Fammelya1;
 
 Lexicon Tocasea
 [stem]+Adj:0     Possmelya;
@@ -59237,9 +59237,9 @@ LEXICON AddAdjkorai
 @U.ART.ABSENT@  Tocasekorai;
 
 Lexicon Tocase1korai
-+Adj+Mid:0     Possmelykorai;
-+Adj+Mid:0     Plurmelykorai;
-+Adj+Mid:0     Fammelykorai;
+[stem]+Adj+Mid:0     Possmelykorai;
+[stem]+Adj+Mid:0     Plurmelykorai;
+[stem]+Adj+Mid:0     Fammelykorai;
 
 Lexicon Tocasekorai
 [stem]+Adj:0     Possmelykorai;

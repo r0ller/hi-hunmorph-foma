@@ -7607,9 +7607,9 @@ LEXICON Case111
 +Ter:^+cTer^ig              #;  ! ig
 
 Lexicon Tocase1
-+Adj+Mid:0     Possm;
-+Adj+Mid:0     Plurm;
-+Adj+Mid:0     Famm;
+[stem]+Adj+Mid:0     Possm;
+[stem]+Adj+Mid:0     Plurm;
+[stem]+Adj+Mid:0     Famm;
 
 LEXICON Possm
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
@@ -7752,9 +7752,9 @@ LEXICON Casei
 +Ter:^+cTer^ig              #;  ! ig
 
 Lexicon Tocase1i
-+Adj+Mid:0     Possim;
-+Adj+Mid:0     Plurim;
-+Adj+Mid:0     Famim;
+[stem]+Adj+Mid:0     Possim;
+[stem]+Adj+Mid:0     Plurim;
+[stem]+Adj+Mid:0     Famim;
 
 LEXICON Possim
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
@@ -7958,9 +7958,9 @@ LEXICON Caseopt
 +Ter:^+cTer^ig              #;  ! ig
 
 Lexicon Tocase1optimista
-+Adj+Mid:0     Possioptimista;
-+Adj+Mid:0     Plurioptimista;
-+Adj+Mid:0     Famioptimista;
+[stem]+Adj+Mid:0     Possioptimista;
+[stem]+Adj+Mid:0     Plurioptimista;
+[stem]+Adj+Mid:0     Famioptimista;
 
 LEXICON Possioptimista
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként

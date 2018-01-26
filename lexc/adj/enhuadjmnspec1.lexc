@@ -37,9 +37,9 @@ LEXICON AddAdj
 
 
 !Lexicon Tocase1
-!+Adj+Mid:0     Possm;
-!+Adj+Mid:0     Plurm;
-!+Adj+Mid:0     Famm;
+![stem]+Adj+Mid:0     Possm;
+![stem]+Adj+Mid:0     Plurm;
+![stem]+Adj+Mid:0     Famm;
 
 Lexicon Tocase
 [stem]+Adj:0     Poss;

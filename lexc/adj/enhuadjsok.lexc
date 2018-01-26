@@ -348,9 +348,9 @@ LEXICON Casekicsi
 
 
 Lexicon Tocasebov
-+Adj+Mid:0     Possbov;
-+Adj+Mid:0     Plurbov;
-+Adj+Mid:0     Fambov;
+[stem]+Adj+Mid:0     Possbov;
+[stem]+Adj+Mid:0     Plurbov;
+[stem]+Adj+Mid:0     Fambov;
 
 LEXICON Possbov
 +Dis:^+cDis^§ooez4§nként    #;    ! anként, enként
@@ -431,9 +431,9 @@ LEXICON Casebov1
                             Ik;
 
 Lexicon Tocasebova
-+Adj+Mid:0     Possbova;
-+Adj+Mid:0     Plurbova;
-+Adj+Mid:0     Fambova;
+[stem]+Adj+Mid:0     Possbova;
+[stem]+Adj+Mid:0     Plurbova;
+[stem]+Adj+Mid:0     Fambova;
 
 LEXICON Possbova
 +Dis:^+cDis^§ooez4a§nként    #;    ! anként, enként
@@ -515,9 +515,9 @@ LEXICON Casebova1
                             Ik;
 
 Lexicon Tocasebovaois
-+Adj+Mid:0     Possbovaois;
-+Adj+Mid:0     Plurbovaois;
-+Adj+Mid:0     Fambovaois;
+[stem]+Adj+Mid:0     Possbovaois;
+[stem]+Adj+Mid:0     Plurbovaois;
+[stem]+Adj+Mid:0     Fambovaois;
 
 LEXICON Possbovaois
 +Dis:^+cDis^§ooez4a§nként    #;    ! anként, enként
@@ -795,9 +795,9 @@ LEXICON Casebo
 +Ter:^+cTer^ig              #;  ! ig
 
 Lexicon Tocaseto
-+Adj+Mid:0     Possto;
-+Adj+Mid:0     Plurto;
-+Adj+Mid:0     Famto;
+[stem]+Adj+Mid:0     Possto;
+[stem]+Adj+Mid:0     Plurto;
+[stem]+Adj+Mid:0     Famto;
 
 LEXICON Possto
 +Dis:^+cDis^§ooez4§nként    #;    ! anként, enként

@@ -182,9 +182,9 @@ LEXICON Case100
 +Ter:^+cTer^ig            #;  ! ig
 
 LEXICON Tocase110
-+Adj+Mid:0     Poss110;
-+Adj+Mid:0     Plur110;
-+Adj+Mid:0     Fam110;
+[stem]+Adj+Mid:0     Poss110;
+[stem]+Adj+Mid:0     Plur110;
+[stem]+Adj+Mid:0     Fam110;
 
 LEXICON Poss110
 +Dis:^+cDis^§ooez13§nként    #;    ! anként, enként

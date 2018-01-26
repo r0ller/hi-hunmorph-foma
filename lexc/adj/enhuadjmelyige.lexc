@@ -312,9 +312,9 @@ LEXICON AddAdj
 @U.ART.ABSENT@  Tocase;
 
 Lexicon Tocase1
-+Adj+Mid:0     Possmmely;
-+Adj+Mid:0     Plurmmely;
-+Adj+Mid:0     Fammely1;
+[stem]+Adj+Mid:0     Possmmely;
+[stem]+Adj+Mid:0     Plurmmely;
+[stem]+Adj+Mid:0     Fammely1;
 
 Lexicon Tocase
 [stem]+Adj:0     Possmely;

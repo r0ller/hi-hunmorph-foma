@@ -500,9 +500,9 @@ LEXICON AddAdjoe
 
 
 Lexicon Tocase1oe
-+Adj+Mid:0     Possoe1;
-+Adj+Mid:0     Pluroe1;
-+Adj+Mid:0     Famoe1;
+[stem]+Adj+Mid:0     Possoe1;
+[stem]+Adj+Mid:0     Pluroe1;
+[stem]+Adj+Mid:0     Famoe1;
 
 Lexicon Tocaseoe
 [stem]+Adj:0     Possoe;

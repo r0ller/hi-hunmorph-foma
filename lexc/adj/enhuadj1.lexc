@@ -130,14 +130,14 @@ LEXICON AddAdjoe
 
 
 Lexicon Tocase1oe
-+Adj+Mid:0     Possoeik;
-+Adj+Mid:0     Pluroeik;
-+Adj+Mid:0     Famoeik;
+[stem]+Adj+Mid:0     Possoeik;
+[stem]+Adj+Mid:0     Pluroeik;
+[stem]+Adj+Mid:0     Famoeik;
 
 Lexicon Tocase1
-+Adj+Mid:0     Poss1;
-+Adj+Mid:0     Plur1;
-+Adj+Mid:0     Fam1;
+[stem]+Adj+Mid:0     Poss1;
+[stem]+Adj+Mid:0     Plur1;
+[stem]+Adj+Mid:0     Fam1;
 
 Lexicon Tocaseoe
 [stem]+Adj:0     Possoe;
