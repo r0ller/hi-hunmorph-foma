@@ -1,5 +1,5 @@
 ! enhuadjmely.lexc
-Multichar_Symbols  +Adj @U.ART.PRESENT@ @U.ART.ABSENT@ 
+Multichar_Symbols [stem]  +Adj @U.ART.PRESENT@ @U.ART.ABSENT@ 
 
 +Dis +Ess +Soc +Tem +Pref+
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
@@ -58904,9 +58904,9 @@ Lexicon Tocase1
 +Adj+Mid:0     Fammely1;
 
 Lexicon Tocase
-+Adj:0     Possmely;
-+Adj:0     Plurmely;
-+Adj:0     Fammely;
+[stem]+Adj:0     Possmely;
+[stem]+Adj:0     Plurmely;
+[stem]+Adj:0     Fammely;
 
 
 LEXICON Possmely
@@ -59105,9 +59105,9 @@ Lexicon Tocase1a
 +Adj+Mid:0     Fammelya1;
 
 Lexicon Tocasea
-+Adj:0     Possmelya;
-+Adj:0     Plurmelya;
-+Adj:0     Fammelya;
+[stem]+Adj:0     Possmelya;
+[stem]+Adj:0     Plurmelya;
+[stem]+Adj:0     Fammelya;
 
 
 LEXICON Possmelya
@@ -59242,9 +59242,9 @@ Lexicon Tocase1korai
 +Adj+Mid:0     Fammelykorai;
 
 Lexicon Tocasekorai
-+Adj:0     Possmelykorai;
-+Adj:0     Plurmelykorai;
-+Adj:0     Fammelykorai;
+[stem]+Adj:0     Possmelykorai;
+[stem]+Adj:0     Plurmelykorai;
+[stem]+Adj:0     Fammelykorai;
 
 LEXICON Possmelykorai
 +Dis:^+cDis^§ooez23§nként     #;    ! anként, enként
@@ -59304,7 +59304,7 @@ LEXICON Casemelykorai
 +Ter:^+cTer^ig            #;  ! ig
 
 Lexicon AddIlyenmely
-+Adj:0 IlyenCasemely;
+[stem]+Adj:0 IlyenCasemely;
 
 LEXICON IlyenCasemely
 +Acc:^+cAcc^§AA2§t       #;  ! ilyet olyat
@@ -59314,9 +59314,9 @@ LEXICON AddAdjat
 @U.ART.ABSENT@  Tocaseat;
 
 Lexicon Tocaseat
-+Adj:0     Possmelyat;
-+Adj:0     Plurmely;
-+Adj:0     Fammely;
+[stem]+Adj:0     Possmelyat;
+[stem]+Adj:0     Plurmely;
+[stem]+Adj:0     Fammely;
 
 
 LEXICON Possmelyat

@@ -1,6 +1,6 @@
 !!!enhuige.lexc!!!
 
-Multichar_Symbols  +Verb +Rep +Imper +Pot 
+Multichar_Symbols [stem]  +Verb +Rep +Imper +Pot 
                    +Inf +Pref+ +Adv +Advan
                    +Inf11 +Inf12 +Inf13 +Inf21 +Inf22 +Inf23
                   +IndefSg1   +IndefSg2   +IndefSg3   +IndefSg12

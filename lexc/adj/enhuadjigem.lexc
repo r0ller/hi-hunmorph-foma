@@ -1,5 +1,5 @@
 ! enhuadj1.lexc
-Multichar_Symbols  +Adj @U.ART.PRESENT@ @U.ART.ABSENT@ 
+Multichar_Symbols [stem]  +Adj @U.ART.PRESENT@ @U.ART.ABSENT@ 
 
 +Dis +Ess +Soc +Tem 
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
@@ -29125,9 +29125,9 @@ LEXICON AddAdjboe
 
 
 Lexicon Tocaseboe
-+Adj:0     Possboe;
-+Adj:0     Plurboe;
-+Adj:0     Famboe1;
+[stem]+Adj:0     Possboe;
+[stem]+Adj:0     Plurboe;
+[stem]+Adj:0     Famboe1;
 
 LEXICON Possboe
 +Dis:^+cDis^§ooez13§nként     #;    ! anként, enként
@@ -29382,9 +29382,9 @@ LEXICON AddAdjboeaejaje
 @U.ART.ABSENT@  Tocaseboeaejaje;
 
 Lexicon Tocaseboeaejaje
-+Adj:0     Possboeaejaje;
-+Adj:0     Plurboe;
-+Adj:0     Famboe;
+[stem]+Adj:0     Possboeaejaje;
+[stem]+Adj:0     Plurboe;
+[stem]+Adj:0     Famboe;
 
 LEXICON Possboeaejaje
 +Dis:^+cDis^§ooez13§nként     #;    ! anként, enként
@@ -29417,9 +29417,9 @@ LEXICON AddAdjboeaejajeet
 @U.ART.ABSENT@  Tocaseboeaejajeet;
 
 Lexicon Tocaseboeaejajeet
-+Adj:0     Possboeaejajeet;
-+Adj:0     Plurboe;
-+Adj:0     Famboe;
+[stem]+Adj:0     Possboeaejajeet;
+[stem]+Adj:0     Plurboe;
+[stem]+Adj:0     Famboe;
 
 LEXICON Possboeaejajeet
 +Dis:^+cDis^§ooez13§nként     #;    ! anként, enként
@@ -29453,9 +29453,9 @@ LEXICON AddAdjboeet
 @U.ART.ABSENT@  Tocaseboeet;
 
 Lexicon Tocaseboeet
-+Adj:0     Possboeet;
-+Adj:0     Plurboe;
-+Adj:0     Famboe;
+[stem]+Adj:0     Possboeet;
+[stem]+Adj:0     Plurboe;
+[stem]+Adj:0     Famboe;
 
 LEXICON Possboeet
 +Dis:^+cDis^§ooez13§nként     #;    ! anként, enként
@@ -29481,9 +29481,9 @@ LEXICON AddAdjboeo
 @U.ART.ABSENT@  Tocaseboeo;
 
 Lexicon Tocaseboeo
-+Adj:0     Possboe;
-+Adj:0     Plurboeo;
-+Adj:0     Famboe;
+[stem]+Adj:0     Possboe;
+[stem]+Adj:0     Plurboeo;
+[stem]+Adj:0     Famboe;
 
 LEXICON Plurboeo
 +Plur:^+cPlur^§oeoez1§k    Genboe; ! oeö
@@ -29498,9 +29498,9 @@ LEXICON AddAdjboeot
 
 
 Lexicon Tocaseboeot
-+Adj:0     Possboeot;
-+Adj:0     Plurboeot;
-+Adj:0     Famboeot1;
+[stem]+Adj:0     Possboeot;
+[stem]+Adj:0     Plurboeot;
+[stem]+Adj:0     Famboeot1;
 
 LEXICON Possboeot
 +Dis:^+cDis^§ooez13§nként     #;    ! anként, enként

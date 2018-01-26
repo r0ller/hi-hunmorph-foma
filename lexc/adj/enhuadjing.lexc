@@ -1,5 +1,5 @@
 ! enhuadj1.lexc
-Multichar_Symbols  +Adj @U.ART.PRESENT@ @U.ART.ABSENT@ 
+Multichar_Symbols [stem]  +Adj @U.ART.PRESENT@ @U.ART.ABSENT@ 
 
 +Dis +Ess +Soc +Tem 
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
@@ -150,9 +150,9 @@ LEXICON AddAdj
 
 
 Lexicon Tocase
-+Adj:0     Poss;
-+Adj:0     Plur;
-+Adj:0     Fam;
+[stem]+Adj:0     Poss;
+[stem]+Adj:0     Plur;
+[stem]+Adj:0     Fam;
 
 Lexicon Tocase1
 +Adj+Mid:0     Poss1;
@@ -339,9 +339,9 @@ LEXICON AddAdjmely
 @U.ART.ABSENT@  Tocasemely;
 
 Lexicon Tocasemely
-+Adj:0     Possmely;
-+Adj:0     Plurmely;
-+Adj:0     Fammely;
+[stem]+Adj:0     Possmely;
+[stem]+Adj:0     Plurmely;
+[stem]+Adj:0     Fammely;
 
 Lexicon Tocase1mely
 +Adj+Mid:0     Possmely1;
@@ -543,9 +543,9 @@ LEXICON AddAdjmelyi
 
 
 Lexicon Tocasei
-+Adj:0     Possi;
-+Adj:0     Pluri;
-+Adj:0     Fami;
+[stem]+Adj:0     Possi;
+[stem]+Adj:0     Pluri;
+[stem]+Adj:0     Fami;
 
 Lexicon Tocase1i
 +Adj+Mid:0     Possim;
@@ -553,9 +553,9 @@ Lexicon Tocase1i
 +Adj+Mid:0     Famim;
 
 Lexicon Tocasemelyi
-+Adj:0     Possmelyi;
-+Adj:0     Plurmelyi;
-+Adj:0     Fammelyi;
+[stem]+Adj:0     Possmelyi;
+[stem]+Adj:0     Plurmelyi;
+[stem]+Adj:0     Fammelyi;
 
 Lexicon Tocase1melyi
 +Adj+Mid:0     Possmelyim;

@@ -1,5 +1,5 @@
 ! enhuadj1.lexc
-Multichar_Symbols  +Adj 
+Multichar_Symbols [stem]  +Adj 
 
 +Dis +Ess +Soc +Tem 
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
@@ -47,9 +47,9 @@ utóbbi AddAdjmely;
 ! al only with these
 
 LEXICON AddAdj
-+Adj:0     Poss;
-+Adj:0     Plur;
-+Adj:0     Fam1;
+[stem]+Adj:0     Poss;
+[stem]+Adj:0     Plur;
+[stem]+Adj:0     Fam1;
 
 LEXICON Poss
 +Dis:^+cDis^§ooez13§nként     #;    ! anként, enként
@@ -136,9 +136,9 @@ LEXICON Case1
 +Ter:^+cTer^ig              #;  ! ig
 
 Lexicon AddAdjmely
-+Adj:0     Possmmely;
-+Adj:0     Plurmmely;
-+Adj:0     Fammely1;
+[stem]+Adj:0     Possmmely;
+[stem]+Adj:0     Plurmmely;
+[stem]+Adj:0     Fammely1;
 
 LEXICON Possmmely
 +Dis:^+cDis^§ooez23§nként     #;    ! anként, enként

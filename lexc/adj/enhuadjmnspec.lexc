@@ -1,5 +1,5 @@
 ! enhuadj1.lexc
-Multichar_Symbols  +Adj @U.ART.PRESENT@ 
+Multichar_Symbols [stem]  +Adj @U.ART.PRESENT@ 
 
 +Dis +Ess +Soc +Tem 
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 

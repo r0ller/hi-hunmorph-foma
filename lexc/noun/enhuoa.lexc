@@ -1,6 +1,6 @@
 !!!enhuoa.lexc!!!
 
-Multichar_Symbols  +Noun
+Multichar_Symbols [stem]  +Noun
 
 +Dis +Ess +Soc +Tem +Pref+
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
@@ -7083,6 +7083,7 @@ parfümolaj AddNounolaj;
 parfümtárs AddNoun10;
 parkház AddNoun10;
 parkolóház AddNoun10;
+parkoló AddNoun10;
 parkolóóraház AddNoun10;
 parkszínház AddNoun10;
 parlamentertárs AddNoun10;

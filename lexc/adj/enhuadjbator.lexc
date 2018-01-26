@@ -1,5 +1,5 @@
 ! enhuadjbator.lexc
-Multichar_Symbols  +Adj @U.ART.PRESENT@ 
+Multichar_Symbols [stem]  +Adj @U.ART.PRESENT@ 
 
 +Dis +Ess +Soc +Tem 
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
@@ -39,8 +39,8 @@ LEXICON AddAdj10
 
 
 LEXICON Tocase
-+Adj:0     Poss;
-+Adj:0     Fam;
+[stem]+Adj:0     Poss;
+[stem]+Adj:0     Fam;
 
 LEXICON Poss
 +Tem:^+cTem^kor             #;    ! kor
@@ -124,8 +124,8 @@ LEXICON Case2
 
 
 LEXICON Tocase100
-+Adj:0     Poss100;
-+Adj:0     Plur100;
+[stem]+Adj:0     Poss100;
+[stem]+Adj:0     Plur100;
 
 LEXICON Poss100
 +Dis:^+cDis^§ooez13§nként    #;    ! anként, enként

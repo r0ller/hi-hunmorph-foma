@@ -1,5 +1,5 @@
 ! enhuadj1.lexc
-Multichar_Symbols  +Adj @U.ART.PRESENT@ @U.ART.ABSENT@ 
+Multichar_Symbols [stem]  +Adj @U.ART.PRESENT@ @U.ART.ABSENT@ 
 
 +Dis +Ess +Soc +Tem +Pref+
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
@@ -86292,9 +86292,9 @@ LEXICON AddAdj
 @U.ART.ABSENT@  Tocase;
 
 Lexicon Tocase
-+Adj:0     Poss;
-+Adj:0     Plur;
-+Adj:0     Fam111;
+[stem]+Adj:0     Poss;
+[stem]+Adj:0     Plur;
+[stem]+Adj:0     Fam111;
 
 LEXICON Poss
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
@@ -86468,9 +86468,9 @@ LEXICON AddAdjihue
 
 
 Lexicon Tocasei
-+Adj:0     Possi;
-+Adj:0     Pluri;
-+Adj:0     Fami;
+[stem]+Adj:0     Possi;
+[stem]+Adj:0     Pluri;
+[stem]+Adj:0     Fami;
 
 
 LEXICON Possi
@@ -86677,9 +86677,9 @@ LEXICON AddAdjoptimista
 @U.ART.ABSENT@  Tocaseopt;
 
 Lexicon Tocaseopt
-+Adj:0     Possopt;
-+Adj:0     Pluropt;
-+Adj:0     Famopt;
+[stem]+Adj:0     Possopt;
+[stem]+Adj:0     Pluropt;
+[stem]+Adj:0     Famopt;
 
 
 LEXICON Possopt
@@ -86814,9 +86814,9 @@ Lexicon Tocase1aonly
 +Adj+Mid:0     Famaonly;
 
 Lexicon Tocaseaonly
-+Adj:0     Possaonly;
-+Adj:0     Pluraonly;
-+Adj:0     Famaonly;
+[stem]+Adj:0     Possaonly;
+[stem]+Adj:0     Pluraonly;
+[stem]+Adj:0     Famaonly;
 
 LEXICON Possaonly
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
@@ -86917,9 +86917,9 @@ Lexicon Tocase31
 +Adj+Mid:0     Famm3;
 
 Lexicon Tocase3
-+Adj:0     Poss3;
-+Adj:0     Plur3;
-+Adj:0     Fam3;
+[stem]+Adj:0     Poss3;
+[stem]+Adj:0     Plur3;
+[stem]+Adj:0     Fam3;
 
 LEXICON Poss3
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
@@ -87040,9 +87040,9 @@ LEXICON AddAdjoe
 @U.ART.ABSENT@  Tocaseoe;
 
 Lexicon Tocaseoe
-+Adj:0     Poss;
-+Adj:0     Pluroe;
-+Adj:0     Fam;
+[stem]+Adj:0     Poss;
+[stem]+Adj:0     Pluroe;
+[stem]+Adj:0     Fam;
 
 LEXICON Pluroe
 +Plur:^+cPlur^§oeoez1§k    Gen;
@@ -87052,7 +87052,7 @@ LEXICON Pluroe
         
 
 Lexicon AddIlyen
-+Adj:0 IlyenCase;
+[stem]+Adj:0 IlyenCase;
 
 LEXICON IlyenCase
 +Acc:^+cAcc^§AA§t       #;  ! ilyet olyat
@@ -87063,9 +87063,9 @@ LEXICON AddAdjI
 @U.ART.ABSENT@  TocaseI;
 
 Lexicon TocaseI
-+Adj:0     PossI;
-+Adj:0     PlurI;
-+Adj:0     Fam;
+[stem]+Adj:0     PossI;
+[stem]+Adj:0     PlurI;
+[stem]+Adj:0     Fam;
 
 LEXICON PossI
 +Acc:^+cAcc^§AA§t       #;  ! ilyet olyat
@@ -87101,9 +87101,9 @@ LEXICON AddAdjot
 
 
 Lexicon Tocaseot
-+Adj:0     Possot;
-+Adj:0     Plurot;
-+Adj:0     Famot;
+[stem]+Adj:0     Possot;
+[stem]+Adj:0     Plurot;
+[stem]+Adj:0     Famot;
 
 LEXICON Possot
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
@@ -87195,14 +87195,14 @@ LEXICON Caseot1
 +Ter:^+cTer^ig              #;  ! ig
 
 LEXICON AddAdjilyen
-+Adj:0 Caseilyen;
+[stem]+Adj:0 Caseilyen;
 
 LEXICON Caseilyen
 +Nom:^+cNom^0               #;  ! 
 +Acc:^+cAcc^et       #;  ! ot, et, öt, t
 
 LEXICON AddAdjolyan
-+Adj:0 Caseolyan;
+[stem]+Adj:0 Caseolyan;
 
 LEXICON Caseolyan
 +Nom:^+cNom^0               #;  ! 
@@ -87213,9 +87213,9 @@ LEXICON AddAdjat
 @U.ART.ABSENT@  Tocaseat;
 
 Lexicon Tocaseat
-+Adj:0     Possat;
-+Adj:0     Plur;
-+Adj:0     Fam111;
+[stem]+Adj:0     Possat;
+[stem]+Adj:0     Plur;
+[stem]+Adj:0     Fam111;
 
 LEXICON Possat
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
@@ -87245,7 +87245,7 @@ LEXICON AddAdjioen
 @U.ART.ABSENT@  Tocaseioen;
 
 LEXICON Tocaseioen
-+Adj:0     Caseioen;
+[stem]+Adj:0     Caseioen;
 
 LEXICON Caseioen
 +Sup:^+cSup^en        #;  ! on, en, ön, n

@@ -1,6 +1,6 @@
 !!!enhuadv1.lexc!!!
 
-Multichar_Symbols  +Adv +Pref+
+Multichar_Symbols [stem] +Adv +Pref+
       
 LEXICON Root
 Adv;
@@ -3442,6 +3442,7 @@ gyakorlóan AddAdv;
 gyakorta AddAdv;
 gyakrabban AddAdv;
 gyakran AddAdv;
+gyalog AddAdv;
 gyalogosan AddAdv;
 gyalogszerrel AddAdv;
 gyaluforgácsszerűen AddAdv;
@@ -11457,5 +11458,5 @@ zűrösen AddAdv;
 
 
 LEXICON AddAdv
-+Adv:0     #;
+[stem]+Adv:0     #;
 

@@ -1,5 +1,5 @@
 ! enhuadjfnmn.lexc
-Multichar_Symbols  +Adj @U.ART.PRESENT@ @U.ART.ABSENT@ 
+Multichar_Symbols [stem]  +Adj @U.ART.PRESENT@ @U.ART.ABSENT@ 
 
 +Dis +Ess +Soc +Tem +Pref+
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
@@ -117617,9 +117617,9 @@ LEXICON AddAdjszeru
 @U.ART.ABSENT@  Tocaseszeru;
 
 Lexicon Tocaseszeru
-+Adj:0     Possszeru;
-+Adj:0     Plurszeru;
-+Adj:0     Famszeru;
+[stem]+Adj:0     Possszeru;
+[stem]+Adj:0     Plurszeru;
+[stem]+Adj:0     Famszeru;
 
 LEXICON Plurszeru
 +Plur:^+cPlur^e§oeoez1§k    Genszeru;
@@ -117691,9 +117691,9 @@ LEXICON AddAdj
 
 
 Lexicon Tocase
-+Adj:0     Poss;
-+Adj:0     Plur;
-+Adj:0     Fam;
+[stem]+Adj:0     Poss;
+[stem]+Adj:0     Plur;
+[stem]+Adj:0     Fam;
 
 
 LEXICON Poss
@@ -117903,9 +117903,9 @@ LEXICON AddAdjat
 @U.ART.ABSENT@  Tocaseat;
 
 Lexicon Tocaseat
-+Adj:0     Possat;
-+Adj:0     Plur;
-+Adj:0     Fam;
+[stem]+Adj:0     Possat;
+[stem]+Adj:0     Plur;
+[stem]+Adj:0     Fam;
 
 
 LEXICON Possat
@@ -117935,9 +117935,9 @@ LEXICON AddAdjatek
 @U.ART.ABSENT@  Tocaseatek;
 
 Lexicon Tocaseatek
-+Adj:0     Possatek;
-+Adj:0     Pluratek;
-+Adj:0     Fam;
+[stem]+Adj:0     Possatek;
+[stem]+Adj:0     Pluratek;
+[stem]+Adj:0     Fam;
 
 
 LEXICON Possatek
@@ -117974,9 +117974,9 @@ LEXICON AddAdji
 
 
 Lexicon Tocasei
-+Adj:0     Poss;
-+Adj:0     Pluri;
-+Adj:0     Fam;
+[stem]+Adj:0     Poss;
+[stem]+Adj:0     Pluri;
+[stem]+Adj:0     Fam;
 
 LEXICON Pluri
 +Plur:^+cPlur^§oeoez1§k    Gen; !o
@@ -117990,9 +117990,9 @@ LEXICON AddAdjiek
 
 
 Lexicon Tocaseiek
-+Adj:0     Poss;
-+Adj:0     Pluriek;
-+Adj:0     Fam;
+[stem]+Adj:0     Poss;
+[stem]+Adj:0     Pluriek;
+[stem]+Adj:0     Fam;
 
 LEXICON Pluriek
 +Plur:^+cPlur^ek    Gen; !o
@@ -118006,9 +118006,9 @@ LEXICON AddAdjI
 
 
 Lexicon TocaseI
-+Adj:0     PossI;
-+Adj:0     PlurI;
-+Adj:0     Fam;
+[stem]+Adj:0     PossI;
+[stem]+Adj:0     PlurI;
+[stem]+Adj:0     Fam;
 
 
 LEXICON PossI
@@ -118044,9 +118044,9 @@ LEXICON AddAdjaejaje
 
 
 Lexicon Tocaseaejaje
-+Adj:0     Possaejaje;
-+Adj:0     Pluraejaje;
-+Adj:0     Fam;
+[stem]+Adj:0     Possaejaje;
+[stem]+Adj:0     Pluraejaje;
+[stem]+Adj:0     Fam;
 
 
 LEXICON Possaejaje

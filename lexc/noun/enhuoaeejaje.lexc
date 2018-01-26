@@ -2,7 +2,7 @@
 !!This one builds ADDITIONALLY jaje for poss plural jaim, jaid, etc...
 !!! All words here are in enhuoaee.lexc
 
-Multichar_Symbols  +Noun
+Multichar_Symbols [stem]  +Noun
 
 +Ess 
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 

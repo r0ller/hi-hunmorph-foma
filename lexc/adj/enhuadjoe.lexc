@@ -1,5 +1,5 @@
 ! enhuadj1.lexc
-Multichar_Symbols  +Adj @U.ART.PRESENT@ @U.ART.ABSENT@ 
+Multichar_Symbols [stem]  +Adj @U.ART.PRESENT@ @U.ART.ABSENT@ 
 
 +Dis +Ess +Soc +Tem +Pref+
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
@@ -505,9 +505,9 @@ Lexicon Tocase1oe
 +Adj+Mid:0     Famoe1;
 
 Lexicon Tocaseoe
-+Adj:0     Possoe;
-+Adj:0     Pluroe;
-+Adj:0     Famoe;
+[stem]+Adj:0     Possoe;
+[stem]+Adj:0     Pluroe;
+[stem]+Adj:0     Famoe;
 
 LEXICON Possoe
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
@@ -703,9 +703,9 @@ LEXICON AddAdjoeaejaje
 @U.ART.ABSENT@  Tocaseoeaejaje;
 
 Lexicon Tocaseoeaejaje
-+Adj:0     Possoeaejaje;
-+Adj:0     Pluroe;
-+Adj:0     Famoe;
+[stem]+Adj:0     Possoeaejaje;
+[stem]+Adj:0     Pluroe;
+[stem]+Adj:0     Famoe;
 
 LEXICON Possoeaejaje
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
@@ -742,9 +742,9 @@ LEXICON AddAdjoeat
 @U.ART.ABSENT@  Tocaseoeat;
 
 Lexicon Tocaseoeat
-+Adj:0     Possoeat;
-+Adj:0     Pluroeat;
-+Adj:0     Famoe;
+[stem]+Adj:0     Possoeat;
+[stem]+Adj:0     Pluroeat;
+[stem]+Adj:0     Famoe;
 
 LEXICON Possoeat
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként

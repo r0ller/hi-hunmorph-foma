@@ -373,8 +373,8 @@ nulla AddNum;
 
 LEXICON AddNum
 [stem]+Num:0     Poss;
-+Num:0     Plur;
-+Num:0     Fam;
+[stem]+Num:0     Plur;
+[stem]+Num:0     Fam;
 
 LEXICON Poss
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
@@ -472,9 +472,9 @@ LEXICON Sub
                             #;
 
 LEXICON AddNumat
-+Num:0     Possat;
-+Num:0     Plurat;
-+Num:0     Fam;
+[stem]+Num:0     Possat;
+[stem]+Num:0     Plurat;
+[stem]+Num:0     Fam;
 
 LEXICON Possat
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
@@ -503,9 +503,9 @@ LEXICON Plurat
                             Gen1;
 
 LEXICON AddNummil
-+Num:0     Possmil;
-+Num:0     Plurmil;
-+Num:0     Fammil;
+[stem]+Num:0     Possmil;
+[stem]+Num:0     Plurmil;
+[stem]+Num:0     Fammil;
 
 LEXICON Possmil
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
@@ -604,7 +604,7 @@ LEXICON Submil
                             #;
 
 LEXICON AddNummilliom
-+Num:0     Possmilliom;
+[stem]+Num:0     Possmilliom;
 
 LEXICON Possmilliom
 +Par:^+cPar^§aeoenr§d       Szormilliom;  ! od,ed,öd
@@ -620,8 +620,8 @@ LEXICON Submilliom
                             #;
 ! ezer:ezr
 LEXICON AddNumezr
-+Num:0     Possezr;
-+Num:0     Plurezr;
+[stem]+Num:0     Possezr;
+[stem]+Num:0     Plurezr;
 
 LEXICON Possezr
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
@@ -716,8 +716,8 @@ LEXICON Subezr
 
 LEXICON AddNumoa
 [stem]+Num:0     Possoa;
-+Num:0     Pluroa;
-+Num:0     Famoa;
+[stem]+Num:0     Pluroa;
+[stem]+Num:0     Famoa;
 
 LEXICON Possoa
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
@@ -822,8 +822,8 @@ LEXICON Suboa
 
 LEXICON AddNummelyoa
 [stem]+Num:0     Possmelyoa;
-+Num:0     Plurmelyoa;
-+Num:0     Fammelyoa;
+[stem]+Num:0     Plurmelyoa;
+[stem]+Num:0     Fammelyoa;
 
 LEXICON Possmelyoa
 +Dis:^+cDis^§ooez18§nként     #;    ! anként, enként
@@ -927,8 +927,8 @@ LEXICON Submelyoa
 
 LEXICON AddNuma
 [stem]+Num:0     Possa;
-+Num:0     Plura;
-+Num:0     Fama;
+[stem]+Num:0     Plura;
+[stem]+Num:0     Fama;
 
 LEXICON Possa
 +Dis:^+cDis^§ooez13§nként    #;    ! anként, enként
@@ -1027,7 +1027,7 @@ LEXICON Suba
 ! három:hárm
 LEXICON AddNumhar
 [stem]+Num:0     Posshar;
-+Num:0     Plurhar;
+[stem]+Num:0     Plurhar;
 
 LEXICON Posshar
 +Dis:^+cDis^§ooez13§nként    #;    ! anként, enként
@@ -1116,8 +1116,8 @@ LEXICON Casehar1
 
 LEXICON AddNummar
 [stem]+Num:0     Possmar;
-+Num:0     Plurmar;
-+Num:0     Fammar;
+[stem]+Num:0     Plurmar;
+[stem]+Num:0     Fammar;
 
 LEXICON Possmar
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
@@ -1211,8 +1211,8 @@ LEXICON Submar
 
 LEXICON AddNummara
 [stem]+Num:0     Possmara;
-+Num:0     Plurmara;
-+Num:0     Fammara;
+[stem]+Num:0     Plurmara;
+[stem]+Num:0     Fammara;
 
 LEXICON Possmara
 +Dis:^+cDis^§ooez13§nként    #;    ! anként, enként
@@ -1308,7 +1308,7 @@ LEXICON Submara
 !három
 LEXICON AddNummarharom
 [stem]+Num:0     Possmarharom;
-+Num:0     Fammarharom;
+[stem]+Num:0     Fammarharom;
 
 LEXICON Possmarharom
 +Tem:^+cTem^§k§or           #;    ! kor
@@ -1403,8 +1403,8 @@ LEXICON Submarharom
 
 LEXICON AddNummarjnull
 [stem]+Num:0     Possmarjnull;
-+Num:0     Plurmarjnull;
-+Num:0     Fammarjnull;
+[stem]+Num:0     Plurmarjnull;
+[stem]+Num:0     Fammarjnull;
 
 LEXICON Possmarjnull
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
@@ -1498,7 +1498,7 @@ LEXICON Submarjnull
 ! hét
 LEXICON AddNummarhet
 [stem]+Num:0     Possmarhet;
-+Num:0     Fammarhet;
+[stem]+Num:0     Fammarhet;
 
 LEXICON Possmarhet
 +Tem:^+cTem^§k§or           #;    ! kor
@@ -1572,7 +1572,7 @@ LEXICON Submarhet
 !hét:het
 LEXICON AddNumketthet
 [stem]+Num:0     Possketthet;
-+Num:0     Plurketthet;
+[stem]+Num:0     Plurketthet;
 
 LEXICON Possketthet
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
@@ -1683,7 +1683,7 @@ LEXICON Subkett
 
 LEXICON AddNumkett2
 [stem]+Num:0     Posskett;
-+Num:0     Casekett2;
+[stem]+Num:0     Casekett2;
 
 LEXICON Casekett2
 +Sup:^+cSup^en        #;  ! on, en, ön, n
@@ -1739,7 +1739,7 @@ LEXICON Subkettharom
 
 
 LEXICON AddNummkette
-+Num:0     Casekette;
+[stem]+Num:0     Casekette;
  
 LEXICON Casekette
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
@@ -1765,8 +1765,8 @@ LEXICON Casekette
 
 LEXICON AddNumoet
 [stem]+Num:0     Possoet;
-+Num:0     Pluroet;
-+Num:0     Famoet;
+[stem]+Num:0     Pluroet;
+[stem]+Num:0     Famoet;
 
 LEXICON Possoet
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként

@@ -1,5 +1,5 @@
 ! enhuadj1.lexc
-Multichar_Symbols  +Adj @U.ART.PRESENT@ @U.ART.ABSENT@ 
+Multichar_Symbols [stem]  +Adj @U.ART.PRESENT@ @U.ART.ABSENT@ 
 
 +Dis +Ess +Soc +Tem +Pref+
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
@@ -140,14 +140,14 @@ Lexicon Tocase1
 +Adj+Mid:0     Fam1;
 
 Lexicon Tocaseoe
-+Adj:0     Possoe;
-+Adj:0     Pluroe;
-+Adj:0     Famoe;
+[stem]+Adj:0     Possoe;
+[stem]+Adj:0     Pluroe;
+[stem]+Adj:0     Famoe;
 
 Lexicon Tocase
-+Adj:0     Poss;
-+Adj:0     Plur;
-+Adj:0     Fam;
+[stem]+Adj:0     Poss;
+[stem]+Adj:0     Plur;
+[stem]+Adj:0     Fam;
 
 LEXICON Poss
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
@@ -455,9 +455,9 @@ LEXICON AddAdjatot
 @U.ART.ABSENT@  Tocaseatot;
 
 Lexicon Tocaseatot
-+Adj:0     Possatot;
-+Adj:0     Plur;
-+Adj:0     Fam;
+[stem]+Adj:0     Possatot;
+[stem]+Adj:0     Plur;
+[stem]+Adj:0     Fam;
 
 LEXICON Possatot
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
@@ -487,9 +487,9 @@ LEXICON AddAdjat
 @U.ART.ABSENT@  Tocaseat;
 
 Lexicon Tocaseat
-+Adj:0     Possat;
-+Adj:0     Plur;
-+Adj:0     Fam;
+[stem]+Adj:0     Possat;
+[stem]+Adj:0     Plur;
+[stem]+Adj:0     Fam;
 
 LEXICON Possat
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként

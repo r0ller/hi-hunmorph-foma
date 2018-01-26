@@ -1,5 +1,5 @@
 ! enhuadj1.lexc
-Multichar_Symbols  +Adj @U.ART.PRESENT@ 
+Multichar_Symbols [stem]  +Adj @U.ART.PRESENT@ 
 
 +Dis +Ess +Soc +Tem 
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
@@ -229,9 +229,9 @@ LEXICON AddAdjbovaois
 0:^+cMid§oeoebb§bb Tocasebovaois;  !körkörösebbek nem körkörösebbök!
 
 Lexicon Tocase
-+Adj:0     Poss;
-+Adj:0     Plur;
-+Adj:0     Fam;
+[stem]+Adj:0     Poss;
+[stem]+Adj:0     Plur;
+[stem]+Adj:0     Fam;
 
 LEXICON Poss
 +Dis:^+cDis^§ooez13§nként    #;    ! anként, enként
@@ -287,9 +287,9 @@ LEXICON Case
 
 
 Lexicon Tocasekicsi
-+Adj:0     Posskicsi;
-+Adj:0     Plurkicsi;
-+Adj:0     Famkicsi;
+[stem]+Adj:0     Posskicsi;
+[stem]+Adj:0     Plurkicsi;
+[stem]+Adj:0     Famkicsi;
 
 LEXICON Posskicsi
 +Dis:^+cDis^§ooez13§nként    #;    ! anként, enként
@@ -606,7 +606,7 @@ LEXICON Casebovaois1
                             Ik;
 
 Lexicon Tocasekonnyu
-+Adj:0     Plurkonnyu;
+[stem]+Adj:0     Plurkonnyu;
 
 LEXICON Plurkonnyu
 +Plur:^+cPlur^§oeoez11§k    Genkonnyu; 
@@ -617,8 +617,8 @@ LEXICON Genkonnyu
                        Casebo;
 
 Lexicon Tocasebooe
-+Adj:0     Possbooe;
-+Adj:0     Plurbooe;
+[stem]+Adj:0     Possbooe;
+[stem]+Adj:0     Plurbooe;
 
 LEXICON Possbooe
 +Posss1s:^+cPosss1s^§OEOE4a§m   Fambooe;   ! m
@@ -672,8 +672,8 @@ LEXICON Casebooe
 
 
 Lexicon Tocasenehez
-+Adj:0     Possnehez;
-+Adj:0     Plurnehez;
+[stem]+Adj:0     Possnehez;
+[stem]+Adj:0     Plurnehez;
 
 LEXICON Possnehez
 +Dis:^+cDis^§ooez13§nként     #;    ! anként, enként
@@ -730,18 +730,18 @@ LEXICON Casenehez1
 +Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
 
 Lexicon Tocaseboek
-+Adj:0     Possbo;
-+Adj:0     Plurboek;
-+Adj:0     Fambo;
+[stem]+Adj:0     Possbo;
+[stem]+Adj:0     Plurboek;
+[stem]+Adj:0     Fambo;
 
 LEXICON Plurboek
 +Plur:^+cPlur^§oeoez11§k    Genbo; 
 +Plur:^+cPlur^§oeoeadjoe§k    Genbo;  !szüzek, jóak
 
 Lexicon Tocasebo
-+Adj:0     Possbo;
-+Adj:0     Plurbo;
-+Adj:0     Fambo;
+[stem]+Adj:0     Possbo;
+[stem]+Adj:0     Plurbo;
+[stem]+Adj:0     Fambo;
 
 LEXICON Possbo
 +Dis:^+cDis^§ooez13§nként     #;    ! anként, enként
@@ -952,9 +952,9 @@ LEXICON Caseik
 
 
 Lexicon Tocasemelysik
-+Adj:0     Possmelysik;
-+Adj:0     Plurmelysik;
-+Adj:0     Fammelysik;
+[stem]+Adj:0     Possmelysik;
+[stem]+Adj:0     Plurmelysik;
+[stem]+Adj:0     Fammelysik;
 
 LEXICON Possmelysik
 +Dis:^+cDis^§ooez23§nként     #;    ! anként, enként
@@ -1016,9 +1016,9 @@ LEXICON Casemelysik
 
 
 Lexicon Tocasemelygyakori
-+Adj:0     Possmelygyakori;
-+Adj:0     Plurmelygyakori;
-+Adj:0     Fammelygyakori;
+[stem]+Adj:0     Possmelygyakori;
+[stem]+Adj:0     Plurmelygyakori;
+[stem]+Adj:0     Fammelygyakori;
 
 LEXICON Possmelygyakori
 +Dis:^+cDis^§ooez23§nként     #;    ! anként, enként
@@ -1079,9 +1079,9 @@ LEXICON Casemelygyakori
 +Ter:^+cTer^ig            #;  ! ig
 
 Lexicon Tocaseboe
-+Adj:0     Possboe;
-+Adj:0     Plurboe;
-+Adj:0     Famboe;
+[stem]+Adj:0     Possboe;
+[stem]+Adj:0     Plurboe;
+[stem]+Adj:0     Famboe;
 
 
 LEXICON Possboe

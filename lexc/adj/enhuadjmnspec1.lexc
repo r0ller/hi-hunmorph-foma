@@ -1,5 +1,5 @@
 ! enhuadj1.lexc
-Multichar_Symbols  +Adj @U.ART.PRESENT@ @U.ART.ABSENT@ 
+Multichar_Symbols [stem]  +Adj @U.ART.PRESENT@ @U.ART.ABSENT@ 
 
 +Dis +Ess +Soc +Tem 
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
@@ -42,9 +42,9 @@ LEXICON AddAdj
 !+Adj+Mid:0     Famm;
 
 Lexicon Tocase
-+Adj:0     Poss;
-+Adj:0     Plur;
-+Adj:0     Fam;
+[stem]+Adj:0     Poss;
+[stem]+Adj:0     Plur;
+[stem]+Adj:0     Fam;
 
 LEXICON Poss
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
@@ -109,7 +109,7 @@ LEXICON Case
 
 
 !Lexicon AddIlyen
-!+Adj:0 IlyenCase;
+![stem]+Adj:0 IlyenCase;
 
 !LEXICON IlyenCase
 !+Acc:^+cAcc^§AA§t       #;  ! ilyet olyat

@@ -1,5 +1,5 @@
 ! enhuadjmelyige.lexc
-Multichar_Symbols  +Adj @U.ART.PRESENT@ @U.ART.ABSENT@ 
+Multichar_Symbols [stem]  +Adj @U.ART.PRESENT@ @U.ART.ABSENT@ 
 
 +Dis +Ess +Soc +Tem +Pref+
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
@@ -317,9 +317,9 @@ Lexicon Tocase1
 +Adj+Mid:0     Fammely1;
 
 Lexicon Tocase
-+Adj:0     Possmely;
-+Adj:0     Plurmely;
-+Adj:0     Fammely;
+[stem]+Adj:0     Possmely;
+[stem]+Adj:0     Plurmely;
+[stem]+Adj:0     Fammely;
 
 
 LEXICON Possmely
@@ -508,9 +508,9 @@ LEXICON Caseikmely
 +Ter:^+cTer^ig              #;  ! ig
 
 Lexicon Tocasejajeae
-+Adj:0     Possmelyjajeae;
-+Adj:0     Plurmely;
-+Adj:0     Fammely;
+[stem]+Adj:0     Possmelyjajeae;
+[stem]+Adj:0     Plurmely;
+[stem]+Adj:0     Fammely;
 
 
 LEXICON Possmelyjajeae
@@ -547,9 +547,9 @@ LEXICON AddAdji
 @U.ART.ABSENT@  Tocasei;
 
 Lexicon Tocasei
-+Adj:0     Possmely;
-+Adj:0     Plurmelyi;
-+Adj:0     Fammely;
+[stem]+Adj:0     Possmely;
+[stem]+Adj:0     Plurmelyi;
+[stem]+Adj:0     Fammely;
 
 
 LEXICON Plurmelyi

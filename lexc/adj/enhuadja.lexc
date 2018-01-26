@@ -1,5 +1,5 @@
 ! enhuadj1.lexc
-Multichar_Symbols  +Adj @U.ART.PRESENT@ @U.ART.ABSENT@ 
+Multichar_Symbols [stem]  +Adj @U.ART.PRESENT@ @U.ART.ABSENT@ 
 
 +Dis +Ess +Soc +Tem +Pref+
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
@@ -881,9 +881,9 @@ LEXICON Gen1
                        Case1;
 
 Lexicon Tocase
-+Adj:0     Poss;
-+Adj:0     Plur;
-+Adj:0     Fam;
+[stem]+Adj:0     Poss;
+[stem]+Adj:0     Plur;
+[stem]+Adj:0     Fam;
 
 LEXICON Poss
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
@@ -1049,9 +1049,9 @@ LEXICON AddAdjt
 @U.ART.ABSENT@  Tocaset;
 
 Lexicon Tocaset
-+Adj:0     Posst;
-+Adj:0     Plur;
-+Adj:0     Fam;
+[stem]+Adj:0     Posst;
+[stem]+Adj:0     Plur;
+[stem]+Adj:0     Fam;
 
 LEXICON Posst
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
@@ -1083,9 +1083,9 @@ LEXICON AddAdjat
 
 ! s végűek at tárgyesettel, pl. biztosak (case1 acc)
 Lexicon Tocaseat
-+Adj:0     Possat;
-+Adj:0     Plurat;
-+Adj:0     Famat;
+[stem]+Adj:0     Possat;
+[stem]+Adj:0     Plurat;
+[stem]+Adj:0     Famat;
 
 LEXICON Possat
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
@@ -1178,7 +1178,7 @@ LEXICON Caseat1
 
 ! uses Fam, etc of Tocase
 Lexicon AddAdjvolt
-+Adj:0     Possvolt;
+[stem]+Adj:0     Possvolt;
 
 LEXICON Possvolt
 +Posss3s:^+cPosss3s^§AE1§   Fam;   ! ja, je, a,e
@@ -1190,9 +1190,9 @@ LEXICON AddAdjae
 
 ! elmúlta Jnull, JPnull
 Lexicon Tocaseae
-+Adj:0     Possae;
-+Adj:0     Plur;
-+Adj:0     Fam;
+[stem]+Adj:0     Possae;
+[stem]+Adj:0     Plur;
+[stem]+Adj:0     Fam;
 
 LEXICON Possae
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként

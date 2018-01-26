@@ -1,6 +1,6 @@
 !!!enhu2.lexc!!!
 
-Multichar_Symbols +Noun +Pref+ [Guess] [stem] +CON
+Multichar_Symbols [stem] +Noun +Pref+ [Guess] +CON
 
 +Dis +Ess +Soc +Tem 
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
@@ -5844,6 +5844,7 @@ zúzmaranéni AddNoun;
 
 LEXICON Constant
 [stem]+CON:0	Object;
+[stem]+CON:0	#;
 
 LEXICON Object
 +Acc:^+cAcc^t #; ! ot, et, öt, t
