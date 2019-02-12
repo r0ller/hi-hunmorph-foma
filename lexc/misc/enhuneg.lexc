@@ -1,6 +1,6 @@
 !!!enhuneg.lexc!!!
 
-Multichar_Symbols  +Neg
+Multichar_Symbols [stem] +Neg
       
 LEXICON Root
 Neg;
@@ -20,5 +20,5 @@ sosem AddNeg;
 sosincs AddNeg;
 
 LEXICON AddNeg
-+Neg:0     #;
+[stem]+Neg:0     #;
 

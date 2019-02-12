@@ -5844,10 +5844,17 @@ zúzmaranéni AddNoun;
 
 LEXICON Constant
 [stem]+CON:0	Object;
+[stem]+CON:0	Dative;
 [stem]+CON:0	#;
 
 LEXICON Object
++Acc:^+cAcc^§oeoez2§t #; ! ot, et, öt, t
++Acc:^+cAcc^§AA§t #; ! ot, et, öt, t
 +Acc:^+cAcc^t #; ! ot, et, öt, t
+
+LEXICON Dative
++Ins:^+cIns^§VV§§AA§l #; ! val, vel
++Sub:^+cSub^§r§§AA§ #; ! ra, re
 
 LEXICON AddNoun
 [stem]+Noun:0 Poss;

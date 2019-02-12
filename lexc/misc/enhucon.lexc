@@ -1,6 +1,6 @@
 !!!enhudet.lexc!!!
 
-Multichar_Symbols  +Con
+Multichar_Symbols [stem] +Conj
       
 LEXICON Root
 Con;
@@ -158,5 +158,5 @@ végezetül AddCon;
 újfent AddCon;
 
 LEXICON AddCon
-+Con:0     #;
+[stem]+Conj:0     #;
 
