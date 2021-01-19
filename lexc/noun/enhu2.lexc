@@ -5845,6 +5845,7 @@ zúzmaranéni AddNoun;
 LEXICON Constant
 [stem]+CON:0	Object;
 [stem]+CON:0	Dative;
+[stem]+CON:0	Case;
 [stem]+CON:0	#;
 
 LEXICON Object
