@@ -462,7 +462,7 @@ LEXICON Case1
 
 LEXICON Szor
 +Tmp:^+cTmp^sz§oeanr§r      Sub;  ! szor, szer, ször
-+Ik:^+cIk^ik                NumAcc;  ! ik
++Ik:^+cIk^ik                NumAccDat;  ! ik
                             #;
 
 LEXICON Sub
@@ -594,7 +594,7 @@ LEXICON Casemil1
 
 LEXICON Szormil
 +Tmp:^+cTmp^sz§oeanr§r      Sub;  ! szor, szer, ször
-+Ik:^+cIk^ik                NumAcc;  ! ik
++Ik:^+cIk^ik                NumAccDat;  ! ik
                             #;
 
 LEXICON Submil
@@ -611,7 +611,7 @@ LEXICON Possmilliom
 
 LEXICON Szormilliom
 +Tmp:^+cTmp^sz§oeanr§r      Submilliom;  ! szor, szer, ször
-+Ik:^+cIk^ik                NumAcc;  ! ik
++Ik:^+cIk^ik                NumAccDat;  ! ik
                             #;
 LEXICON Submilliom
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
@@ -706,7 +706,7 @@ LEXICON Case1ezr
 
 LEXICON Szorezr
 +Tmp:^+cTmp^sz§oeanr§r      Subezr;  ! szor, szer, ször
-+Ik:^+cIk^ik                NumAcc;  ! ik
++Ik:^+cIk^ik                NumAccDat;  ! ik
                             #;
 LEXICON Subezr
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
@@ -811,7 +811,7 @@ LEXICON Caseoa1
 
 LEXICON Szoroa
 +Tmp:^+cTmp^sz§oeanr§r      Suboa;  ! szor, szer, ször
-+Ik:^+cIk^ik                NumAcc;  ! ik
++Ik:^+cIk^ik                NumAccDat;  ! ik
                             #;
 LEXICON Suboa
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
@@ -917,7 +917,7 @@ LEXICON Casemelyoa1
 
 LEXICON Szormelyoa
 +Tmp:^+cTmp^sz§oeanrmely§r      Submelyoa;  ! szor, szer, ször
-+Ik:^+cIk^ik                NumAcc_at;  ! ik
++Ik:^+cIk^ik                NumAccDat_at;  ! ik
                             #;
 LEXICON Submelyoa
 +Sub:^+cSub^§r§§AA2§         #;  ! ra, re
@@ -1016,7 +1016,7 @@ LEXICON Casea1
 
 LEXICON Szora
 +Tmp:^+cTmp^sz§oeanr§r      Suba;  ! szor, szer, ször
-+Ik:^+cIk^ik                NumAcc;  ! ik
++Ik:^+cIk^ik                NumAccDat;  ! ik
                             #;
 LEXICON Suba
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
@@ -1655,7 +1655,7 @@ LEXICON Case1ketthet
 
 LEXICON Szorketthet
 +Tmp:^+cTmp^sz§oeanr§r      Subketthet;  ! szor, szer, ször
-+Ik:^+cIk^ik                NumAcc;  ! ik
++Ik:^+cIk^ik                NumAccDat;  ! ik
                             #;
 LEXICON Subketthet
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
@@ -1672,7 +1672,7 @@ LEXICON Posskett
 
 LEXICON Szorkett
 +Tmp:^+cTmp^sz§oeanr§r      Subkett;  ! szor, szer, ször
-+Ik:^+cIk^ik                NumAcc;  ! ik
++Ik:^+cIk^ik                NumAccDat;  ! ik
                             #;
 LEXICON Subkett
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
@@ -1698,7 +1698,7 @@ LEXICON Possketta
 
 LEXICON Szorketta
 +Tmp:^+cTmp^§sz§§oeanr§r      Subketta;  ! szor, szer, ször
-+Ik:^+cIk^ik                NumAcc;  ! ik
++Ik:^+cIk^ik                NumAccDat;  ! ik
                             #;
 LEXICON Subketta
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
@@ -1712,7 +1712,7 @@ LEXICON AddNumket
 
 LEXICON Szorket
 +Tmp:^+cTmp^sz§oeanr§r      Subket;  ! szor, szer, ször
-+Ik:^+cIk^ik                NumAcc;  ! ik
++Ik:^+cIk^ik                NumAccDat;  ! ik
                             #;
 LEXICON Subket
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
@@ -1728,7 +1728,7 @@ LEXICON Posskettharom
 
 LEXICON Szorkettharom
 +Tmp:^+cTmp^sz§oeanr§r      Subkettharom;  ! szor, szer, ször
-+Ik:^+cIk^ik                NumAcc;  ! ik
++Ik:^+cIk^ik                NumAccDat;  ! ik
                             #;
 
 LEXICON Subkettharom
@@ -1855,7 +1855,7 @@ LEXICON Case1oet
 
 LEXICON Szoroet
 +Tmp:^+cTmp^sz§oeanr§r      Suboet;  ! szor, szer, ször
-+Ik:^+cIk^ik                NumAcc_et;  ! ik
++Ik:^+cIk^ik                NumAccDat_et;  ! ik
                             #;
 
 LEXICON Suboet
@@ -1872,7 +1872,7 @@ LEXICON Possketthet2
 
 LEXICON Szorketthet2
 +Tmp:^+cTmp^sz§oeanr§r      Subketthet2;  ! szor, szer, ször
-+Ik:^+cIk^ik                NumAcc;  ! ik
++Ik:^+cIk^ik                NumAccDat;  ! ik
                             #;
 LEXICON Subketthet2
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
@@ -1880,14 +1880,19 @@ LEXICON Subketthet2
 +Kas:^+cKas^§oeanr§s     #;  !as,es,ös képző
                             #;
 
-LEXICON NumAcc
+LEXICON NumAccDat
 +Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
                     #;
 
-LEXICON NumAcc_et
+LEXICON NumAccDat_et
 +Acc:^+cAcc^et       #;  !et
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
                     #;
-LEXICON NumAcc_at
+LEXICON NumAccDat_at
 +Acc:^+cAcc^at       #;  !at
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
                     #;
-                    
