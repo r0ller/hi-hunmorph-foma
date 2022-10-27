@@ -114,6 +114,13 @@ define Grammardet Lexicondet           .o.
                Cleanup           .o.
                ToUpCase ;
 
+echo ">>> read in enhupunct <<<"                    
+read lexc lexc/misc/enhupunct.lexc
+define Lexiconpunct
+
+define Grammarpunct Lexiconpunct           .o. 
+		Cleanup;
+
 echo ">>> read in enhutwin <<<"                    
 read lexc lexc/misc/enhutwin.lexc
 define Lexicontwin
@@ -123,4 +130,4 @@ define Grammartwin Lexicontwin           .o.
                Cleanup           .o.
                ToUpCase ;
 
-regex Grammaradv | Grammaradvige | Grammarsentint | Grammarpost | Grammarvbpfx | Grammarcon | Grammarneg | Grammardet | Grammartwin ;
+regex Grammaradv | Grammaradvige | Grammarsentint | Grammarpost | Grammarvbpfx | Grammarcon | Grammarneg | Grammardet | Grammarpunct | Grammartwin ;
