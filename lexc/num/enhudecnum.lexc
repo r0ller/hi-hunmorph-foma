@@ -1,0 +1,13 @@
+!!!enhudecnum.lexc!!!
+
+Multichar_Symbols [stem] [GuessNum] +decNum
+
+LEXICON Root
+
+decNum1;
+
+LEXICON decNum1
+[GuessNum] decNum2;
+
+LEXICON decNum2
+[stem]+decNum:0 #;

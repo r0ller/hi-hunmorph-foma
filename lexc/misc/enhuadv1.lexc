@@ -1,6 +1,6 @@
 !!!enhuadv1.lexc!!!
 
-Multichar_Symbols [stem] +Adv +Pref+
+Multichar_Symbols [stem] +Adv +Pref+ +Relative
       
 LEXICON Root
 Adv;
@@ -639,7 +639,7 @@ agárszerűen AddAdv;
 ahelyett AddAdv;
 ahogy AddAdv;
 ahogyan AddAdv;
-ahol AddAdv;
+ahol[stem]+Adv+Relative:ahol	#;
 ahonnan AddAdv;
 ahonnét AddAdv;
 ahova AddAdv;
@@ -11461,4 +11461,3 @@ zűrösen AddAdv;
 
 LEXICON AddAdv
 [stem]+Adv:0     #;
-

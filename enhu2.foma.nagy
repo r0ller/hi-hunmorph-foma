@@ -4,6 +4,10 @@
 define Vowel [ a | á | ä | e | é | ë | i | í | o |ó | u | ú | ü | ű | ö | ő | A | Á | E | É | I | Í | O |Ó | U | Ú | Ü | Ű | Ö | Ő ];
 define ConsNogln [ b | c | d | f | h | j | k | m | p | q | r | s | v | w | x | y | z | B | C | D | E | F | H | J | K | L | M | P | Q | R | S | V | W | X | Y | Z ];
 define Cons [ b | c | č | ć | d | f | g | h | j | k | l | m | n | p | q | r | s | t | v | w | x | y | z | B | C | Č | Ć | D | E | F | G | H | J | K | L | M | N | P | Q | R | S | T | V | W | X | Y | Z ];
+define PotentialWord [Cons|Vowel|"."]+;
+# Decimal Numbers
+define decimals [ %0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ];
+define PotentialDecimalNumber [decimals]+;
 define yNoCons [ ConsNogln y | Vowel y | s z t y | ConsNogln Y | Vowel Y | S Z T Y ];
 define yNoConstny [ Cons y | Vowel y | Cons Y | Vowel Y ];
 define Vowelwithy [ Vowel | yNoCons ];
@@ -1033,9 +1037,12 @@ define ItoY   G h i c z i -> G h y c z y ,,
               C z i n k -> C z y n k ,,
               I b l  -> Y b l ;
 
+def AddTag [..] -> "+swVowel+" || .#. _ Vowel ?* .#. .o. 
+           [..] -> "+swConsonant+" || .#. _ Cons ?* .#. ;
 
 echo ">>> read in enhu2 <<<"                    
 read lexc lexc/noun/enhu2.lexc
+substitute defined PotentialWord for "[Guess]"
 define Lexicon
 
 define Grammar Lexicon           .o. 
@@ -2927,5 +2934,11 @@ define Grammarossz Lexiconossz3         .o.
                Cleanup           .o.
                ToUpCase;
 
+echo ">>> read in enhudecnum <<<"
+read lexc lexc/num/enhudecnum.lexc
+substitute defined PotentialDecimalNumber for "[GuessNum]"
+define	LexiconDecNum
 
-regex Grammar | Grammarjaje | Grammarszulo | Grammarle | Grammarero  | Grammaroe  | Grammaroeae  | Grammaroa | Grammaroaae | Grammaroajaje | Grammaroamely | Grammarmely | Grammarmelyjaje | Grammarmelyae |  Grammarmelymasik | Grammarmelytny | Grammarin | Grammarderek | Grammaroaee | Grammaroaee2 | Grammaroaeejaje | Grammarho | Grammarbokor | Grammarsator | Grammarmagas | Grammarfi | Grammarocs | Grammartuz | Grammaryi | Grammarfnevek | Grammarfnige | Grammarfnnum | Grammarfnspec | Grammarfxpp  | Grammarezaz | Grammarezaz2 | Grammaring | Grammarcske  | Grammartalan | Grammarsag | Grammaryy | Grammarossz ;
+define GrammarDecNum LexiconDecNum;
+
+regex [Grammar.i .o. AddTag].i | [Grammarjaje.i .o. AddTag].i | [Grammarszulo.i .o. AddTag].i | [Grammarle.i .o. AddTag].i | [Grammarero.i .o. AddTag].i | [Grammaroe.i .o. AddTag].i | [Grammaroeae.i .o. AddTag].i | [Grammaroa.i .o. AddTag].i | [Grammaroaae.i .o. AddTag].i | [Grammaroajaje.i .o. AddTag].i | [Grammaroamely.i .o. AddTag].i | [Grammarmely.i .o. AddTag].i | [Grammarmelyjaje.i .o. AddTag].i | [Grammarmelyae.i .o. AddTag].i | [Grammarmelymasik.i .o. AddTag].i | [Grammarmelytny.i .o. AddTag].i | [Grammarin.i .o. AddTag].i | [Grammarderek.i .o. AddTag].i | [Grammaroaee.i .o. AddTag].i | [Grammaroaee2.i .o. AddTag].i | [Grammaroaeejaje.i .o. AddTag].i | [Grammarho.i .o. AddTag].i | [Grammarbokor.i .o. AddTag].i | [Grammarsator.i .o. AddTag].i | [Grammarmagas.i .o. AddTag].i | [Grammarfi.i .o. AddTag].i | [Grammarocs.i .o. AddTag].i | [Grammartuz.i .o. AddTag].i | [Grammaryi.i .o. AddTag].i | [Grammarfnevek.i .o. AddTag].i |  [Grammarfnige.i .o. AddTag].i | [Grammarfnnum.i .o. AddTag].i | [Grammarfnspec.i .o. AddTag].i | [Grammarfxpp.i .o. AddTag].i | [Grammarezaz.i .o. AddTag].i | [Grammarezaz2.i .o. AddTag].i | [Grammaring.i .o. AddTag].i | [Grammarcske.i .o. AddTag].i | [Grammartalan.i .o. AddTag].i | [Grammarsag.i .o. AddTag].i | [Grammaryy.i .o. AddTag].i | [Grammarossz.i .o. AddTag].i | GrammarDecNum;
