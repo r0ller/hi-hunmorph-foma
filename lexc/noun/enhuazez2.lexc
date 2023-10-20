@@ -1,6 +1,6 @@
 !!!enhuazez2.lexc!!!
 
-Multichar_Symbols [stem]  +Noun
+Multichar_Symbols [stem]  +Pronoun
 
 +Ess  +Tem 
 !+Dis +Soc
@@ -19,22 +19,22 @@ Multichar_Symbols [stem]  +Noun
 §b§ §h§ §k§ §n§ §r§ §t§ 
       
 LEXICON Root
-Det;
+Pron;
 
-LEXICON Det
-amaz:ama AddDet1;
-az:a AddDet1;
-emez:eme AddDet1;
-ez:e AddDet1;
-mindama AddDet1;
-mindaz:minda AddDet1;
-mindeme AddDet1;
-mindez:minde AddDet1;
-ugyanaz:ugyana AddDet1;
-ugyanez:ugyane AddDet1;
+LEXICON Pron
+amaz:ama AddPron1;
+az:a AddPron1;
+emez:eme AddPron1;
+ez:e AddPron1;
+mindama AddPron1;
+mindaz:minda AddPron1;
+mindeme AddPron1;
+mindez:minde AddPron1;
+ugyanaz:ugyana AddPron1;
+ugyanez:ugyane AddPron1;
 
 
-LEXICON AddDet1
+LEXICON AddPron1
 [stem]+Noun:0     Case2;
 
 LEXICON Case2

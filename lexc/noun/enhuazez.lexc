@@ -1,6 +1,6 @@
 !!!enhuazez.lexc!!!
 
-Multichar_Symbols [stem] +Noun
+Multichar_Symbols [stem] +Pronoun
 
 +Dis +Ess +Soc +Tem 
 +Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
@@ -17,30 +17,30 @@ Multichar_Symbols [stem] +Noun
 §VV§ §b§ §h§ §k§ §n§ §r§ §t§ 
       
 LEXICON Root
-Det;
+Pron;
 
-LEXICON Det
-amaz AddDet;
-az AddDet;
-azon AddDet;
-egyugyanaz AddDet;
-egyugyanazon AddDet;
-emez AddDet;
-ez AddDet;
-ezen AddDet;
-mindaz AddDet;
-mindez AddDet;
-mindazon AddDet;
-mindezen AddDet;
-ugyanaz AddDet;
-ugyanez AddDet;
-ugyanazon AddDet;
-ugyanezen AddDet;
+LEXICON Pron
+amaz AddPron;
+az AddPron;
+azon AddPron;
+egyugyanaz AddPron;
+egyugyanazon AddPron;
+emez AddPron;
+ez AddPron;
+ezen AddPron;
+mindaz AddPron;
+mindez AddPron;
+mindazon AddPron;
+mindezen AddPron;
+ugyanaz AddPron;
+ugyanez AddPron;
+ugyanazon AddPron;
+ugyanezen AddPron;
 
-LEXICON AddDet
-[stem]+Noun:0     Poss;
-[stem]+Noun:0     Plur;
-[stem]+Noun:0     Fam;
+LEXICON AddPron
+[stem]+Pronoun:0     Poss;
+[stem]+Pronoun:0     Plur;
+[stem]+Pronoun:0     Fam;
 
 LEXICON Poss
 +Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
