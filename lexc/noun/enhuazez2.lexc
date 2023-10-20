@@ -35,7 +35,7 @@ ugyanez:ugyane AddPron1;
 
 
 LEXICON AddPron1
-[stem]+Noun:0     Case2;
+[stem]+Pronoun:0     Case2;
 
 LEXICON Case2
 +Abl:^+cAbl^§t§t§oooe§l      #;  ! tól, től
