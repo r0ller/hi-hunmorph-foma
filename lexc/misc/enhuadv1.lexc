@@ -1,7 +1,7 @@
 !!!enhuadv1.lexc!!!
 
 Multichar_Symbols [stem] +Adv +Pref+ +Relative
-      
+
 LEXICON Root
 Adv;
 Prefleg;
@@ -11,7 +11,7 @@ Prefik;
 LEXICON Prefleg
 +Pref+:leg       Adv1 ; ! optional article prefix
 +Pref+:legesleg       Adv1 ; ! optional article prefix
-                        Adv1 ; ! empty string entry
+						Adv1 ; ! empty string entry
 LEXICON Prefnum
 +Pref+:sok       Adv2 ; ! optional article prefix
 +Pref+:több       Adv2 ; ! optional article prefix
@@ -49,7 +49,7 @@ LEXICON Prefnum
 +Pref+:ezer       Adv2 ; ! optional article prefix
 +Pref+:millió       Adv2 ; ! optional article prefix
 +Pref+:milliárd       Adv2 ; ! optional article prefix
-                        Adv2 ; ! empty string entry
+						Adv2 ; ! empty string entry
 LEXICON Prefik
 +Pref+:el       Adv3 ; ! optional article prefix
 +Pref+:le       Adv3 ; ! optional article prefix
@@ -60,7 +60,7 @@ LEXICON Prefik
 +Pref+:át       Adv3 ; ! optional article prefix
 +Pref+:ki       Adv3 ; ! optional article prefix
 +Pref+:meg       Adv3 ; ! optional article prefix
-                 Adv3; 
+				 Adv3;
 
 LEXICON Adv3
 adózatlanul AddAdv;
@@ -244,33 +244,11 @@ LEXICON Adv
 !valahányadik AddAdv;
 !valamennyiedik AddAdv;
 -e AddAdv;
-3D AddAdv;
-ABC AddAdv;
-ACL AddAdv;
-ACPI AddAdv;
-ADSL AddAdv;
-AIDS AddAdv;
-AMD AddAdv;
-ANSI AddAdv;
-APEH AddAdv;
-APM AddAdv;
-ASCII AddAdv;
-ASP AddAdv;
-ATM AddAdv;
 Almira AddAdv;
 Apache AddAdv;
 Apollinaire AddAdv;
 Appalache AddAdv;
 Azori AddAdv;
-BBC AddAdv;
-BKV AddAdv;
-BM AddAdv;
-BME AddAdv;
-BMP AddAdv;
-BMW AddAdv;
-BNV AddAdv;
-BRFK AddAdv;
-BSD AddAdv;
 Baltimore AddAdv;
 Barbarossa AddAdv;
 Bastille AddAdv;
@@ -283,10 +261,6 @@ Brazzaville AddAdv;
 Bretagne AddAdv;
 Budějovice AddAdv;
 Bézier AddAdv;
-CD AddAdv;
-CGI AddAdv;
-CIA AddAdv;
-CSS AddAdv;
 Cambridge AddAdv;
 Camus AddAdv;
 Candide AddAdv;
@@ -300,95 +274,35 @@ Corneille AddAdv;
 Costa AddAdv;
 Cousteau AddAdv;
 Cézanne AddAdv;
-DDT AddAdv;
-DHCP AddAdv;
-DLL AddAdv;
-DNS AddAdv;
-DNy AddAdv;
-DOS AddAdv;
-DTD AddAdv;
-DTP AddAdv;
-DVD AddAdv;
 Delaware AddAdv;
 Diderot AddAdv;
 Dumas AddAdv;
-EEG AddAdv;
-EKG AddAdv;
-ELTE AddAdv;
-ENSZ AddAdv;
-EP AddAdv;
-EU AddAdv;
 Edinburgh AddAdv;
 Erked AddAdv;
-FBI AddAdv;
-FKGP AddAdv;
-FM AddAdv;
-FSF AddAdv;
-FTC AddAdv;
-FTP AddAdv;
 Fayette AddAdv;
 Fermat AddAdv;
 Flaubert AddAdv;
 Fortunatus AddAdv;
 Fourier AddAdv;
 Ft AddAdv;
-FÁK AddAdv;
-GDP AddAdv;
-GHz AddAdv;
-GIF AddAdv;
-GIMP AddAdv;
-GNU AddAdv;
-GPL AddAdv;
-GPS AddAdv;
-GUI AddAdv;
 Gaulle AddAdv;
 George AddAdv;
 Glasgow AddAdv;
 Greenpeace AddAdv;
-H2O AddAdv;
-HIV AddAdv;
-HM AddAdv;
-HP AddAdv;
-HTML AddAdv;
-HVG AddAdv;
 Hampshire AddAdv;
 Hermite AddAdv;
 Hz AddAdv;
-HÉV AddAdv;
 I AddAdv;
-IBM AddAdv;
-IBUSZ AddAdv;
-IDE AddAdv;
 II AddAdv;
 III AddAdv;
-IP AddAdv;
-IQ AddAdv;
-ISBN AddAdv;
-ISO AddAdv;
 IV AddAdv;
 IX AddAdv;
 Illinois AddAdv;
 Informálisan AddAdv;
-JATE AddAdv;
-JPEG AddAdv;
-JPG AddAdv;
-JPTE AddAdv;
-JSP AddAdv;
 Joyce AddAdv;
-KDE AddAdv;
-KDNP AddAdv;
-KFKI AddAdv;
-KGB AddAdv;
-KGST AddAdv;
-KISZ AddAdv;
-KLTE AddAdv;
-KRESZ AddAdv;
 Kuala AddAdv;
 Kung AddAdv;
 L AddAdv;
-LCD AddAdv;
-LGPL AddAdv;
-LSD AddAdv;
 LaTeX AddAdv;
 Lagrange AddAdv;
 Laplace AddAdv;
@@ -410,17 +324,6 @@ M4 AddAdv;
 M5 AddAdv;
 M6 AddAdv;
 M7 AddAdv;
-MALÉV AddAdv;
-MATÁV AddAdv;
-MIME AddAdv;
-MIÉP AddAdv;
-MLSZ AddAdv;
-MOL AddAdv;
-MSZMP AddAdv;
-MSZP AddAdv;
-MTA AddAdv;
-MTI AddAdv;
-MTV AddAdv;
 Mac AddAdv;
 Maldív AddAdv;
 Manche AddAdv;
@@ -436,34 +339,9 @@ Montaigne AddAdv;
 Monte AddAdv;
 Montesquieu AddAdv;
 Moore AddAdv;
-MÁV AddAdv;
-MÉH AddAdv;
-NASA AddAdv;
-NATO AddAdv;
-NDK AddAdv;
-NFS AddAdv;
-NIS AddAdv;
-NOB AddAdv;
-NSZK AddAdv;
-NTP AddAdv;
 Netscape AddAdv;
-ODF AddAdv;
-OEM AddAdv;
-OOP AddAdv;
-OOo AddAdv;
-ORFI AddAdv;
-ORFK AddAdv;
-ORTT AddAdv;
-OTKA AddAdv;
-OTP AddAdv;
 Office AddAdv;
 Orléans AddAdv;
-PCI AddAdv;
-PCMCIA AddAdv;
-PHP AddAdv;
-PNG AddAdv;
-PTE AddAdv;
-PVC AddAdv;
 Pa AddAdv;
 Peugeot AddAdv;
 Poe AddAdv;
@@ -472,9 +350,6 @@ Provence AddAdv;
 Puerto AddAdv;
 Qt AddAdv;
 Quijote AddAdv;
-RMDSZ AddAdv;
-RPM AddAdv;
-RTL AddAdv;
 Rabelais AddAdv;
 Racine AddAdv;
 Rad AddAdv;
@@ -484,16 +359,6 @@ Richelieu AddAdv;
 Rimbaud AddAdv;
 Robespierre AddAdv;
 Rousseau AddAdv;
-SGML AddAdv;
-SMS AddAdv;
-SOS AddAdv;
-SQL AddAdv;
-SS AddAdv;
-SVG AddAdv;
-SZDSZ AddAdv;
-SZOT AddAdv;
-SZOTE AddAdv;
-SZU AddAdv;
 San AddAdv;
 Seattle AddAdv;
 Seychelle AddAdv;
@@ -502,55 +367,26 @@ Sierra AddAdv;
 Slackware AddAdv;
 Sorbonne AddAdv;
 Suriname AddAdv;
-TB AddAdv;
-TBC AddAdv;
-TCP AddAdv;
-TIT AddAdv;
-TTK AddAdv;
-TV AddAdv;
-TV2 AddAdv;
-TXT AddAdv;
 Tartuffe AddAdv;
 TeX AddAdv;
 Toulouse AddAdv;
-UEFA AddAdv;
-UNESCO AddAdv;
-UNICEF AddAdv;
-URH AddAdv;
-URL AddAdv;
-USA AddAdv;
-USB AddAdv;
 V AddAdv;
 VI AddAdv;
 VII AddAdv;
 VIII AddAdv;
-VIT AddAdv;
-VNC AddAdv;
-VPN AddAdv;
 Vandermonde AddAdv;
 Verlaine AddAdv;
 Versailles AddAdv;
 Virgin AddAdv;
 Vodafone AddAdv;
 Voltaire AddAdv;
-WAP AddAdv;
-WC AddAdv;
-WEP AddAdv;
-WHO AddAdv;
-WWW AddAdv;
 X AddAdv;
 XI AddAdv;
 XII AddAdv;
-XL AddAdv;
-XML AddAdv;
-XP AddAdv;
-XSLT AddAdv;
-XXL AddAdv;
-XXXL AddAdv;
 Yellowstone AddAdv;
 Yorkshire AddAdv;
 Yucatán AddAdv;
-abbiz AddAdv; 
+abbiz AddAdv;
 abbizony AddAdv;
 abc AddAdv;
 aberráltan AddAdv;
