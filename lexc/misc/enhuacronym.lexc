@@ -1,6 +1,6 @@
 !!!enhuacronym.lexc!!!
 
-Multichar_Symbols [stem] +Acro +Acc
+Multichar_Symbols [stem] +Noun +Acc
 
 §dash§ §oeoez2§
 
@@ -134,7 +134,7 @@ RMDSZ AddAcro;
 RPM AddAcro;
 RTL AddAcro;
 SGML AddAcro;
-SMS AddAcro;
+sms AddAcro;
 SOS AddAcro;
 SQL AddAcro;
 SS AddAcro;
@@ -174,10 +174,10 @@ XXL AddAcro;
 XXXL AddAcro;
 
 LEXICON AddAcro
-[stem]+Acro:0    Case;
+[stem]+Noun:0    Case;
 
 LEXICON AddAcroWord
-[stem]+Acro:0    CaseWord;
+[stem]+Noun:0    CaseWord;
 
 LEXICON Case
 +Acc:^§dash§^+cAcc^t       #;  ! t
