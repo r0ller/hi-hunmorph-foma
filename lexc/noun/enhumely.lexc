@@ -1,23 +1,23 @@
 !!!enhuoa.lexc!!!
 
-Multichar_Symbols [stem]  +Noun +Pref+
+Multichar_Symbols [stem]  +Noun +Pref+ [Guess] +CON
 
-+Dis +Ess +Soc +Tem 
-+Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
++Dis +Ess +Soc +Tem
++Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s
 +Posss1p +Posss2p +Posss3p +Possp1p +Possp2p +Possp3p
 
 +Plur +Fam +Gens +Genpl
-      
+
 +Abl +Acc +Ade +All +Cau +Dat +Del
 +Ela +Fac +For +Forp +Forpen +Ill +Ine +Ins +Nom
 +Sub +Sup +Ter
-      
+
 §J§ §JP§
 §VV§ §uue2§ §AE21§
 §UUE2§ §OEOE25§ §UUE21§ §AE22§ §OEOE22§ §oooe2§ §oeoez22§
 §AAA2§ §oeoe2§ §AA2§ §oeoez25§  §b§ §h§ §k§ §n§ §r§ §t§ §oeoez17§
 §OEOE17§ §EOA17§ §ooez18§ §oeoez18§ §OEOE18§
-§ooez19§ §EOA18§ §oeoez27§ 
+§ooez19§ §EOA18§ §oeoez27§
 
 LEXICON Root
 Noun;
@@ -1154,6 +1154,7 @@ váltási AddNouni;
 ! órai
 !
 LEXICON Noun
+[Guess] Constant;
 ! halottlátni AddNouni;
 !alibi AddNouni;
 Hradzsin AddNoun;
@@ -11921,7 +11922,7 @@ annalesz AddNoun;
 ! Tulajdonnevek
 !
 !
-! 
+!
 ! i végű
 !Arz AddNoun;
 !Kol AddNoun;
@@ -19857,6 +19858,11 @@ zsoldosné AddNoun;
 őrnagyné AddNoun;
 űrhajósné AddNoun;
 
+LEXICON Constant
+[stem]+CON:0	Poss;
+[stem]+CON:0	Plur;
+[stem]+CON:0	Fam;
+[stem]+CON:0	#;
 
 LEXICON AddNoun
 [stem]+Noun:0     Poss;
@@ -19884,7 +19890,7 @@ LEXICON Poss
 LEXICON Plur
 +Plur:^+cPlur^§oeoez17§k    Gen;
                             Gen;
-        
+
 LEXICON Fam
 +Fam:^+cFam^ék         Gen;
                        Gen;
@@ -19893,7 +19899,7 @@ LEXICON Gen
 +Gens:^+cGens^é        Case;
 +Genpl:^+cGenpl^éi     Case;
                        Case;
- 
+
 LEXICON Case
 +Abl:^+cAbl^§t§§oooe2§l     #;  ! tól, től
 +Acc:^+cAcc^§oeoez22§t    #;  ! ot, et, öt, t
@@ -19911,7 +19917,7 @@ LEXICON Case
 +Ill:^+cIll^§b§§AA2§        #;  ! ba, be
 +Ine:^+cIne^§b§§AA2§n       #;  ! ban, ben
 +Ins:^+cIns^§VV§§AA2§l    #;  ! val, vel
-+Nom:^+cNom^0             #;  ! 
++Nom:^+cNom^0             #;  !
 +Sub:^+cSub^§r§§AA2§        #;  ! ra, re
 +Sup:^+cSup^§oeoez25§n    #;  ! on, en, ön, n
 +Ter:^+cTer^ig            #;  ! ig
@@ -19972,7 +19978,7 @@ LEXICON Poss1mely
 
 LEXICON Plur1mely
 +Plur:^+cPlur^§oeoez18§k    Gen1mely;
-        
+
 LEXICON Fam1mely
 +Fam:^+cFam^ék         Gen1mely;
                        Gen1mely;
@@ -19981,7 +19987,7 @@ LEXICON Gen1mely
 +Gens:^+cGens^é        Case1mely;
 +Genpl:^+cGenpl^éi     Case1mely;
                        Case1mely;
- 
+
 LEXICON Case1mely
 +Abl:^+cAbl^§t§§oooe2§l     #;  ! tól, től
 +Acc:^+cAcc^§oeoez22§t    #;  ! ot, et, öt, t
@@ -19999,7 +20005,7 @@ LEXICON Case1mely
 +Ill:^+cIll^§b§§AA2§        #;  ! ba, be
 +Ine:^+cIne^§b§§AA2§n       #;  ! ban, ben
 +Ins:^+cIns^§VV§§AA2§l    #;  ! val, vel
-+Nom:^+cNom^0             #;  ! 
++Nom:^+cNom^0             #;  !
 +Sub:^+cSub^§r§§AA2§        #;  ! ra, re
 +Sup:^+cSup^§oeoez25§n    #;  ! on, en, ön, n
 +Ter:^+cTer^ig            #;  ! ig

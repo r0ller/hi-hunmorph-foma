@@ -1,28 +1,28 @@
 !!!enhuige.lexc!!!
 
-Multichar_Symbols [stem]  +Verb +Rep +Imper +Pot
-                   +Inf +Inf11 +Inf12 +Inf13 +Inf21 +Inf22 +Inf23 +Pref+  +Adv +Advan 
+Multichar_Symbols [stem]  +Verb +Rep +Imper +Pot +Neg
+                   +Inf +Inf11 +Inf12 +Inf13 +Inf21 +Inf22 +Inf23 +Pref+  +Adv +Advan
                   +IndefSg1   +IndefSg2   +IndefSg3   +IndefSg12
                   +IndefPl1 +IndefPl2 +IndefPl3
-                  +DefSg1   +DefSg2   +DefSg3  
+                  +DefSg1   +DefSg2   +DefSg3
                   +DefPl1 +DefPl2 +DefPl3
                   +ConjDefSg12 +PastDefSg12  +CondDefSg12
-                  +ConjIndefSg1   +ConjIndefSg2   +ConjIndefSg3   
+                  +ConjIndefSg1   +ConjIndefSg2   +ConjIndefSg3
                   +ConjIndefPl1 +ConjIndefPl2 +ConjIndefPl3
-                  +ConjDefSg1   +ConjDefSg2   +ConjDefSg3  
+                  +ConjDefSg1   +ConjDefSg2   +ConjDefSg3
                   +ConjDefPl1 +ConjDefPl2 +ConjDefPl3
-                  +PastIndefSg1   +PastIndefSg2   +PastIndefSg3   
+                  +PastIndefSg1   +PastIndefSg2   +PastIndefSg3
                   +PastIndefPl1 +PastIndefPl2 +PastIndefPl3
-                  +PastDefSg1   +PastDefSg2   +PastDefSg3  
+                  +PastDefSg1   +PastDefSg2   +PastDefSg3
                   +PastDefPl1 +PastDefPl2 +PastDefPl3
-                  +CondIndefSg1   +CondIndefSg2   +CondIndefSg3   
+                  +CondIndefSg1   +CondIndefSg2   +CondIndefSg3
                   +CondIndefPl1 +CondIndefPl2 +CondIndefPl3
-                  +CondDefSg1   +CondDefSg2   +CondDefSg3  
+                  +CondDefSg1   +CondDefSg2   +CondDefSg3
                   +CondDefPl1 +CondDefPl2 +CondDefPl3
-      
+
 §AA§ §AAA§ §igea§ §igeo§ §igeo2§ §igeu§ §igeuo§
 §igejakik1§ §igejatokitek1§ §igeija1§ §igeaa§ §igetattet§
-§j§ §szorelol§  §sj§ §l§ 
+§j§ §szorelol§  §sj§ §l§
 §igeoo§
 
 LEXICON Root
@@ -264,7 +264,7 @@ LEXICON AddVerbhisz
 
 LEXICON Rephisz
 +Rep:^+cRep^§igea§g§AA§t  Imperhisz;   ! hiszeget
-                    Nrep1hisz;          
+                    Nrep1hisz;
 
 LEXICON Imperhisz
 +Advan:^+ccAdvan^v§igeaa§n #;
@@ -599,7 +599,7 @@ LEXICON Nrephisz7                       !hitetget
 +Advan:^+ccAdvan^v§igeaa§n #;
 +Adv:^+cAdv^v§AA§  #;
 +Rep:^+cNrep^g§AA§t  NImperhisz7;
-                      Pothisz9;       
+                      Pothisz9;
 
 LEXICON NImperhisz7
 +Inf11:^+ccInf11^n§igeo§m #;
@@ -897,7 +897,7 @@ LEXICON AddVerbtesz7
 LEXICON Impertesz7                      !hitet
 +Imper:^+cImp^t§AA§t  Nreptesz7;
 
-LEXICON Nreptesz7  
+LEXICON Nreptesz7
 +Inf11:^+ccInf11^n§igeo§m #;
 +Inf12:^+ccInf12^n§igeo§d #;
 +Inf13:^+ccInf13^ni§AA§ #;
@@ -909,7 +909,7 @@ LEXICON Nreptesz7
 +Advan:^+ccAdvan^v§igeaa§n #;
 +Adv:^+cAdv^v§AA§  #;                     !hitetget
 +Rep:^+cNrep^g§AA§t  NImpertesz7;
-                      Pottesz9;       
+                      Pottesz9;
 
 LEXICON NImpertesz7
 +Inf11:^+ccInf11^n§igeo§m #;
@@ -925,7 +925,7 @@ LEXICON NImpertesz7
 +Imper:^+cImp^t§AA§t  Pottesz7;          !hitetgettet
                       Pottesz9;
 
-LEXICON Pottesz7  
+LEXICON Pottesz7
 +Inf11:^+ccInf11^n§igeo§m #;
 +Inf12:^+ccInf12^n§igeo§d #;
 +Inf13:^+ccInf13^ni§AA§ #;
@@ -941,7 +941,7 @@ LEXICON Pottesz7
 LEXICON Pottesz9                         !hitetgettethet
 +Pot:^+cPot^h§AAA§t  AddInftesz7;
              Casetesz7;
-LEXICON AddInftesz7  
+LEXICON AddInftesz7
 +Inf11:^+ccInf11^n§igeo§m #;
 +Inf12:^+ccInf12^n§igeo§d #;
 +Inf13:^+ccInf13^ni§AA§ #;
@@ -1466,7 +1466,7 @@ LEXICON Casemegy7
 
 !nincs
 LEXICON AddVerbnincs
-[stem]+Verb:0     Repnincs;
+[stem]+Verb+Neg:0     Repnincs;
 
 LEXICON Repnincs
 +IndefSg3:^+cIndefSg3^           #;    !

@@ -3,15 +3,15 @@
 Multichar_Symbols [stem]  +Noun +Relative
 
 +Dis +Ess +Soc +Tem +Pref+
-+Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
++Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s
 +Posss1p +Posss2p +Posss3p +Possp1p +Possp2p +Possp3p
 
 +Plur +Fam +Gens +Genpl
-      
+
 +Abl +Acc +Ade +All +Cau +Dat +Del
 +Ela +Fac +For +Forp +Forpen +Ill +Ine +Ins +Nom
 +Sub +Sue +Sup +Ter
-      
+
 §EOA§ §uue§ §OEOE1§ §J§ §UUE§ §OEOE§ §JP§ §AE§ §OEOE2§
 §UUE1§ §oeoez1§ §oooe§ §oeoez2§ §ooez3§ §AAA§ §oeoe§ §AA§ §oeoez§ §AE1§ §oeoez5§ §Jnull§ §JPnull§
 §VV§ §b§ §h§ §k§ §n§ §r§ §t§ §JJ§ §JPJ§ §VVH§ §VVdzs§
@@ -19,7 +19,7 @@ Multichar_Symbols [stem]  +Noun +Relative
 §ooez18§ §uue2§ §EOA17§ §oooe2§ §oeoez22§
 §AAA2§ §oeoe2§ §AA2§ §oeoez25§
 
-      
+
 LEXICON Root
 Noun;
 Prefnum;
@@ -3925,6 +3925,7 @@ benzinesüveg AddNoun;
 benzinkanna AddNoun;
 benzinkeverő AddNoun;
 benzinkutas AddNoun;
+benzinmotor AddNoun;
 benzintöltő AddNoun;
 benzol AddNoun;
 benzoát AddNoun;
@@ -42060,7 +42061,7 @@ Hejce AddNoun;
 Hejőkürt AddNoun;
 Hencse AddNoun;
 Hercegszőllős AddNoun;
-Hercegszőlős AddNoun; 
+Hercegszőlős AddNoun;
 Herencsény AddNounssz;
 Herend AddNoun;
 Heresznye AddNoun;
@@ -43715,7 +43716,7 @@ Pusztaszentkirály AddNoun;
 Pusztaszentmihály AddNoun;
 Pusztaszentpéter AddNoun;
 Pusztaszer AddNoun;
-Pusztaszőlős AddNoun; 
+Pusztaszőlős AddNoun;
 Pusztatopa AddNoun;
 Putkahelmec AddNoun;
 Pácsér AddNoun;
@@ -44935,7 +44936,7 @@ Zólyomváralja AddNoun;
 Érsemjén AddNoun;
 Érsemlyén AddNoun;
 Érszeg AddNoun;
-Érszőlős AddNoun; 
+Érszőlős AddNoun;
 Értarcsa AddNoun;
 Értény AddNounssz;
 Érábrány AddNoun;
@@ -48199,7 +48200,7 @@ LEXICON Poss
 LEXICON Plur
 +Plur:^+cPlur^§oeoez1§k    Gen;
                             Gen;
-        
+
 LEXICON Fam
 +Fam:^+cFam^ék         Gen;
                        Gen;
@@ -48208,7 +48209,7 @@ LEXICON Gen
 +Gens:^+cGens^é          Case;
 +Genpl:^+cGenpl^éi     Case;
                        Case;
- 
+
 LEXICON Case
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
 +Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
@@ -48226,7 +48227,7 @@ LEXICON Case
 +Ill:^+cIll^§b§§AA§         #;  ! ból, ből
 +Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
 +Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
-+Nom:^+cNom^0               #;  ! 
++Nom:^+cNom^0               #;  !
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
 +Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
 +Ter:^+cTer^ig              #;  ! ig
@@ -48268,7 +48269,7 @@ LEXICON Gen1
 +Gens:^+cGens^é        Case1;
 +Genpl:^+cGenpl^éi     Case1;
                        Case1;
- 
+
 LEXICON Case1
 +Abl:^+cAbl^t§oooe2§l     #;  ! tól, től
 +Acc:^+cAcc^§oeoez22§t    #;  ! ot, et, öt, t
@@ -48286,7 +48287,7 @@ LEXICON Case1
 +Ill:^+cIll^b§AA2§        #;  ! ba, be
 +Ine:^+cIne^b§AA2§n       #;  ! ban, ben
 +Ins:^+cIns^§VV§§AA2§l    #;  ! val, vel
-+Nom:^+cNom^0             #;  ! 
++Nom:^+cNom^0             #;  !
 +Sub:^+cSub^r§AA2§        #;  ! ra, re
 +Sup:^+cSup^§oeoez25§n    #;  ! on, en, ön, n
 +Ter:^+cTer^ig            #;  ! ig
@@ -48337,7 +48338,7 @@ LEXICON Posso
 LEXICON Pluro
 +Plur:^+cPlur^§oeoez1§k    Geno;
                             Geno1;
-        
+
 LEXICON Famo
 +Fam:^+cFam^ék         Geno;
                        Geno;
@@ -48353,7 +48354,7 @@ LEXICON Geno1
 +Gens:^+cGens^é          Caseo;
 +Genpl:^+cGenpl^éi     Caseo;
                        Caseo1;
- 
+
 LEXICON Caseo
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
 +Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
@@ -48371,7 +48372,7 @@ LEXICON Caseo
 +Ill:^+cIll^§b§§AA§         #;  ! ból, ből
 +Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
 +Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
-+Nom:^+cNom^0               #;  ! 
++Nom:^+cNom^0               #;  !
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
 +Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
 +Ter:^+cTer^ig              #;  ! ig
@@ -48394,7 +48395,7 @@ LEXICON Caseo1
 +Ill:^+cIll^§b§§AA§         #;  ! ból, ből
 +Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
 +Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
-!+Nom:^+cNom^0               #;  ! 
+!+Nom:^+cNom^0               #;  !
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
 +Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
 +Ter:^+cTer^ig              #;  ! ig
@@ -48405,7 +48406,7 @@ LEXICON AddNounoo
 [stem]+Noun:0     Caseoo;
 
 LEXICON Caseoo
-+Nom:^+cNom^0               #;  ! 
++Nom:^+cNom^0               #;  !
 
 
 !Pécsett
@@ -48435,7 +48436,7 @@ LEXICON Possott
 LEXICON Plurott
 +Plur:^+cPlur^§oeoez1§k    Genott;
                             Genott;
-        
+
 LEXICON Famott
 +Fam:^+cFam^ék         Genott;
                        Genott;
@@ -48461,7 +48462,7 @@ LEXICON Caseott
 +Ill:^+cIll^§b§§AA§         #;  ! ból, ből
 +Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
 +Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
-+Nom:^+cNom^0               #;  ! 
++Nom:^+cNom^0               #;  !
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
 +Sue:^+cSue^§oeoe§tt         #;  ! ott, ett, ött
 +Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
@@ -48495,7 +48496,7 @@ LEXICON Possottvar
 LEXICON Plurottvar
 +Plur:^+cPlur^§oeoez1§k    Genottvar;
                             Genottvar;
-        
+
 LEXICON Famottvar
 +Fam:^+cFam^ék         Genottvar;
                        Genottvar;
@@ -48504,7 +48505,7 @@ LEXICON Genottvar
 +Gens:^+cGens^é          Caseottvar;
 +Genpl:^+cGenpl^éi     Caseottvar;
                        Caseottvar;
- 
+
 LEXICON Caseottvar
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
 +Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
@@ -48523,7 +48524,7 @@ LEXICON Caseottvar
 +Ill:^+cIll^§b§§AA§         #;  ! ból, ből
 +Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
 +Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
-+Nom:^+cNom^0               #;  ! 
++Nom:^+cNom^0               #;  !
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
 +Sue:^+cSue^§oeoe§tt         #;  ! ott, ett, ött
 +Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
@@ -48537,7 +48538,7 @@ LEXICON AddNounlord1
 LEXICON Plurlord1
 +Plur:^+cPlur^§oeoez1§k    Genlord1;
                             Genlord1;
-        
+
 LEXICON Famlord1
 +Fam:^+cFam^ék         Genlord1;
                        Genlord1;
@@ -48546,7 +48547,7 @@ LEXICON Genlord1
 +Gens:^+cGens^é          Caselord1;
 +Genpl:^+cGenpl^éi     Caselord1;
                        Caselord1;
- 
+
 LEXICON Caselord1
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
 +Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
@@ -48564,7 +48565,7 @@ LEXICON Caselord1
 +Ill:^+cIll^§b§§AA§         #;  ! ból, ből
 +Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
 +Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
-+Nom:^+cNom^0               #;  ! 
++Nom:^+cNom^0               #;  !
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
 +Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
 +Ter:^+cTer^ig              #;  ! ig
@@ -48599,7 +48600,7 @@ LEXICON Genlord3
 +Gens:^+cGens^é          Caselord3;
 +Genpl:^+cGenpl^éi     Caselord3;
                        Caselord3;
- 
+
 LEXICON Caselord3
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
 +Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
@@ -48617,7 +48618,7 @@ LEXICON Caselord3
 +Ill:^+cIll^§b§§AA§         #;  ! ból, ből
 +Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
 +Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
-+Nom:^+cNom^0               #;  ! 
++Nom:^+cNom^0               #;  !
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
 +Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
 +Ter:^+cTer^ig              #;  ! ig
@@ -48649,7 +48650,7 @@ LEXICON Posstudt
 LEXICON Plurtudt
 +Plur:^+cPlur^§oeoez1§k    Gentudt;
 !                            Gentudt;
-        
+
 !LEXICON Fam
 !Fam:^+cFam^ék         Gen;
 !|                       Gen;
@@ -48658,7 +48659,7 @@ LEXICON Gentudt
 +Gens:^+cGens^é          Casetudt;
 +Genpl:^+cGenpl^éi     Casetudt;
                        Casetudt;
- 
+
 LEXICON Casetudt
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
 +Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
@@ -48676,7 +48677,7 @@ LEXICON Casetudt
 +Ill:^+cIll^§b§§AA§         #;  ! ból, ből
 +Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
 +Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
-+Nom:^+cNom^0               #;  ! 
++Nom:^+cNom^0               #;  !
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
 +Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
 +Ter:^+cTer^ig              #;  ! ig
@@ -48812,7 +48813,7 @@ LEXICON Possszelt
 LEXICON Plurszelt
 +Plur:^+cPlur^§oeoez1§k    Genszelt;
                             Gen1szelt;
-        
+
 LEXICON Famszelt
 +Fam:^+cFam^ék         Genszelt;
                        Genszelt;
@@ -48828,7 +48829,7 @@ LEXICON Gen1szelt
 +Gens:^+cGens^é          Caseszelt;
 +Genpl:^+cGenpl^éi     Caseszelt;
                        Case1szelt;
- 
+
 LEXICON Caseszelt
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
 +Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
@@ -48846,7 +48847,7 @@ LEXICON Caseszelt
 +Ill:^+cIll^§b§§AA§         #;  ! ból, ből
 +Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
 +Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
-+Nom:^+cNom^0               #;  ! 
++Nom:^+cNom^0               #;  !
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
 +Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
 +Ter:^+cTer^ig              #;  ! ig
@@ -48903,7 +48904,7 @@ LEXICON Case1szelt
 !+Ill:^+cIll^§b§§AA§         #;  ! ból, ből
 !+Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
 !+Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
-!+Nom:^+cNom^0               #;  ! 
+!+Nom:^+cNom^0               #;  !
 !+Sub:^+cSub^§r§§AA§         #;  ! ra, re
 !+Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
 !+Ter:^+cTer^ig              #;  ! ig
@@ -48938,7 +48939,7 @@ LEXICON Possot
 LEXICON Plurot
 +Plur:^+cPlur^§oeoez1§k    Genot;
                             Genot1;
-        
+
 LEXICON Famot
 +Fam:^+cFam^ék         Genot;
                        Genot;
@@ -48954,7 +48955,7 @@ LEXICON Genot1
 +Gens:^+cGens^é          Caseot;
 +Genpl:^+cGenpl^éi     Caseot;
                        Caseot1;
- 
+
 LEXICON Caseot
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
 +Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
@@ -48972,7 +48973,7 @@ LEXICON Caseot
 +Ill:^+cIll^§b§§AA§         #;  ! ból, ből
 +Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
 +Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
-+Nom:^+cNom^0               #;  ! 
++Nom:^+cNom^0               #;  !
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
 +Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
 +Ter:^+cTer^ig              #;  ! ig
@@ -48996,7 +48997,7 @@ LEXICON Caseot1
 +Ill:^+cIll^§b§§AA§         #;  ! ból, ből
 +Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
 +Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
-+Nom:^+cNom^0               #;  ! 
++Nom:^+cNom^0               #;  !
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
 +Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
 +Ter:^+cTer^ig              #;  ! ig
@@ -49019,7 +49020,7 @@ LEXICON Possatya
 +Possp3p:^+cPossp3p^§JP§§AE§ik   Famatya;   !aik, jaik, eik, jeik
 !                           Famatya;
 
-        
+
 LEXICON Famatya
 +Fam:^+cFam^ék         Genatya;
                        Genatya;
@@ -49028,7 +49029,7 @@ LEXICON Genatya
 +Gens:^+cGens^é          Caseatya;
 +Genpl:^+cGenpl^éi     Caseatya;
                        Caseatya;
- 
+
 LEXICON Caseatya
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
 +Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
@@ -49046,7 +49047,7 @@ LEXICON Caseatya
 +Ill:^+cIll^§b§§AA§         #;  ! ból, ből
 +Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
 +Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
-+Nom:^+cNom^0               #;  ! 
++Nom:^+cNom^0               #;  !
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
 +Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
 +Ter:^+cTer^ig              #;  ! ig
@@ -49264,7 +49265,7 @@ LEXICON Plurek
 +Plur:^+cPlur^§oeoez1§k    Gen;
 +Plur:^+cPlur^ek    Gen;
                             Gen;
-        
+
 LEXICON AddNounjeak
 [stem]+Noun:0     Possje;
 [stem]+Noun:0     Plurak;
@@ -49377,7 +49378,7 @@ LEXICON Possjeh
 LEXICON Plurjeh
 +Plur:^+cPlur^§oeoez1§k    Genjeh;
                             Genjeh;
-        
+
 LEXICON Famjeh
 +Fam:^+cFam^ék         Genjeh;
                        Genjeh;
@@ -49386,7 +49387,7 @@ LEXICON Genjeh
 +Gens:^+cGens^é          Casejeh;
 +Genpl:^+cGenpl^éi     Casejeh;
                        Casejeh;
- 
+
 LEXICON Casejeh
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
 +Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
@@ -49404,7 +49405,7 @@ LEXICON Casejeh
 +Ill:^+cIll^§b§§AA§         #;  ! ból, ből
 +Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
 +Ins:^+cIns^§VVH§§AA§l       #;  ! val, vel
-+Nom:^+cNom^0               #;  ! 
++Nom:^+cNom^0               #;  !
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
 +Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
 +Ter:^+cTer^ig              #;  ! ig
@@ -49468,7 +49469,7 @@ LEXICON Possbridzs
 LEXICON Plurbridzs
 +Plur:^+cPlur^§oeoez1§k    Genbridzs;
                             Genbridzs1;
-        
+
 LEXICON Fambridzs
 +Fam:^+cFam^ék         Genbridzs;
                        Genbridzs;
@@ -49485,7 +49486,7 @@ LEXICON Genbridzs1
 +Gens:^+cGens^é          Casebridzs;
 +Genpl:^+cGenpl^éi     Casebridzs;
                        Casebridzs1;
- 
+
 LEXICON Casebridzs
 +Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
 +Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
@@ -49503,7 +49504,7 @@ LEXICON Casebridzs
 +Ill:^+cIll^§b§§AA§         #;  ! ból, ből
 +Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
 +Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
-+Nom:^+cNom^0               #;  ! 
++Nom:^+cNom^0               #;  !
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
 +Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
 +Ter:^+cTer^ig              #;  ! ig
@@ -49526,7 +49527,7 @@ LEXICON Casebridzs1
 +Ill:^+cIll^§b§§AA§         #;  ! ból, ből
 +Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
 +Ins:^+cIns^§VVdzs§§AA§l       #;  ! val, vel
-+Nom:^+cNom^0               #;  ! 
++Nom:^+cNom^0               #;  !
 +Sub:^+cSub^§r§§AA§         #;  ! ra, re
 +Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
 +Ter:^+cTer^ig              #;  ! ig
